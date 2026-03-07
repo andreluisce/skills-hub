@@ -1,0 +1,4 @@
+interface:
+  display_name: "UX Ethics and Cognitive Bias"
+  short_description: "Arquitetura React em stack moderna"
+  default_prompt: "Use $ux-ethics-bias para desenhar ou refatorar arquitetura frontend com Next.js 15+ App Router, React 19+ e TanStack Query."

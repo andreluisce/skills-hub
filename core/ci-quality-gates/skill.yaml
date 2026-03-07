@@ -1,0 +1,39 @@
+schemaVersion: 1.0.0
+name: ci-quality-gates
+displayName: CI Quality Gates
+description: Define and enforce CI/CD quality gates that block merges on failing standards. Use to configure lint, type-check, test coverage, bundle size, and security scan gates in the pipeline.
+triggers:
+- ci
+- quality gates
+- pipeline
+- lint
+- type check
+- coverage threshold
+- bundle size
+- pr checks
+- github actions
+stack:
+  framework: Next.js 15+ App Router
+  react: React 19+
+  serverState: TanStack Query
+  ui: shadcn/ui + Tailwind v4
+  workspace: Monorepo (apps + packages)
+workflow:
+- step: 1
+  action: Define gate categories — lint, typecheck, unit tests, E2E, bundle size, security scan.
+- step: 2
+  action: Set thresholds — minimum coverage %, maximum bundle delta, zero type errors.
+- step: 3
+  action: Configure pipeline jobs with fail-fast and parallel execution where possible.
+- step: 4
+  action: Set branch protection rules — require all gates to pass before merge.
+- step: 5
+  action: Add PR comment bots to surface coverage deltas and bundle size changes inline.
+- step: 6
+  action: Review gate performance — keep total CI time under target threshold.
+outputContract:
+- CI pipeline configuration (GitHub Actions or equivalent).
+- Gate thresholds documented per check type.
+- Branch protection rules specification.
+- PR feedback automation setup.
+- CI performance baseline and optimization plan.

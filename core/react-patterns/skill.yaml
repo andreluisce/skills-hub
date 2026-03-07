@@ -1,18 +1,17 @@
 schemaVersion: 1.0.0
 name: react-patterns
 displayName: React Patterns
-description: >-
-  Skill para padroes avancados de React. Use para gerenciamento de estado
-  global, hooks customizados para formularios complexos e otimizacao de
-  renderizacao com Zustand, React Hook Form, Zod e Framer Motion.
+description: Skill for padroes avancados of React. Use for gerenciamento of estado
+  global, hooks customizados for formularios complexos e optimization de renderizacao
+  with Zustand, React Hook Form, Zod e Framer Motion.
 triggers:
-  - react patterns
-  - zustand
-  - custom hooks
-  - render optimization
-  - react hook form
-  - zod
-  - framer motion
+- react patterns
+- zustand
+- custom hooks
+- render optimization
+- react hook form
+- zod
+- framer motion
 stack:
   framework: Next.js 15+ App Router
   react: React 19+
@@ -20,18 +19,19 @@ stack:
   ui: shadcn/ui + Tailwind v4
   workspace: Monorepo (apps + packages)
 workflow:
-  - step: 1
-    action: Classificar estado por escopo (local, feature, global, servidor).
-  - step: 2
-    action: Implementar formularios com React Hook Form + Zod sincronizado com schema do banco.
-  - step: 3
-    action: Extrair logica de dominio para custom hooks com responsabilidade unica.
-  - step: 4
-    action: Otimizar renders com memo/callback apenas onde profiling confirmar custo.
-  - step: 5
-    action: Adicionar micro-animacoes com Framer Motion para feedback de interacao.
+- step: 1
+  action: Classificar estado by escopo (local, feature, global, servidor).
+- step: 2
+  action: Implementar formularios with React Hook Form + Zod sincronizado with schema
+    do banco.
+- step: 3
+  action: Extrair logica of dominio for custom hooks with responsabilidade unica.
+- step: 4
+  action: Otimizar renders with memo/callback apenas onde profiling confirmar custo.
+- step: 5
+  action: Adicionar micro-animactions with Framer Motion for feedback of interacao.
 outputContract:
-  - Mapa de estado por escopo e ferramenta.
-  - Contratos de formulario com validacao Zod.
-  - Catalogo de hooks de dominio.
-  - Plano de otimizacao de render com evidencia.
+- Mapa of estado by escopo e ferramenta.
+- Contratos of formulario with validation Zod.
+- Catalogo of hooks of dominio.
+- Plano of optimization of render with evidencia.

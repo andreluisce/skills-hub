@@ -1,0 +1,46 @@
+{
+  "instruction": "Skill of orquestracao do monorepo. Use for gerenciar a relacao entre apps e pacotes como api-client, ui e monitoring via turbo/pnpm. Base operacional: # Playbook  ## Objective Ensure that the monorepo scales without erosion of boundaries and without duplication of logic.  ## Rules",
+  "triggers": [
+    "monorepo management",
+    "turbo",
+    "pnpm workspace",
+    "package structure",
+    "api-client",
+    "monorepo orchestration"
+  ],
+  "stack": {
+    "framework": "Next.js 15+ App Router",
+    "react": "React 19+",
+    "serverState": "TanStack Query",
+    "ui": "shadcn/ui + Tailwind v4",
+    "workspace": "Monorepo (apps + packages)"
+  },
+  "workflow": [
+    {
+      "step": 1,
+      "action": "Mapear topologia of apps e pacotes with responsabilidades claras."
+    },
+    {
+      "step": 2,
+      "action": "Verificar que imports entre pacotes respeitam a API publica (index.ts)."
+    },
+    {
+      "step": 3,
+      "action": "Confirmar que logica of data esta in api-client, not in apps."
+    },
+    {
+      "step": 4,
+      "action": "Padronizar pipelines of build, test e lint by escopo via turbo."
+    },
+    {
+      "step": 5,
+      "action": "Monitorar tamanho of pacotes e dependencias circulares."
+    }
+  ],
+  "outputContract": [
+    "Mapa of pacotes/apps with ownership.",
+    "Documented dependency rules.",
+    "Pipeline turbo by escopo.",
+    "Relatorio of health do monorepo."
+  ]
+}

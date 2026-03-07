@@ -1,16 +1,15 @@
 schemaVersion: 1.0.0
 name: api-performance-guardrails
 displayName: API Performance Guardrails
-description: >-
-  Define and review API contracts and performance policies, including HTTP
-  semantics, caching, observability, fault tolerance, and backward
-  compatibility across application and platform integrations.
+description: Define and review API contracts and performance policies, including HTTP
+  semantics, caching, observability, fault tolerance, and backward compatibility across
+  application and platform integrations.
 triggers:
-  - api guardrails
-  - http contract
-  - caching strategy
-  - latency
-  - reliability
+- api guardrails
+- http contract
+- caching strategy
+- latency
+- reliability
 stack:
   framework: Next.js 15+ App Router
   react: React 19+
@@ -18,18 +17,18 @@ stack:
   ui: shadcn/ui + Tailwind v4
   workspace: Monorepo (apps + packages)
 workflow:
-  - step: 1
-    action: Specify request/response, error model, and authentication.
-  - step: 2
-    action: Validate HTTP semantics and version compatibility.
-  - step: 3
-    action: Define cache and invalidation policy by data domain.
-  - step: 4
-    action: Measure baseline latency and identify key bottlenecks.
-  - step: 5
-    action: Publish observability and risk-mitigation plan.
+- step: 1
+  action: Specify request/response, errorr model, and authentication.
+- step: 2
+  action: Validate HTTP semantics and version compatibility.
+- step: 3
+  action: Define cache and invalidation policy by data domain.
+- step: 4
+  action: Measure baseline latency and identify key bottlenecks.
+- step: 5
+  action: Publish observability and risk-mitigation plan.
 outputContract:
-  - Endpoint or route technical contract.
-  - Cache and invalidation matrix.
-  - Performance and reliability risk list.
-  - Operational monitoring checklist.
+- Endpoint or route technical contract.
+- Cache and invalidation matrix.
+- Performance and reliability risk list.
+- Operational monitoring checklist.

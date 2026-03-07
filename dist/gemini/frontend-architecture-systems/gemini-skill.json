@@ -1,0 +1,47 @@
+{
+  "instruction": "Aplicar principios of architecture of frontend and design systems of Micah Godbolt and livros of frontend profissional. Use for structure components reutilizaveis, governar design systems and planejar architecture of frontend escalavel. Base operacional: # Playbook  ## Sources - Frontend Architecture for Design Systems — Micah Godbolt - Professional Frontend Architecture — Nolasco - Frontend Unicorn — Malewicz",
+  "triggers": [
+    "frontend architecture",
+    "design system architecture",
+    "component library",
+    "frontend unicorn",
+    "professional frontend",
+    "reusable components",
+    "component governance"
+  ],
+  "stack": {
+    "framework": "Next.js 15+ App Router",
+    "react": "React 19+",
+    "serverState": "TanStack Query",
+    "ui": "shadcn/ui + Tailwind v4",
+    "workspace": "Monorepo (apps + packages)"
+  },
+  "workflow": [
+    {
+      "step": 1,
+      "action": "Classificar components in atoms, molecules, organisms and templates."
+    },
+    {
+      "step": 2,
+      "action": "Define explicit contracts by component (props, states, variants, events)."
+    },
+    {
+      "step": 3,
+      "action": "Establish hierarquia of tokens (primitivos, semanticos, of component)."
+    },
+    {
+      "step": 4,
+      "action": "Define rules of governance (contrib, review, breaking change)."
+    },
+    {
+      "step": 5,
+      "action": "Auditar accessibility and performance budget by component critico."
+    }
+  ],
+  "outputContract": [
+    "Catalogo of components by categoria.",
+    "Hierarquia of tokens documentada.",
+    "Rules of governance of design system.",
+    "Checklist of accessibility and performance."
+  ]
+}

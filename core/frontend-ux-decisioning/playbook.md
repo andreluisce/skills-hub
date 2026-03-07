@@ -6,5 +6,5 @@ Increase conversion and clarity in critical product flows without increasing cog
 ## Rules
 - One clear primary action per screen.
 - Field and helper text only when they support a user decision.
-- Every error must explain cause and next action.
+- Every errorr must explain cause and next action.
 - Mobile-first readability and task completion.

@@ -1,18 +1,17 @@
 schemaVersion: 1.0.0
 name: ux-lean-experimentation
 displayName: UX Lean Experimentation
-description: >-
-  Estrategista de Lean UX e validacao continua baseado em Gothelf e Seiden. Use
-  para transformar backlog em hipoteses testaveis, definir MVPs de aprendizagem
-  e orientar produto por outcomes mensuráveis.
+description: Strategist of Lean UX and continuous validation based on Gothelf and
+  Seiden. Use to transform backlog into testable hypotheses, define MVPs of learning,
+  and guide products by measurable outcomes.
 triggers:
-  - lean ux
-  - hypothesis
-  - mvp
-  - experimentation
-  - a/b test
-  - product validation
-  - outcomes over outputs
+- lean ux
+- hypothesis
+- mvp
+- experimentation
+- a/b test
+- product validation
+- outcomes over outputs
 stack:
   framework: Next.js 15+ App Router
   react: React 19+
@@ -20,18 +19,18 @@ stack:
   ui: shadcn/ui + Tailwind v4
   workspace: Monorepo (apps + packages)
 workflow:
-  - step: 1
-    action: Converter item de backlog em hipotese com problema, persona e metrica.
-  - step: 2
-    action: Definir solucao minima que testa a hipotese com menor custo.
-  - step: 3
-    action: Estabelecer metrica primaria e de guarda com janela de observacao.
-  - step: 4
-    action: Executar experimento com colaboracao cross-functional desde o inicio.
-  - step: 5
-    action: Avaliar resultado e decidir: continuar, pivotar ou descartar.
+- step: 1
+  action: Converter item of backlog in hypothesis with problema, persona e metric.
+- step: 2
+  action: Define the minimum solution that tests the hypothesis with the lowest cost.
+- step: 3
+  action: Estabelecer metric primaria e of guarda with janela of observacao.
+- step: 4
+  action: Executar experimento with colaboracao cross-functional desde o inicio.
+- step: 5
+  action: 'Evaluate result and decide: continue, pivot or discard.'
 outputContract:
-  - Hypothesis Cards por item de backlog.
-  - Metricas primarias e de guarda por experimento.
-  - Plano de descoberta continua.
-  - Relatorio de aprendizado por ciclo.
+- Hypothesis Cards by item of backlog.
+- Metricas primarias e of guarda by experimento.
+- Plano of discovery continuous.
+- Relatorio of aprendizado by ciclo.

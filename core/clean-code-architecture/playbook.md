@@ -2,29 +2,29 @@
 
 ## Sources
 - Codigo Limpo (Clean Code) — Robert C. Martin
-- Arquitetura Limpa (Clean Architecture) — Robert C. Martin
+- Clean Architecture — Robert C. Martin
 - Desenvolvimento Agil Limpo — Robert C. Martin
 
-## Objetivo
-Escrever código que qualquer desenvolvedor entende, modifica e testa sem surpresas.
+## Objective
+Write code that any developer understands, modifies and tests without surprises.
 
-## Regras de Código Limpo
-- Nomes revelam intenção — se precisa de comentário, renomeie.
-- Funções fazem uma coisa. Tamanho ideal: 5-15 linhas.
-- 0-2 argumentos por função. 3+ requer justificativa.
-- Sem efeitos colaterais ocultos. Sem flags booleanos como parâmetro.
-- Não retorne null — lance exceção ou use null object.
-- Código comentado é proibido — delete ou commite.
+## Rules of Clean Code
+- Names reveal intent — if you need comment, rename.
+- Functions do one thing. Ideal size: 5-15 lines.
+- 0-2 arguments per function. 3+ requires justification.
+- No hidden side effects. No boolean flags as a parameter.
+- Don't return null — throw exception or use null object.
+- Commented code is prohibited — delete or commit.
 
-## Regras de Arquitetura Limpa
-- Dependency Rule: dependências apontam apenas para dentro (Entities ← Use Cases ← Adapters ← Frameworks).
-- Entities não conhecem Use Cases. Use Cases não conhecem UI.
-- Database é detalhe — regra de negócio não sabe qual banco existe.
-- Cruzamentos de boundary: apenas DTOs simples.
+## Rules of Clean Architecture
+- Dependency Rule: dependencies only point to within (Entities ← Use Cases ← Adapters ← Frameworks).
+- Entities not conhecem Use Cases. Use Cases not conhecem UI.
+- Database is detail — rule of business doesn't know which bank exists.
+- Cruzamentos of boundary: apenas DTOs simples.
 
 ## SOLID
-- S: uma razão para mudar por módulo.
-- O: aberto para extensão, fechado para modificação.
-- L: subtipos substituem o tipo base sem surpresas.
-- I: interfaces específicas por cliente.
-- D: dependa de abstrações, não de concreções.
+- S: a reason for changing by module.
+- O: open for extension, closed for modification.
+- L: subtipos substituem o tipo base without surpresas.
+- I: client-specific interfaces.
+- D: depend on abstractions, not concretions.

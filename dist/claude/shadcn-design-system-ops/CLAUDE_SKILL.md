@@ -1,15 +1,15 @@
 Skill: shadcn Design System Operations
-Description: Operar e evoluir design system com shadcn/ui e Tailwind v4, padronizando tokens, variantes, acessibilidade e governança de componentes para múltiplos apps em monorepo Next.js 15+ e React 19+. Base operacional: # Playbook  ## Objetivo Escalar UI consistente entre apps sem travar evolução de produto.  ## Regras
+Description: Operate and evolve design system with shadcn/ui and Tailwind v4, standardizing tokens, variants, accessibility and governance of components for multiple apps in monorepo Next.js 15+ and React 19+. Base operacional: # Playbook  ## Objective Escalar UI consistente entre apps without travar evolution of product.  ## Rules
 Triggers: shadcn, design system, tailwind v4, cva, accessibility
 Stack: Next.js 15+ App Router; React 19+; TanStack Query; shadcn/ui + Tailwind v4; Monorepo (apps + packages)
 Workflow:
-- 1. Definir tokens semânticos globais e variações por tema/contexto.
-- 2. Estabelecer padrões de componentes base e variantes com cva.
-- 3. Criar política de contribuição e revisão para novos componentes.
-- 4. Validar acessibilidade, foco visível e contraste em fluxos críticos.
-- 5. Publicar changelog de DS e plano de adoção por app.
+- 1. Define global semantic tokens and variations by theme/context.
+- 2. Establish standards of base components and variants with cva.
+- 3. Create contribution and review policy for new components.
+- 4. Validate accessibility, visible focus and contrast in critical flows.
+- 5. Publish changelog of DS and plan of adoption by app.
 Output Contract:
-- Catálogo de tokens e variantes aprovadas.
-- Guia de contribuição de componentes.
-- Checklist de acessibilidade operacional.
-- Estratégia de rollout do design system.
+- Catalog of tokens and approved variants.
+- Guide of contribution of components.
+- Checklist of accessibility operacional.
+- Design system rollout strategy.

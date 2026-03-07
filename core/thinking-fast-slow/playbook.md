@@ -1,28 +1,28 @@
 # Playbook
 
 ## Source
-Rápido e Devagar — Daniel Kahneman
+Fast and Slow — Daniel Kahneman
 
-## Objetivo
-Tomar decisões técnicas e de produto com Sistema 2 ativo, evitando vieses que degradam qualidade.
+## Objective
+Make technical and product decisions with active System 2, avoiding biases that degrade quality.
 
 ## Sistema 1 vs Sistema 2
-- Sistema 1: automático, rápido, heurístico — opera por associação.
-- Sistema 2: deliberado, lento, lógico — requer esforço consciente.
-- Decisões arquiteturais e code reviews críticos exigem Sistema 2.
+- System 1: automatic, fast, heuristic — operates by association.
+- System 2: deliberate, slow, logical — requires conscious effort.
+- Architectural decisions and critical code reviews require System 2.
 
-## Vieses a Vigiar
-- Anchoring: não estime com âncoras externas — comece do zero.
-- Confirmation Bias: busque ativamente evidências contra a hipótese favorita.
-- Planning Fallacy: use referência externa para estimativas. Adicione buffer explícito.
-- Sunk Cost: avalie apenas custo/benefício futuro — ignore o passado na decisão.
-- Halo Effect: avalie a ideia, não a fonte. PRs revisados sem saber o autor quando possível.
+## Biases to Watch
+- Anchoring: do not estimate with external anchors — start from scratch.
+- Confirmation Bias: actively seek evidence against the favored hypothesis.
+- Planning Fallacy: use external reference for estimates. Add explicit buffering.
+- Sunk Cost: only evaluate future cost/benefit — ignore the past in the decision.
+- Halo Effect: evaluate the idea, not the source. PRs reviewed without knowing the author when possible.
 
 ## Aplicado a UX
-- Usuários operam em Sistema 1 — design deve ser óbvio sem esforço.
-- Reserve Sistema 2 para decisões importantes (ações irreversíveis).
+- Users operate in System 1 — design should be obvious without effort.
+- Reserve System 2 for important decisions (irreversible actions).
 - Atrito positivo onde Sistema 2 DEVE ser acionado.
 
 ## Pre-Mortem
-"Imagine que é 6 meses após e esta decisão foi um desastre. O que deu errado?"
-Liste os motivos. Avalie se são mitigáveis.
+"Imagine it's 6 months later and this decision was a disaster. What went wrong?"
+List the reasons. Assess whether they are mitigable.

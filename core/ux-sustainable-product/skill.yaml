@@ -1,17 +1,16 @@
 schemaVersion: 1.0.0
 name: ux-sustainable-product
 displayName: UX Sustainable Product
-description: >-
-  Especialista em UX de alta performance e sustentabilidade digital baseado em
-  Greenwood. Use para reduzir peso, energia e friccao sem degradar experiencia
-  do usuario.
+description: Especialista in UX of alta performance e sustentabilidade digital baseado
+  em Greenwood. Use for reduzir peso, energia e friccao without degradar experiencia
+  user experience.
 triggers:
-  - web performance
-  - sustainable web
-  - bundle size
-  - core web vitals
-  - green ux
-  - performance budget
+- web performance
+- sustainable web
+- bundle size
+- core web vitals
+- green ux
+- performance budget
 stack:
   framework: Next.js 15+ App Router
   react: React 19+
@@ -19,18 +18,18 @@ stack:
   ui: shadcn/ui + Tailwind v4
   workspace: Monorepo (apps + packages)
 workflow:
-  - step: 1
-    action: Definir performance budget por jornada (peso, TTI, requests criticos).
-  - step: 2
-    action: Auditar assets (imagens, fontes, bibliotecas) por oportunidade de reducao.
-  - step: 3
-    action: Escolher estrategia de render (SSR/SSG/CSR) por necessidade real.
-  - step: 4
-    action: Verificar progressive enhancement em condicoes adversas de rede.
-  - step: 5
-    action: Monitorar Core Web Vitals como KPI de produto em producao.
+- step: 1
+  action: Define performance budget by jornada (weight, TTI, critical requests).
+- step: 2
+  action: Auditar assets (imagens, fontes, bibliotecas) by oportunidade of reducao.
+- step: 3
+  action: Escolher strategy of render (SSR/SSG/CSR) by necessidade real.
+- step: 4
+  action: Verificar progressive enhancement in condicoes adversas of rede.
+- step: 5
+  action: Monitorar Core Web Vitals como KPI of product in producao.
 outputContract:
-  - Diagnostico de custo por tela/rota.
-  - Plano de reducao de peso e scripts.
-  - Priorizacao por impacto em UX e performance.
-  - Guardrails para PRs de frontend (asset, bundle, render).
+- Diagnostico of custo by tela/rota.
+- Plano of reducao of peso e scripts.
+- Priorizacao by impacto in UX e performance.
+- Guardrails for PRs of frontend (asset, bundle, render).

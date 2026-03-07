@@ -1,17 +1,17 @@
 # Playbook
 
 ## Source
-O Programador Pragmático — Andrew Hunt & David Thomas
+Or Pragmatic Programmer — Andrew Hunt & David Thomas
 
-## Objetivo
-Tomar decisões técnicas defensáveis e manter código adaptável ao longo do tempo.
+## Objective
+Make defensible technical decisions and maintain adaptable code over time.
 
-## Regras
-- DRY: toda peça de conhecimento tem uma representação única no sistema.
-- Orthogonality: mudança em um módulo não afeta outros.
-- Reversibility: decisões encapsuladas podem ser revertidas. SDKs externos em adapters.
-- Broken Windows: não deixe código ruim sem reparar — padrão se degrada.
-- Automation: se fez manualmente mais de uma vez, automatize.
-- Tracer Bullets: implemente caminho fino de ponta a ponta antes de completar cada layer.
-- Debt intencional: documente o trade-off e o plano de pagamento.
-- Good Enough: defina critérios de aceite antes de implementar. Pare quando atingir.
+## Rules
+- DRY: every piece of knowledge has a unique representation in the system.
+- Orthogonality: change in one module does not affect others.
+- Reversibility: encapsulated decisions can be reversed. External SDKs in adapters.
+- Broken Windows: don't leave bad code without repair — standard degrades.
+- Automation: se fez manualmente mais of uma vez, automatize.
+- Tracer Bullets: implemente caminho fino of ponta a ponta antes of completar cada layer.
+- Debt intencional: documente o trade-off e o plan of pagamento.
+- Good Enough: defina criteria of aceite antes of implementar. Pare when atingir.

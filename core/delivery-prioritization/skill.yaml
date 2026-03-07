@@ -1,16 +1,15 @@
 schemaVersion: 1.0.0
 name: delivery-prioritization
 displayName: Delivery Prioritization
-description: >-
-  Prioritize backlog and delivery scope based on real impact, applying
-  Essentialism, 80/20, and antifragile principles to reduce work-in-progress
-  and increase throughput with controlled risk.
+description: Prioritize backlog and delivery scope based on real impact, applying
+  Essentialism, 80/20, and antifragile principles to reduce work-in-progress and increase
+  throughput with controlled risk.
 triggers:
-  - backlog prioritization
-  - sprint scope
-  - essentialism
-  - 80 20
-  - delivery planning
+- backlog prioritization
+- sprint scope
+- essentialism
+- 80 20
+- delivery planning
 stack:
   framework: Next.js 15+ App Router
   react: React 19+
@@ -18,18 +17,18 @@ stack:
   ui: shadcn/ui + Tailwind v4
   workspace: Monorepo (apps + packages)
 workflow:
-  - step: 1
-    action: List candidate work items and expected outcomes.
-  - step: 2
-    action: Score impact, effort, risk, and reversibility.
-  - step: 3
-    action: Keep top leverage items and cut marginal work.
-  - step: 4
-    action: Sequence by dependency and blast radius.
-  - step: 5
-    action: Publish final scope, exclusions, and success criteria.
+- step: 1
+  action: List candidate work items and expected outcomes.
+- step: 2
+  action: Score impact, effort, risk, and reversibility.
+- step: 3
+  action: Keep top leverage items and cut marginal work.
+- step: 4
+  action: Sequence by dependency and blast radius.
+- step: 5
+  action: Publish final scope, exclusions, and success criteria.
 outputContract:
-  - Ranked priority list with rationale.
-  - Explicit out-of-scope list.
-  - Recommended execution sequence.
-  - Success metric per delivery item.
+- Ranked priority list with rationale.
+- Explicit out-of-scope list.
+- Recommended execution sequence.
+- Success metric per delivery item.

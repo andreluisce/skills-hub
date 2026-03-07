@@ -1,0 +1,47 @@
+{
+  "instruction": "Super skill of UX e UI Design integrando Refactoring UI, Laws of UX e Don't Make Me Think. Use for criar ou refatorar interfaces with usabilidade extrema, hierarquia visual impecavel e clareza cognitiva. Base operacional: # Playbook  ## Sources - Don't Make Me Think — Steve Krug - Refactoring UI — Steve Schoger & Adam Wathan - Laws of UX — Jon Yablonski",
+  "triggers": [
+    "ux ui",
+    "refactor ui",
+    "interface design",
+    "usability",
+    "design principles",
+    "ui design",
+    "ux design"
+  ],
+  "stack": {
+    "framework": "Next.js 15+ App Router",
+    "react": "React 19+",
+    "serverState": "TanStack Query",
+    "ui": "shadcn/ui + Tailwind v4",
+    "workspace": "Monorepo (apps + packages)"
+  },
+  "workflow": [
+    {
+      "step": 1,
+      "action": "Define hierarchy without colors — just typographic weights, sizes and spacing."
+    },
+    {
+      "step": 2,
+      "action": "Aplicar paleta cromatica sobre hierarquia ja estabelecida."
+    },
+    {
+      "step": 3,
+      "action": "Validate singular primary CTA, large buttons, and familiar conventions."
+    },
+    {
+      "step": 4,
+      "action": "Implementar loading states, errors acionaveis e micro-interactions."
+    },
+    {
+      "step": 5,
+      "action": "Auditar accessibility e prevencao of errors in flows criticos."
+    }
+  ],
+  "outputContract": [
+    "Hierarquia visual documentada by tela.",
+    "Paleta of actions e estados of botao.",
+    "Checklist of loading/errorr/empty states.",
+    "Relatorio of accessibility e prevencao of error."
+  ]
+}

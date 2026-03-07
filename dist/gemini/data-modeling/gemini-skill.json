@@ -1,0 +1,53 @@
+{
+  "instruction": "Design relational and document data models that are correct, normalized, and performant. Use to create entity-relationship diagrams, decide normalization level, design junction tables, choose data types, and balance read vs write performance. Base operacional: # Playbook  ## Objective Design correct, performant, and evolvable data models that accurately represent the domain.  ## Rules of Entity Design",
+  "triggers": [
+    "data model",
+    "entity relationship",
+    "erd",
+    "schema design",
+    "normalization",
+    "denormalization",
+    "database design",
+    "table design"
+  ],
+  "stack": {
+    "framework": "Next.js 15+ App Router",
+    "react": "React 19+",
+    "serverState": "TanStack Query",
+    "ui": "shadcn/ui + Tailwind v4",
+    "workspace": "Monorepo (apps + packages)"
+  },
+  "workflow": [
+    {
+      "step": 1,
+      "action": "Identify entities, attributes, and relationships from domain requirements."
+    },
+    {
+      "step": 2,
+      "action": "Create ERD — define cardinality (1:1, 1:N, M:N) and mandatory vs optional relationships."
+    },
+    {
+      "step": 3,
+      "action": "Normalize to 3NF — eliminate redundancy while preserving query performance."
+    },
+    {
+      "step": 4,
+      "action": "Evaluate denormalization — add computed columns or materialized views where read performance justifies."
+    },
+    {
+      "step": 5,
+      "action": "Choose data types — prefer specific types (uuid, timestamptz, numeric) over generic (text, json)."
+    },
+    {
+      "step": 6,
+      "action": "Document model with table definitions, constraints, indexes, and relationship rationale."
+    }
+  ],
+  "outputContract": [
+    "ERD diagram with entities and relationships.",
+    "Table definitions with columns, types, and constraints.",
+    "Normalization rationale per design decision.",
+    "Index strategy per table.",
+    "Denormalization decisions with performance justification."
+  ]
+}

@@ -1,19 +1,18 @@
 schemaVersion: 1.0.0
 name: refactoring
 displayName: Refactoring
-description: >-
-  Aplicar tecnicas de refatoracao de Martin Fowler. Use para melhorar estrutura
-  interna de codigo sem alterar comportamento externo, identificar code smells e
-  aplicar transformacoes catalogadas.
+description: Aplicar tecnicas of refatoracao of Martin Fowler. Use for melhorar estrutura
+  interna of codigo without alterar comportamento externo, identificar code smells
+  e apply transformactions catalogadas.
 triggers:
-  - refactoring
-  - refactor
-  - code smell
-  - extract method
-  - extract component
-  - fowler
-  - technical debt
-  - restructure
+- refactoring
+- refactor
+- code smell
+- extract method
+- extract component
+- fowler
+- technical debt
+- restructure
 stack:
   framework: Next.js 15+ App Router
   react: React 19+
@@ -21,18 +20,18 @@ stack:
   ui: shadcn/ui + Tailwind v4
   workspace: Monorepo (apps + packages)
 workflow:
-  - step: 1
-    action: Garantir cobertura de testes do comportamento atual antes de qualquer mudanca.
-  - step: 2
-    action: Identificar um code smell especifico e catalogado.
-  - step: 3
-    action: Aplicar uma refatoracao por vez e rodar os testes.
-  - step: 4
-    action: Commitar apos cada refatoracao bem-sucedida.
-  - step: 5
-    action: Repetir ate que o modulo esteja no estado alvo.
+- step: 1
+  action: Garantir cobertura of testes do comportamento atual antes of qualquer mudanca.
+- step: 2
+  action: Identificar um code smell especifico e catalogado.
+- step: 3
+  action: Aplicar uma refatoracao by vez e rodar os testes.
+- step: 4
+  action: Commitar apos cada refatoracao bem-sucedida.
+- step: 5
+  action: Repetir ate que o modulo esteja no estado alvo.
 outputContract:
-  - Lista de code smells identificados por arquivo.
-  - Refatoracoes aplicadas com justificativa.
-  - Estado antes/depois por modulo.
-  - Testes adicionados para cobrir comportamento.
+- Lista of code smells identificados by arquivo.
+- Refatoractions aplicadas with justificativa.
+- Estado antes/depois by modulo.
+- Testes adicionados for cobrir comportamento.

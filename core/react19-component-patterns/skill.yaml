@@ -1,16 +1,15 @@
 schemaVersion: 1.0.0
 name: react19-component-patterns
 displayName: React 19 Component Patterns
-description: >-
-  Aplicar padrões avançados de componentes React 19+ para reduzir acoplamento,
-  melhorar composição e eliminar anti-patterns em interfaces escaláveis com
-  shadcn/ui e arquitetura orientada a domínio.
+description: Apply advanced patterns of React 19+ components to reduce coupling, improve
+  composition and eliminate anti-patterns in scalable interfaces with shadcn/ui and
+  domain-oriented architecture.
 triggers:
-  - react 19
-  - component patterns
-  - anti patterns
-  - refactor components
-  - composition
+- react 19
+- component patterns
+- anti patterns
+- refactor components
+- composition
 stack:
   framework: Next.js 15+ App Router
   react: React 19+
@@ -18,18 +17,18 @@ stack:
   ui: shadcn/ui + Tailwind v4
   workspace: Monorepo (apps + packages)
 workflow:
-  - step: 1
-    action: Auditar componentes críticos e identificar anti-patterns recorrentes.
-  - step: 2
-    action: Separar apresentação, orquestração e regras de domínio.
-  - step: 3
-    action: Aplicar composição com contratos explícitos de props e estados.
-  - step: 4
-    action: Consolidar padrões de acessibilidade e feedback de interação.
-  - step: 5
-    action: Definir plano de refatoração incremental com critérios de aceite.
+- step: 1
+  action: Audit critical components and identify recurring anti-patterns.
+- step: 2
+  action: Separate presentation, orchestration and rules of domain.
+- step: 3
+  action: Apply composition with explicit contracts of props and states.
+- step: 4
+  action: Consolidate standards of accessibility and feedback of interaction.
+- step: 5
+  action: Define plan of incremental refactoring with criteria of acceptance.
 outputContract:
-  - Diagnóstico de anti-patterns por componente.
-  - Padrão alvo de composição e contratos.
-  - Estratégia de refatoração por lotes.
-  - Critérios de acessibilidade e consistência.
+- "Diagn\xF3stico of anti-patterns by component."
+- Target pattern of composition and contracts.
+- Batch refactoring strategy.
+- Criteria of accessibility and consistency.

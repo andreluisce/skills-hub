@@ -10,7 +10,7 @@ Avaliar padrões de componentes React 19, uso de shadcn/ui, tokens de design e a
 <skill>
 ---
 name: react19-component-patterns
-description: Aplicar padrões avançados de componentes React 19+ para reduzir acoplamento, melhorar composição e eliminar anti-patterns em interfaces escaláveis com shadcn/ui e arquitetura orientada a domínio.
+description: Apply advanced patterns of React 19+ components to reduce coupling, improve composition and eliminate anti-patterns in scalable interfaces with shadcn/ui and domain-oriented architecture.
 ---
 # React 19 Component Patterns
 
@@ -22,35 +22,35 @@ description: Aplicar padrões avançados de componentes React 19+ para reduzir a
 - Monorepo (apps + packages)
 
 ## Workflow
-1. Auditar componentes críticos e identificar anti-patterns recorrentes.
-2. Separar apresentação, orquestração e regras de domínio.
-3. Aplicar composição com contratos explícitos de props e estados.
-4. Consolidar padrões de acessibilidade e feedback de interação.
-5. Definir plano de refatoração incremental com critérios de aceite.
+1. Audit critical components and identify recurring anti-patterns.
+2. Separate presentation, orchestration and rules of domain.
+3. Apply composition with explicit contracts of props and states.
+4. Consolidate standards of accessibility and feedback of interaction.
+5. Define plan of incremental refactoring with criteria of acceptance.
 
 ## Output esperado
-1. Diagnóstico de anti-patterns por componente.
-2. Padrão alvo de composição e contratos.
-3. Estratégia de refatoração por lotes.
-4. Critérios de acessibilidade e consistência.
+1. Diagnóstico of anti-patterns by component.
+2. Target pattern of composition and contracts.
+3. Batch refactoring strategy.
+4. Criteria of accessibility and consistency.
 
 # Playbook
 
-## Objetivo
-Padronizar componentes React 19 para previsibilidade de manutenção e evolução.
+## Objective
+Padronizar components React 19 for previsibilidade of maintenance e evolution.
 
-## Regras
-- Componentes visuais sem efeitos colaterais.
-- Hooks de orquestração isolados por feature.
-- Contratos de props pequenos e coesos.
-- Reuso via composição, não herança implícita.
+## Rules
+- Componentes visuais without efeitos colaterais.
+- Hooks of orchestration isolated by feature.
+- Contratos of props pequenos e coesos.
+- Reuse via composition, not implicit inheritance.
 </skill>
 
 ### shadcn-design-system-ops
 <skill>
 ---
 name: shadcn-design-system-ops
-description: Operar e evoluir design system com shadcn/ui e Tailwind v4, padronizando tokens, variantes, acessibilidade e governança de componentes para múltiplos apps em monorepo Next.js 15+ e React 19+.
+description: Operate and evolve design system with shadcn/ui and Tailwind v4, standardizing tokens, variants, accessibility and governance of components for multiple apps in monorepo Next.js 15+ and React 19+.
 ---
 # shadcn Design System Operations
 
@@ -62,28 +62,28 @@ description: Operar e evoluir design system com shadcn/ui e Tailwind v4, padroni
 - Monorepo (apps + packages)
 
 ## Workflow
-1. Definir tokens semânticos globais e variações por tema/contexto.
-2. Estabelecer padrões de componentes base e variantes com cva.
-3. Criar política de contribuição e revisão para novos componentes.
-4. Validar acessibilidade, foco visível e contraste em fluxos críticos.
-5. Publicar changelog de DS e plano de adoção por app.
+1. Define global semantic tokens and variations by theme/context.
+2. Establish standards of base components and variants with cva.
+3. Create contribution and review policy for new components.
+4. Validate accessibility, visible focus and contrast in critical flows.
+5. Publish changelog of DS and plan of adoption by app.
 
 ## Output esperado
-1. Catálogo de tokens e variantes aprovadas.
-2. Guia de contribuição de componentes.
-3. Checklist de acessibilidade operacional.
-4. Estratégia de rollout do design system.
+1. Catalog of tokens and approved variants.
+2. Guide of contribution of components.
+3. Checklist of accessibility operacional.
+4. Design system rollout strategy.
 
 # Playbook
 
-## Objetivo
-Escalar UI consistente entre apps sem travar evolução de produto.
+## Objective
+Escalar UI consistente entre apps without travar evolution of product.
 
-## Regras
-- Token semântico antes de cor hardcoded.
-- `cva` para variantes; `cn()` para composição segura.
-- Componente novo exige contrato, estado e critérios de acessibilidade.
-- Evitar duplicação de componente entre pacotes.
+## Rules
+- Semantic token before hardcoded color.
+- `cva` for variants; `cn()` for safe composition.
+- Componente novo exige contrato, estado e criteria of accessibility.
+- Avoid duplication of components between packages.
 </skill>
 
 ### master-ux-ui

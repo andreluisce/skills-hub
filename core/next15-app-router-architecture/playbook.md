@@ -1,10 +1,10 @@
 # Playbook
 
-## Objetivo
-Projetar App Router com mínimo JS de cliente e máxima previsibilidade operacional.
+## Objective
+Design App Router with minimal client JS and maximum operational predictability.
 
-## Regras
-- Server Components por padrão; Client apenas quando houver interatividade real.
-- Cache e invalidação explícitos por tipo de dado e criticidade.
-- Error/loading boundaries definidos no nível correto de rota.
-- Evitar lógica de domínio em componentes de página.
+## Rules
+- Server Components by standard; Client apenas when houver interatividade real.
+- Explicit caching and invalidation by data type and criticality.
+- Error/loading boundaries set at the correct level of route.
+- Avoid logic of domain in components of page.

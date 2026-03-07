@@ -3,34 +3,34 @@
 ## Source
 Lean UX — Jeff Gothelf & Josh Seiden
 
-## Objetivo
-Trocar "entregamos telas" por "mudamos comportamento mensurável".
+## Objective
+Swap “we deliver screens” for “we change measurable behavior”.
 
-## Regras
-- Outcomes over outputs: medir por ativação, retenção, conversão, tempo para primeiro valor.
-- Hipótese antes de implementação — sempre.
-- MVP não é versão incompleta — é experimento mínimo para reduzir incerteza.
-- Design, produto e engenharia colaboram desde a descoberta. Sem handoff tardio.
-- Pesquisa é rotina — ciclos curtos com feedback frequente.
+## Rules
+- Outcomes over outputs: measure by activation, retention, conversion, time to first value.
+- Hypothesis before implementation — always.
+- MVP is not an incomplete version — it is a minimal experiment to reduce uncertainty.
+- Design, product and engenharia colaboram desde a discovery. Sem handoff tardio.
+- Research is routine — short cycles with frequent feedback.
 
 ## Hypothesis Card
 1. Problema:
 2. Persona:
-3. Hipótese:
-4. Solução mínima:
-5. Métrica primária:
-6. Métrica de guarda:
-7. Prazo de avaliação:
-8. Decisão de continuidade:
+3. Hypothesis:
+4. Minimal solution:
+5. Primary metric:
+6. Guard metric:
+7. Evaluation period:
+8. Decision of continuity:
 
-## Métricas Comuns
+## Common Metrics
 - Time to First Value
 - Step conversion rate
-- Drop-off por etapa
+- Drop-off by etapa
 - D1/D7/D30 retention
-- Erros por operação crítica
+- Errors due to critical operation
 
 ## Anti-Patterns
-- Roadmap fechado sem aprendizagem.
-- Discussão baseada em opinião sem dado.
-- MVP inflado que demora para testar.
+- Roadmap fechado without aprendizagem.
+- Discussion based on opinion without data.
+- MVP inflado que demora for testar.

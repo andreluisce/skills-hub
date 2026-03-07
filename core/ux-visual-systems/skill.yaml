@@ -1,18 +1,17 @@
 schemaVersion: 1.0.0
 name: ux-visual-systems
 displayName: UX Visual Systems
-description: >-
-  Especialista em hierarquia visual, tipografia, escala, espacamento e design
-  tokens baseado em Refactoring UI e Laws of UX. Use para transformar interfaces
-  confusas em sistemas visuais previsiveis.
+description: Especialista in hierarquia visual, tipografia, escala, espacamento e
+  design tokens baseado in Refactoring UI e Laws of UX. Use for transformar interfaces
+  confusas in sistemas visuais previsiveis.
 triggers:
-  - visual hierarchy
-  - typography
-  - spacing
-  - design tokens
-  - refactoring ui
-  - button hierarchy
-  - visual system
+- visual hierarchy
+- typography
+- spacing
+- design tokens
+- refactoring ui
+- button hierarchy
+- visual system
 stack:
   framework: Next.js 15+ App Router
   react: React 19+
@@ -20,18 +19,20 @@ stack:
   ui: shadcn/ui + Tailwind v4
   workspace: Monorepo (apps + packages)
 workflow:
-  - step: 1
-    action: Mapear hierarquia visual por tela — o que deveria ter mais destaque?
-  - step: 2
-    action: Definir escala tipografica modular com peso, tamanho e line-height consistentes.
-  - step: 3
-    action: Estabelecer regra de espacamento (mais espaco ao redor de grupos do que dentro).
-  - step: 4
-    action: Classificar acoes por hierarquia (primaria, secundaria, terciaria) com visual distinto.
-  - step: 5
-    action: Converter decisoes visuais em tokens reutilizaveis no design system.
+- step: 1
+  action: "Mapear hierarquia visual by tela \u2014 o que deveria ter mais destaque?"
+- step: 2
+  action: Set modular typographic scale with consistent weight, size and line-height.
+- step: 3
+  action: Estabelecer regra of espacamento (mais espaco ao redor of grupos do que
+    dentro).
+- step: 4
+  action: Classificar actions by hierarquia (primaria, secundaria, terciaria) with
+    visual distinto.
+- step: 5
+  action: Converter decisoes visuais in tokens reutilizaveis no design system.
 outputContract:
-  - Mapa de hierarquia por tela.
-  - Escala tipografica e espacamento padrao.
-  - Matriz de botoes e estados.
-  - Tabela de tokens para design system.
+- Mapa of hierarquia by tela.
+- Escala tipografica e espacamento standard.
+- Matriz of botoes e estados.
+- Tabela of tokens for design system.

@@ -1,20 +1,20 @@
 # Playbook
 
-## Objetivo
-Eliminar fricção em fluxos operacionais e garantir que o sistema nunca pareça congelado.
+## Objective
+Eliminate friction in operational flows and ensure the system never feels frozen.
 
-## Regras
-- Loading state imediato após qualquer ação do usuário.
-- Progress indicator para operações acima de 1 segundo.
-- Erros identificam o campo exato, explicam o problema e sugerem ação corretiva.
-- Estado vazio tem instrução clara sobre o que fazer a seguir.
-- Ações frequentes acessíveis com 1 clique a partir do dashboard.
-- Validação inline em formulários — não apenas no submit.
-- Preservar contexto entre etapas — sem perda de dados em navegação.
+## Rules
+- Immediate loading state after any user action.
+- Progress indicator for operactions acima of 1 segundo.
+- Errors identify the exact field, explain the problem, and suggest corrective action.
+- Empty state has clear instruction on what to do next.
+- Frequent actions accessible with 1 click from the dashboard.
+- Inline validation in forms — not just in submit.
+- Preserve context between steps — without loss of data in navigation.
 
 ## Feedback Patterns
-- Toast: confirmação de sucesso e erros recuperáveis.
-- Inline error: campos de formulário inválidos.
-- Progress bar: uploads e operações longas.
-- Skeleton: carregamento de listas e cards.
-- Spinner: ações pontuais (botão submit, delete).
+- Toast: confirmation of success and recoverable errors.
+- Inline errorr: invalid form fields.
+- Progress bar: uploads e operactions longas.
+- Skeleton: carregamento of listas e cards.
+- Spinner: specific actions (submit, delete button).

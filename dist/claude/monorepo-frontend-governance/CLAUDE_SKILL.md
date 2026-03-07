@@ -1,15 +1,15 @@
 Skill: Monorepo Frontend Governance
-Description: Estruturar governança técnica de monorepo frontend com apps Next.js 15+, pacotes compartilhados React 19+, boundaries de dependência, ownership, versionamento e fluxo de entrega sustentável. Base operacional: # Playbook  ## Objetivo Garantir escala de time e código sem erosão arquitetural.  ## Regras
+Description: Structure technical governance of monorepo frontend with Next.js 15+ apps, React 19+ shared packages, boundaries of dependency, ownership, versioning and sustainable flow of delivery. Base operacional: # Playbook  ## Objective Ensure scale of time and code without architectural erosion.  ## Rules
 Triggers: monorepo, package boundaries, frontend governance, workspace architecture, ownership
 Stack: Next.js 15+ App Router; React 19+; TanStack Query; shadcn/ui + Tailwind v4; Monorepo (apps + packages)
 Workflow:
-- 1. Definir topologia do monorepo e responsabilidades por pacote/app.
-- 2. Estabelecer regras de dependência e imports permitidos.
-- 3. Formalizar ownership, revisão e política de mudanças.
-- 4. Padronizar pipelines de build, test e release por escopo.
-- 5. Monitorar lead time, falhas de integração e custo de manutenção.
+- 1. Define monorepo topology and responsibilities for package/app.
+- 2. Establish rules of dependency and allowed imports.
+- 3. Formalize ownership, review and policy of changes.
+- 4. Padronizar pipelines of build, test and release by escopo.
+- 5. Monitor lead time, failures of integration and custo of maintenance.
 Output Contract:
-- Mapa de apps/pacotes e ownership.
-- Matriz de dependências permitidas.
-- Regras de pipeline e release.
-- Métricas de saúde do monorepo.
+- Mapa of apps/pacotes and ownership.
+- Array of allowed dependencies.
+- Rules of pipeline and release.
+- Monorepo health metrics.

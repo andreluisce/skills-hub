@@ -1,0 +1,47 @@
+{
+  "instruction": "Skill for padroes avancados of React. Use for gerenciamento of estado global, hooks customizados for formularios complexos e optimization de renderizacao with Zustand, React Hook Form, Zod e Framer Motion. Base operacional: # Playbook  ## Objective Manage state, forms, and rendering in a predictable and efficient way.  ## Rules of Estado",
+  "triggers": [
+    "react patterns",
+    "zustand",
+    "custom hooks",
+    "render optimization",
+    "react hook form",
+    "zod",
+    "framer motion"
+  ],
+  "stack": {
+    "framework": "Next.js 15+ App Router",
+    "react": "React 19+",
+    "serverState": "TanStack Query",
+    "ui": "shadcn/ui + Tailwind v4",
+    "workspace": "Monorepo (apps + packages)"
+  },
+  "workflow": [
+    {
+      "step": 1,
+      "action": "Classificar estado by escopo (local, feature, global, servidor)."
+    },
+    {
+      "step": 2,
+      "action": "Implementar formularios with React Hook Form + Zod sincronizado with schema do banco."
+    },
+    {
+      "step": 3,
+      "action": "Extrair logica of dominio for custom hooks with responsabilidade unica."
+    },
+    {
+      "step": 4,
+      "action": "Otimizar renders with memo/callback apenas onde profiling confirmar custo."
+    },
+    {
+      "step": 5,
+      "action": "Adicionar micro-animactions with Framer Motion for feedback of interacao."
+    }
+  ],
+  "outputContract": [
+    "Mapa of estado by escopo e ferramenta.",
+    "Contratos of formulario with validation Zod.",
+    "Catalogo of hooks of dominio.",
+    "Plano of optimization of render with evidencia."
+  ]
+}

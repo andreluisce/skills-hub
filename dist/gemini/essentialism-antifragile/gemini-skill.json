@@ -1,0 +1,50 @@
+{
+  "instruction": "Aplicar principios of Essentialism (McKeown), Antifragil (Taleb) e 80/20 (Koch) for tomar decisoes of product e architecture. Use for prioritize funcionalidades, eliminar escopo desnecessario e construir sistemas resilientes. Base operacional: # Playbook  ## Sources - Essencialismo — Greg McKeown - Antifragil — Nassim Nicholas Taleb - A Revolution 80/20 — Richard Koch",
+  "triggers": [
+    "essentialism",
+    "antifragile",
+    "taleb",
+    "mckeown",
+    "prioritization",
+    "scope",
+    "resilience",
+    "80/20",
+    "less but better",
+    "optionality"
+  ],
+  "stack": {
+    "framework": "Next.js 15+ App Router",
+    "react": "React 19+",
+    "serverState": "TanStack Query",
+    "ui": "shadcn/ui + Tailwind v4",
+    "workspace": "Monorepo (apps + packages)"
+  },
+  "workflow": [
+    {
+      "step": 1,
+      "action": "Identify the 20% of features that generate 80% of user value."
+    },
+    {
+      "step": 2,
+      "action": "Eliminar ou adiar features que not sao \"sim obvio\"."
+    },
+    {
+      "step": 3,
+      "action": "Assess system fragility — points of single failure and tight coupling."
+    },
+    {
+      "step": 4,
+      "action": "Aplicar barbell strategy — 80% fundactions solidas, 20% experimentacao."
+    },
+    {
+      "step": 5,
+      "action": "Define optionality — which decisions can be easily reversed."
+    }
+  ],
+  "outputContract": [
+    "Mapa of features by valor/esforco.",
+    "Lista of itens eliminados e justificativa.",
+    "Diagnostico of fragilidade architecturel.",
+    "Plano of resiliencia e rollback."
+  ]
+}

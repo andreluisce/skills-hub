@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI/UX Operations"
+  short_description: "Arquitetura React em stack moderna"
+  default_prompt: "Use $ui-ux-operations para desenhar ou refatorar arquitetura frontend com Next.js 15+ App Router, React 19+ e TanStack Query."

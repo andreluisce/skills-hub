@@ -1,0 +1,47 @@
+{
+  "instruction": "Skill for criacao of interfaces usando shadcn/ui focused on Tema Escuro. Use for customizar components, gerenciar variaveis CSS e garantir contraste acessivel in dark mode. Base operacional: # Playbook  ## Objective Scale consistent dark mode UI without visual regression or violation of accessibility.  ## Rules",
+  "triggers": [
+    "shadcn dark",
+    "dark mode",
+    "dark theme",
+    "css variables",
+    "globals.css",
+    "accessible contrast",
+    "dark ui"
+  ],
+  "stack": {
+    "framework": "Next.js 15+ App Router",
+    "react": "React 19+",
+    "serverState": "TanStack Query",
+    "ui": "shadcn/ui + Tailwind v4",
+    "workspace": "Monorepo (apps + packages)"
+  },
+  "workflow": [
+    {
+      "step": 1,
+      "action": "Set all semantic tokens in globals.css under :root and .dark."
+    },
+    {
+      "step": 2,
+      "action": "Auditar components by uso of cores hardcoded fora of tokens."
+    },
+    {
+      "step": 3,
+      "action": "Verificar contraste minimo WCAG AA in texto e elementos interativos."
+    },
+    {
+      "step": 4,
+      "action": "Garantir foco visivel in todos os elementos focaveis in dark mode."
+    },
+    {
+      "step": 5,
+      "action": "Testar components in Chrome, Firefox e Safari in dark mode."
+    }
+  ],
+  "outputContract": [
+    "Catalogo of tokens semanticos definidos.",
+    "Lista of violactions of hardcoded color.",
+    "Relatorio of contraste by component critico.",
+    "Checklist of accessibility in dark mode."
+  ]
+}

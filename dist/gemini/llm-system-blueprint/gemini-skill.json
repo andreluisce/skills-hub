@@ -1,5 +1,5 @@
 {
-  "instruction": "Projetar sistemas de LLM com arquitetura modular de agents, skills, tools, memory, workflows, evaluators, policies e observability, incluindo integração via MCP com governança e segurança operacional. Base operacional: # Playbook  ## Objetivo Transformar uso de LLM em plataforma com previsibilidade operacional.  ## Regras",
+  "instruction": "Projetar sistemas of LLM with architecture modular of agents, skills, tools, memory, workflows, evaluators, policies and observability, including integration via MCP with governance and segurança operacional. Base operacional: # Playbook  ## Objective Transformar uso of LLM in plataforma with previsibilidade operacional.  ## Rules",
   "triggers": [
     "llm architecture",
     "multi-agent system",
@@ -17,29 +17,29 @@
   "workflow": [
     {
       "step": 1,
-      "action": "Definir papéis de agentes e contratos de responsabilidade."
+      "action": "Define roles of agents and contracts of responsibility."
     },
     {
       "step": 2,
-      "action": "Modelar skills com critérios de sucesso e limites de execução."
+      "action": "Model skills with criteria of success and limits of execution."
     },
     {
       "step": 3,
-      "action": "Integrar tools via MCP com escopo mínimo e auditabilidade."
+      "action": "Integrate tools via MCP with minimum scope and auditability."
     },
     {
       "step": 4,
-      "action": "Estruturar memória, workflows, evaluators e políticas."
+      "action": "Structure memory, workflows, evaluators and policies."
     },
     {
       "step": 5,
-      "action": "Ativar observabilidade e checklist de produção."
+      "action": "Enable observability and production checklist."
     }
   ],
   "outputContract": [
-    "Blueprint arquitetural por camadas.",
-    "Contratos mínimos de operação.",
-    "Plano de governança e segurança.",
-    "Checklist de readiness para produção."
+    "Blueprint architecturel by camadas.",
+    "Minimum operating contracts.",
+    "Plan of governance and security.",
+    "Checklist of readiness for production."
   ]
 }

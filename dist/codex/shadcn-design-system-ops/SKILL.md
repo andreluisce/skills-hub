@@ -1,6 +1,6 @@
 ---
 name: shadcn-design-system-ops
-description: Operar e evoluir design system com shadcn/ui e Tailwind v4, padronizando tokens, variantes, acessibilidade e governança de componentes para múltiplos apps em monorepo Next.js 15+ e React 19+. Base operacional: # Playbook  ## Objetivo Escalar UI consistente entre apps sem travar evolução de produto.  ## Regras Use quando o pedido envolver: shadcn, design system, tailwind v4, cva, accessibility.
+description: Operate and evolve design system with shadcn/ui and Tailwind v4, standardizing tokens, variants, accessibility and governance of components for multiple apps in monorepo Next.js 15+ and React 19+. Base operacional: # Playbook  ## Objective Escalar UI consistente entre apps without travar evolution of product.  ## Rules Use quando o pedido envolver: shadcn, design system, tailwind v4, cva, accessibility.
 ---
 
 # shadcn Design System Operations
@@ -13,14 +13,14 @@ description: Operar e evoluir design system com shadcn/ui e Tailwind v4, padroni
 - Monorepo (apps + packages)
 
 ## Workflow
-1. Definir tokens semânticos globais e variações por tema/contexto.
-2. Estabelecer padrões de componentes base e variantes com cva.
-3. Criar política de contribuição e revisão para novos componentes.
-4. Validar acessibilidade, foco visível e contraste em fluxos críticos.
-5. Publicar changelog de DS e plano de adoção por app.
+1. Define global semantic tokens and variations by theme/context.
+2. Establish standards of base components and variants with cva.
+3. Create contribution and review policy for new components.
+4. Validate accessibility, visible focus and contrast in critical flows.
+5. Publish changelog of DS and plan of adoption by app.
 
 ## Saída esperada
-1. Catálogo de tokens e variantes aprovadas.
-2. Guia de contribuição de componentes.
-3. Checklist de acessibilidade operacional.
-4. Estratégia de rollout do design system.
+1. Catalog of tokens and approved variants.
+2. Guide of contribution of components.
+3. Checklist of accessibility operacional.
+4. Design system rollout strategy.

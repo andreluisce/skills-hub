@@ -1,6 +1,6 @@
 ---
 name: tanstack-query-governance
-description: Definir governança de estado de servidor com TanStack Query em React 19+, incluindo query keys, staleTime, invalidação, optimistic updates e políticas de erro/retry para apps Next.js 15+ em monorepo. Base operacional: # Playbook  ## Objetivo Tornar o estado de servidor previsível, auditável e eficiente.  ## Regras Use quando o pedido envolver: tanstack query, query keys, invalidation, optimistic update, server state.
+description: Define governance of estado of servidor with TanStack Query in React 19+, including query keys, staleTime, invalidation, optimistic updates and políticas of error/retry for apps Next.js 15+ in monorepo. Base operacional: # Playbook  ## Objective Make server status predictable, auditable and efficient.  ## Rules Use quando o pedido envolver: tanstack query, query keys, invalidation, optimistic update, server state.
 ---
 
 # TanStack Query Governance
@@ -13,14 +13,14 @@ description: Definir governança de estado de servidor com TanStack Query em Rea
 - Monorepo (apps + packages)
 
 ## Workflow
-1. Classificar domínios de dados por volatilidade e criticidade.
-2. Padronizar convenção de query keys e ownership por pacote.
-3. Definir staleTime, gcTime e regras de invalidação por evento.
-4. Especificar optimistic updates, rollback e tratamento de erro.
-5. Monitorar taxa de refetch, latência percebida e falhas.
+1. Classify domains of data by volatility and criticality.
+2. Standardize convention of query keys and ownership by package.
+3. Define staleTime, gcTime and rules of invalidation by evento.
+4. Especificar optimistic updates, rollback and tratamento of error.
+5. Monitor refetch rate, perceived latency and failures.
 
 ## Saída esperada
-1. Matriz de domínios de dados e política de cache.
-2. Convenção oficial de query keys.
-3. Regras de invalidação e update otimista.
-4. Indicadores de qualidade de server state.
+1. Matrix of domains of data and policy of cache.
+2. Official convention of query keys.
+3. Rules of invalidation and optimistic update.
+4. Indicadores of qualidade of server state.

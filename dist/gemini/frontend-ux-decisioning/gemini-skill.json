@@ -1,0 +1,45 @@
+{
+  "instruction": "Design and refactor frontend UI flows with cognitive clarity, strong visual hierarchy, lower friction, and defensible UX decisions grounded in Refactoring UI, Don't Make Me Think, Laws of UX, and sustainable web design. Base operacional: # Playbook  ## Objective Increase conversion and clarity in critical product flows without increasing cognitive load.  ## Rules",
+  "triggers": [
+    "ux decisioning",
+    "form usability",
+    "dashboard ux",
+    "cognitive load",
+    "refactoring ui"
+  ],
+  "stack": {
+    "framework": "Next.js 15+ App Router",
+    "react": "React 19+",
+    "serverState": "TanStack Query",
+    "ui": "shadcn/ui + Tailwind v4",
+    "workspace": "Monorepo (apps + packages)"
+  },
+  "workflow": [
+    {
+      "step": 1,
+      "action": "Map the primary task, critical decision, and success criterion."
+    },
+    {
+      "step": 2,
+      "action": "Reduce first-screen choices and apply progressive disclosure."
+    },
+    {
+      "step": 3,
+      "action": "Define visual hierarchy and one primary CTA per viewport."
+    },
+    {
+      "step": 4,
+      "action": "Review accessibility, contrast, readability, and errorr states."
+    },
+    {
+      "step": 5,
+      "action": "Consolidate UX rationale for implementation and stakeholder alignment."
+    }
+  ],
+  "outputContract": [
+    "Friction diagnosis by flow.",
+    "Prioritized UX improvement proposal.",
+    "Rationale mapped to UX principles.",
+    "Visual and functional acceptance checklist."
+  ]
+}

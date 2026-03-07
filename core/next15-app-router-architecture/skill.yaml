@@ -1,16 +1,15 @@
 schemaVersion: 1.0.0
 name: next15-app-router-architecture
 displayName: Next.js 15 App Router Architecture
-description: >-
-  Definir e refatorar arquitetura em Next.js 15+ App Router com Server
-  Components-first, boundaries Client, streaming e cache orientado a domínio
-  para apps React 19+ em monorepo.
+description: "Define and refatorar architecture in Next.js 15+ App Router with Server\
+  \ Components-first, boundaries Client, streaming and cache orientado a dom\xEDnio\
+  \ for apps React 19+ in monorepo."
 triggers:
-  - nextjs 15
-  - app router
-  - server components
-  - streaming
-  - route architecture
+- nextjs 15
+- app router
+- server components
+- streaming
+- route architecture
 stack:
   framework: Next.js 15+ App Router
   react: React 19+
@@ -18,18 +17,18 @@ stack:
   ui: shadcn/ui + Tailwind v4
   workspace: Monorepo (apps + packages)
 workflow:
-  - step: 1
-    action: Mapear rotas, segmentos dinâmicos e requisitos de renderização por página.
-  - step: 2
-    action: Definir fronteiras Server vs Client por responsabilidade e custo de hidratação.
-  - step: 3
-    action: Projetar estratégia de cache e revalidação por domínio de dados.
-  - step: 4
-    action: Estruturar loaders, actions e error boundaries por segmento.
-  - step: 5
-    action: Validar performance com Web Vitals e perfil de render em navegação real.
+- step: 1
+  action: Map routes, dynamic segments and page rendering requirements.
+- step: 2
+  action: Define Server vs Client boundaries by responsibility and cost of hydration.
+- step: 3
+  action: Design strategy of cache and revalidation by domain of data.
+- step: 4
+  action: Estruturar loaders, actions and errorr boundaries by segmento.
+- step: 5
+  action: Validate performance with Web Vitals and render profile in real browsing.
 outputContract:
-  - Mapa de rotas e boundaries Server/Client.
-  - Decisões de cache/revalidação por domínio.
-  - Plano de implementação por segmento.
-  - Checklist de performance e regressão.
+- Mapa of rotas and boundaries Server/Client.
+- Caching/revalidation decisions by domain.
+- Implementation plan by segment.
+- Checklist of performance and regression.

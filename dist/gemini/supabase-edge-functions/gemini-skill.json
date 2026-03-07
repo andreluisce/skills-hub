@@ -1,0 +1,51 @@
+{
+  "instruction": "Design, implement, and deploy Supabase Edge Functions on Deno runtime. Use to handle webhooks, background jobs, third-party integrations, and server-side logic that requires secrets or elevated permissions. Base operacional: # Playbook  ## Objective Build reliable, secure Edge Functions on Supabase Deno runtime for server-side integrations.  ## Rules of Function Design",
+  "triggers": [
+    "edge functions",
+    "supabase functions",
+    "deno",
+    "webhooks",
+    "background jobs",
+    "server-side integration",
+    "supabase invoke"
+  ],
+  "stack": {
+    "framework": "Next.js 15+ App Router",
+    "react": "React 19+",
+    "serverState": "TanStack Query",
+    "ui": "shadcn/ui + Tailwind v4",
+    "workspace": "Monorepo (apps + packages)"
+  },
+  "workflow": [
+    {
+      "step": 1,
+      "action": "Identify use cases — webhook receiver, scheduled job, third-party API proxy, or auth hook."
+    },
+    {
+      "step": 2,
+      "action": "Scaffold function with Deno runtime, typed request/response, and error handling."
+    },
+    {
+      "step": 3,
+      "action": "Manage secrets via Supabase Vault — never hardcode credentials."
+    },
+    {
+      "step": 4,
+      "action": "Implement idempotency and retry safety for webhook handlers."
+    },
+    {
+      "step": 5,
+      "action": "Write local tests with Deno test runner and mock Supabase client."
+    },
+    {
+      "step": 6,
+      "action": "Deploy with supabase functions deploy and verify logs in dashboard."
+    }
+  ],
+  "outputContract": [
+    "Function implementation with typed request/response contracts.",
+    "Secrets inventory mapped to Vault keys.",
+    "Idempotency strategy per function.",
+    "Deployment checklist with smoke test commands."
+  ]
+}

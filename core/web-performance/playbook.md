@@ -5,22 +5,22 @@
 - Intelligent Caching — Barker
 - HTTP: The Definitive Guide — Gourley
 
-## Objetivo
-Latência é o fator limitante — reduzir round-trips tem mais impacto que reduzir tamanho de assets.
+## Objective
+Latency is the limiting factor — reducing round-trips has more impact than reducing size of assets.
 
-## Regras
-- HTTP/2: multiplexing — bundling agressivo é menos necessário, chunks por rota são eficientes.
-- Critical path: CSS no head, scripts com defer/async, preload de recursos críticos.
-- next/image obrigatório para todas as imagens — size, format, priority explícitos.
-- next/font com display swap e subset para fontes.
-- dynamic() para componentes pesados não críticos.
-- Bundle analyzer antes de qualquer release.
+## Rules
+- HTTP/2: multiplexing — aggressive bundling is less necessary, chunks by route are efficient.
+- Critical path: CSS in head, scripts with defer/async, preload critical resources.
+- next/image mandatory for all images — explicit size, format, priority.
+- next/font with display swap and subset for fontes.
+- Use dynamic() for heavy non-critical components.
+- Bundle analyzer antes of qualquer release.
 
-## Cache Policy por Tipo
-- Assets com hash (JS/CSS/imagens): max-age=31536000, immutable.
-- HTML de páginas: no-cache (valida, mas usa cache se não mudou).
-- API responses: staleTime por domínio no TanStack Query.
-- Invalide proativamente com revalidateTag() após mutações.
+## Cache Policy by Tipo
+- Assets with hash (JS/CSS/imagens): max-age=31536000, immutable.
+- HTML of pages: no-cache (valid, but use cache not mudou).
+- API responses: staleTime by domain in TanStack Query.
+- Invalide proativamente with revalidateTag() after mutations.
 
 ## Core Web Vitals Targets
 | Metric | Good |

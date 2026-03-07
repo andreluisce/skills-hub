@@ -4,24 +4,24 @@
 - Refactoring UI — Steve Schoger & Adam Wathan
 - Laws of UX — Jon Yablonski
 
-## Objetivo
-Tornar leitura e ação mais rápidas — quando tudo tem o mesmo destaque, o usuário pensa demais.
+## Objective
+Make reading and action faster — when everything has the same highlight, the user thinks too much.
 
-## Regras
-- Prominência reflete importância real.
-- Agrupamento visual reflete relação semântica.
-- Menos importante é intencionalmente des-enfatizado.
-- Combine contraste + peso tipográfico + espaçamento + posição para hierarquia.
-- Escala modular — nunca ajuste arbitrário pixel a pixel.
-- Espaçamento é sintaxe visual: mais espaço ao redor de grupos do que dentro.
-- Ação primária: destaque máximo e singular por contexto.
-- Tokens para tudo: cor, espaçamento, tipografia, radius, shadow.
+## Rules
+- Prominence reflects real importance.
+- Visual grouping reflects semantic relationship.
+- Menos importante is intencionalmente des-enfatizado.
+- Combine contrast + typographic weight + spacing + position for hierarchy.
+- Modular scaling — never arbitrarily adjust pixel by pixel.
+- Spacing is visual syntax: more space around groups than inside.
+- Primary action: maximum prominence and singularity by context.
+- Tokens for everything: color, spacing, typography, radius, shadow.
 
 ## Action Hierarchy
-1. Primária: destaque máximo e singular.
-2. Secundária: visível sem competir com primária.
-3. Terciária: discreta e contextual.
+1. Primary: maximum and singular prominence.
+2. Secondary: visible without competing with primary.
+3. Tertiary: discreta and contextual.
 
 ## Typography Scale
-titulo → subtitulo → corpo → legenda → estados de ação
-Consistência de baseline quando combinando tamanhos diferentes.
+titulo → subtitulo → corpo → legenda → estados of action
+Consistency of baseline when combining different sizes.

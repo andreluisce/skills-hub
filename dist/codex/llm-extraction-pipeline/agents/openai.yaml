@@ -1,0 +1,4 @@
+interface:
+  display_name: "LLM Extraction Pipeline"
+  short_description: "Arquitetura React em stack moderna"
+  default_prompt: "Use $llm-extraction-pipeline para desenhar ou refatorar arquitetura frontend com Next.js 15+ App Router, React 19+ e TanStack Query."

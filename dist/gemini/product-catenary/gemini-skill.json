@@ -1,0 +1,53 @@
+{
+  "instruction": "Map and sequence product delivery using catenary (dependency chain) planning. Use to identify the critical path, unblock parallel workstreams, sequence features by dependency order, and surface hidden blockers before sprint planning. Base operacional: # Playbook  ## Objective Map delivery dependencies to find the critical path, eliminate hidden blockers, and sequence work for maximum parallelism.  ## Rules of Dependency Mapping",
+  "triggers": [
+    "catenary",
+    "critical path",
+    "dependency mapping",
+    "delivery sequencing",
+    "sprint planning",
+    "roadmap sequencing",
+    "blocker analysis",
+    "workstream planning"
+  ],
+  "stack": {
+    "framework": "Next.js 15+ App Router",
+    "react": "React 19+",
+    "serverState": "TanStack Query",
+    "ui": "shadcn/ui + Tailwind v4",
+    "workspace": "Monorepo (apps + packages)"
+  },
+  "workflow": [
+    {
+      "step": 1,
+      "action": "List all features and tasks in the delivery scope."
+    },
+    {
+      "step": 2,
+      "action": "Map dependencies between items — what blocks what."
+    },
+    {
+      "step": 3,
+      "action": "Identify the critical path — the longest chain that determines earliest completion."
+    },
+    {
+      "step": 4,
+      "action": "Find parallelizable workstreams — items with no shared dependencies."
+    },
+    {
+      "step": 5,
+      "action": "Surface hidden blockers — shared infrastructure, design dependencies, third-party APIs."
+    },
+    {
+      "step": 6,
+      "action": "Output sequenced delivery plan with phases, owners, and explicit unblocking milestones."
+    }
+  ],
+  "outputContract": [
+    "Dependency graph of all delivery items.",
+    "Critical path with estimated impact of delay.",
+    "Parallel workstream map per team/person.",
+    "Hidden blocker inventory with resolution owners.",
+    "Sequenced delivery plan by phase."
+  ]
+}

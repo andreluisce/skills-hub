@@ -3,19 +3,19 @@
 ## Source
 A Philosophy of Software Design — John Ousterhout
 
-## Objetivo
-Reduzir complexidade sistematicamente para que qualquer desenvolvedor possa modificar o sistema com confiança.
+## Objective
+Reduzir complexidade sistematicamente for que qualquer desenvolvedor possa modificar o sistema with confidence.
 
-## Regras
-- Strategic programming: invista 10-15% do tempo em qualidade de design.
-- Deep modules: interface simples, implementação rica — máxima funcionalidade por unidade de interface.
-- Evite pass-through methods — wrapper sem valor é módulo raso.
-- Information hiding: esconda decisões de design que podem mudar.
-- Código óbvio: novo desenvolvedor entende sem perguntar.
-- Inconsistência é veneno — se faz de um jeito em um lugar, faça igual em todos.
-- Comentários explicam o "por que", não o "o que".
+## Rules
+- Strategic programming: invista 10-15% of tempo in qualidade of design.
+- Deep modules: simple interface, rich implementation — maximum functionality per unit of interface.
+- Evite pass-through methods — wrapper without value is a shallow module.
+- Information hiding: hide design decisions that can change.
+- Obvious code: new developer understands without asking.
+- Inconsistency is poison — if you of it one way in one place, of it the same way everywhere.
+- Comments explain the "why", not the "what".
 
 ## Complexidade — Sintomas
-- Change amplification: uma mudança simples exige alteração em muitos lugares.
-- Cognitive load: precisa saber muito para fazer uma mudança simples.
-- Unknown unknowns: não é óbvio quais partes precisam mudar.
+- Change amplification: a simple change requires change in many places.
+- Cognitive load: you need to know a lot to make a simple change.
+- Unknown unknowns: It is not obvious which parts need to change.

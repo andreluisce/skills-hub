@@ -5,19 +5,19 @@
 - React Anti-Patterns — Juntao Qiu
 - Fluent React — Tejas Kumar
 
-## Objetivo
-Dominar o modelo de rendering do React para escrever componentes eficientes, previsíveis e livres de anti-patterns.
+## Objective
+Master React's rendering model to write efficient, predictable and anti-pattern-free components.
 
-## Regras
-- Re-render do pai re-renderiza todos os filhos por padrão — empurre state para baixo.
-- React.memo, useMemo e useCallback apenas com profiling confirmando custo real.
-- Nunca defina componentes dentro de componentes.
-- Nunca use index como key em listas dinâmicas.
-- useEffect não é para fetch de dados — use TanStack Query ou Server Components.
-- Separe Contexts por domínio de mudança para evitar re-renders em cascata.
-- Stale closure: inclua todas as dependências no array de useEffect/useCallback.
+## Rules
+- Re-render of pai re-renderiza todos the filhos by standard — empurre state for baixo.
+- React.memo, useMemo and useCallback apenas with profiling confirmando custo real.
+- Nunca defina components dentro of components.
+- Never use index the a key in dynamic lists.
+- useEffect not is for fetch of data — use TanStack Query or Server Components.
+- Separate Contexts by domain of change to avoid cascading re-renders.
+- Stale closure: include all dependencies in the array of useEffect/useCallback.
 
 ## Composition Patterns
 - Compound Components: estado compartilhado via Context interno.
-- Children as render prop: flexibilidade de renderização sem acoplamento.
-- HOC: apenas para cross-cutting concerns (ErrorBoundary, auth guard).
+- Children the render prop: flexibility of rendering without coupling.
+- HOC: apenas for cross-cutting concerns (ErrorBoundary, auth guard).

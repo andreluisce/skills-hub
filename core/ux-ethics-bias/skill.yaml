@@ -1,17 +1,15 @@
 schemaVersion: 1.0.0
 name: ux-ethics-bias
 displayName: UX Ethics and Cognitive Bias
-description: >-
-  Especialista em vieses cognitivos, atrito positivo e prevencao de dark
-  patterns. Use para proteger autonomia do usuario sem sacrificar clareza de
-  produto.
+description: Specialist in cognitive biases, positive friction, and dark-pattern prevention.
+  Use to protect user autonomy without sacrificing product clarity.
 triggers:
-  - dark patterns
-  - cognitive bias
-  - ethics
-  - positive friction
-  - ux ethics
-  - manipulation
+- dark patterns
+- cognitive bias
+- ethics
+- positive friction
+- ux ethics
+- manipulation
 stack:
   framework: Next.js 15+ App Router
   react: React 19+
@@ -19,18 +17,18 @@ stack:
   ui: shadcn/ui + Tailwind v4
   workspace: Monorepo (apps + packages)
 workflow:
-  - step: 1
-    action: Auditar fluxo por dark patterns e vieses explorados de forma antiusuario.
-  - step: 2
-    action: Classificar risco etico por acao (baixo, medio, alto impacto).
-  - step: 3
-    action: Definir atrito positivo para acoes irreversiveis ou sensiveis.
-  - step: 4
-    action: Revisar copy de consentimento para linguagem clara e explicita.
-  - step: 5
-    action: Validar que usuario tem caminho claro para recusar sem punicao.
+- step: 1
+  action: Audit flows for dark patterns and exploitative bias tactics.
+- step: 2
+  action: Classificar risco etico by acao (baixo, medio, alto impacto).
+- step: 3
+  action: Define positive friction for irreversible or sensitive actions.
+- step: 4
+  action: Revisar copy of consentimento for linguagem clara e explicita.
+- step: 5
+  action: Validate that the user has a clear path to opting out without punishment.
 outputContract:
-  - Auditoria de vieses por fluxo.
-  - Matriz de risco etico por acao.
-  - Plano de friccao positiva para acoes criticas.
-  - Lista de ajustes de copy para consentimento explicito.
+- Bias audit by flow.
+- Matriz of risco etico by acao.
+- Plano of friccao positiva for actions criticas.
+- Lista of ajustes of copy for consentimento explicito.

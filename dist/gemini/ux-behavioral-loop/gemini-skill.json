@@ -1,0 +1,46 @@
+{
+  "instruction": "Architect of behavior based on Hooked (Eyal) and Fogg model. Use to design loops of engagement and retention based on real value and product ethics. Base operacional: # Playbook  ## Sources - Hooked — Nir Eyal - Modelo Fogg (BJ Fogg)",
+  "triggers": [
+    "behavioral loop",
+    "engagement",
+    "retention",
+    "hooked",
+    "fogg model",
+    "habit design"
+  ],
+  "stack": {
+    "framework": "Next.js 15+ App Router",
+    "react": "React 19+",
+    "serverState": "TanStack Query",
+    "ui": "shadcn/ui + Tailwind v4",
+    "workspace": "Monorepo (apps + packages)"
+  },
+  "workflow": [
+    {
+      "step": 1,
+      "action": "Mapear trigger, acao, recompensa e investimento do flow principal."
+    },
+    {
+      "step": 2,
+      "action": "Simplificar acao — reduzir passos, friccao motora e cognitiva."
+    },
+    {
+      "step": 3,
+      "action": "Validate that reward reinforces functional value, not artificial anxiety."
+    },
+    {
+      "step": 4,
+      "action": "Projetar micro-investimentos que aumentam utilidade futura do product."
+    },
+    {
+      "step": 5,
+      "action": "Auditar by dark patterns of retencao e apply guardrails eticos."
+    }
+  ],
+  "outputContract": [
+    "Mapa of loop comportamental by etapa.",
+    "Tabela of friccao (reduzir, manter, aumentar).",
+    "Plano of experimento of retencao with metrics D1/D7/D30.",
+    "Checklist etico of engajamento."
+  ]
+}

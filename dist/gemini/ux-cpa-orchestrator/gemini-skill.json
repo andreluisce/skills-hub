@@ -1,0 +1,52 @@
+{
+  "instruction": "Skill master of Cognitive Product Architecture (CPA). Use for orquestrar analise completa of UX envolvendo cognicao, comportamento, UI, strategy, etica e sustentabilidade. Base operacional: # Playbook  ## Objective Coordinate complete UX analysis integrating all specialized skills in the package.  ## Quality Bar",
+  "triggers": [
+    "ux audit",
+    "ux analysis",
+    "ux orchestrator",
+    "cognitive product architecture",
+    "cpa",
+    "full ux review"
+  ],
+  "stack": {
+    "framework": "Next.js 15+ App Router",
+    "react": "React 19+",
+    "serverState": "TanStack Query",
+    "ui": "shadcn/ui + Tailwind v4",
+    "workspace": "Monorepo (apps + packages)"
+  },
+  "workflow": [
+    {
+      "step": 1,
+      "action": "Diagnostico cognitivo with ux-cognitive-architecture."
+    },
+    {
+      "step": 2,
+      "action": "Mapeamento of loop comportamental with ux-behavioral-loop."
+    },
+    {
+      "step": 3,
+      "action": "Correcao of sistema visual with ux-visual-systems."
+    },
+    {
+      "step": 4,
+      "action": "Plano of experimento with ux-lean-experimentation."
+    },
+    {
+      "step": 5,
+      "action": "Gate etico with ux-ethics-bias and gate of sustentabilidade with ux-sustainable-product."
+    },
+    {
+      "step": 6,
+      "action": "Narrativa for stakeholders with ux-emotional-stakeholder."
+    }
+  ],
+  "outputContract": [
+    "Problema sintetizado.",
+    "Diagnostico by camada (cognitiva, visual, comportamental).",
+    "Plano of mudanca priorizado (P0/P1/P2).",
+    "Hypotheses and metrics of validation.",
+    "Riscos eticos and mitigactions.",
+    "Script of comunicacao for stakeholders."
+  ]
+}

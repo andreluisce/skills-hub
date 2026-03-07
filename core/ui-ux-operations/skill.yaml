@@ -1,18 +1,17 @@
 schemaVersion: 1.0.0
 name: ui-ux-operations
 displayName: UI/UX Operations
-description: >-
-  Skill para design de fluxos de experiencia do usuario. Use para otimizar
-  processos de upload, validacao e operacoes longas, com feedback em tempo real,
-  erros acionaveis e dashboards intuitivos.
+description: Skill for design of flows of user experience. Use to optimize upload,
+  validation and long operations processes, with real-time feedback, actionable errors
+  and intuitive dashboards.
 triggers:
-  - ux flow
-  - upload flow
-  - progress bar
-  - toast notifications
-  - friendly errors
-  - dashboard ux
-  - form ux
+- ux flow
+- upload flow
+- progress bar
+- toast notifications
+- friendly errorrs
+- dashboard ux
+- form ux
 stack:
   framework: Next.js 15+ App Router
   react: React 19+
@@ -20,18 +19,18 @@ stack:
   ui: shadcn/ui + Tailwind v4
   workspace: Monorepo (apps + packages)
 workflow:
-  - step: 1
-    action: Mapear fluxo critico e identificar pontos de friccao e espera.
-  - step: 2
-    action: Implementar loading states imediatos apos qualquer acao do usuario.
-  - step: 3
-    action: Substituir erros genericos por mensagens com campo, causa e acao corretiva.
-  - step: 4
-    action: Adicionar progress indicators para operacoes acima de 1 segundo.
-  - step: 5
-    action: Validar fluxo em cenario de erro, lentidao e estado vazio.
+- step: 1
+  action: Mapear flow critico e identificar pontos of friccao e espera.
+- step: 2
+  action: Implement immediate loading states after any user action.
+- step: 3
+  action: Substituir errors genericos by mensagens with campo, causa e acao corretiva.
+- step: 4
+  action: Adicionar progress indicators for operactions acima of 1 segundo.
+- step: 5
+  action: Validate flow in scenario of error, slowness and empty state.
 outputContract:
-  - Mapa de fluxo com pontos de friccao identificados.
-  - Padrao de loading/error/empty por operacao.
-  - Mensagens de erro acionaveis por caso.
-  - Checklist de estados do fluxo cobertos.
+- Mapa of flow with pontos of friccao identificados.
+- Padrao of loading/errorr/empty by operacao.
+- Mensagens of error acionaveis by caso.
+- Checklist of estados do flow cobertos.

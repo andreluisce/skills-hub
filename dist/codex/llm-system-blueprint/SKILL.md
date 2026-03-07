@@ -1,6 +1,6 @@
 ---
 name: llm-system-blueprint
-description: Projetar sistemas de LLM com arquitetura modular de agents, skills, tools, memory, workflows, evaluators, policies e observability, incluindo integração via MCP com governança e segurança operacional. Base operacional: # Playbook  ## Objetivo Transformar uso de LLM em plataforma com previsibilidade operacional.  ## Regras Use quando o pedido envolver: llm architecture, multi-agent system, mcp, ai governance, ai platform blueprint.
+description: Projetar sistemas of LLM with architecture modular of agents, skills, tools, memory, workflows, evaluators, policies and observability, including integration via MCP with governance and segurança operacional. Base operacional: # Playbook  ## Objective Transformar uso of LLM in plataforma with previsibilidade operacional.  ## Rules Use quando o pedido envolver: llm architecture, multi-agent system, mcp, ai governance, ai platform blueprint.
 ---
 
 # LLM System Blueprint
@@ -13,14 +13,14 @@ description: Projetar sistemas de LLM com arquitetura modular de agents, skills,
 - Monorepo (apps + packages)
 
 ## Workflow
-1. Definir papéis de agentes e contratos de responsabilidade.
-2. Modelar skills com critérios de sucesso e limites de execução.
-3. Integrar tools via MCP com escopo mínimo e auditabilidade.
-4. Estruturar memória, workflows, evaluators e políticas.
-5. Ativar observabilidade e checklist de produção.
+1. Define roles of agents and contracts of responsibility.
+2. Model skills with criteria of success and limits of execution.
+3. Integrate tools via MCP with minimum scope and auditability.
+4. Structure memory, workflows, evaluators and policies.
+5. Enable observability and production checklist.
 
 ## Saída esperada
-1. Blueprint arquitetural por camadas.
-2. Contratos mínimos de operação.
-3. Plano de governança e segurança.
-4. Checklist de readiness para produção.
+1. Blueprint architecturel by camadas.
+2. Minimum operating contracts.
+3. Plan of governance and security.
+4. Checklist of readiness for production.

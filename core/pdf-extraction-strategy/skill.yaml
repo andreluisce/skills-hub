@@ -1,0 +1,38 @@
+schemaVersion: 1.0.0
+name: pdf-extraction-strategy
+displayName: PDF Data Extraction Strategy
+description: Design and implement strategies for extracting structured data from PDF documents. Use to select the right parsing approach (native text, OCR, LLM-assisted), handle tables, forms, and mixed content, and map extracted data to target schemas.
+triggers:
+- pdf extraction
+- pdf parsing
+- ocr
+- document parsing
+- table extraction
+- form data extraction
+- unstructured data
+- document processing
+stack:
+  framework: Next.js 15+ App Router
+  react: React 19+
+  serverState: TanStack Query
+  ui: shadcn/ui + Tailwind v4
+  workspace: Monorepo (apps + packages)
+workflow:
+- step: 1
+  action: Classify PDF type — native text, scanned image, form, or mixed content.
+- step: 2
+  action: Select extraction approach — native text (pdfjs), OCR (Tesseract/AWS Textract), or LLM-assisted.
+- step: 3
+  action: Extract raw content and identify structural elements (tables, headers, fields).
+- step: 4
+  action: Map extracted fields to target data schema with type coercion rules.
+- step: 5
+  action: Validate extracted data against schema contracts — flag low-confidence extractions.
+- step: 6
+  action: Handle edge cases — multi-page documents, rotated content, merged cells in tables.
+outputContract:
+- PDF classification and extraction approach decision.
+- Extraction pipeline implementation with tool selection.
+- Field mapping from PDF to target schema.
+- Confidence scoring per extracted field.
+- Edge case handling inventory.

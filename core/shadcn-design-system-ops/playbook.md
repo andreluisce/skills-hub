@@ -1,10 +1,10 @@
 # Playbook
 
-## Objetivo
-Escalar UI consistente entre apps sem travar evolução de produto.
+## Objective
+Escalar UI consistente entre apps without travar evolution of product.
 
-## Regras
-- Token semântico antes de cor hardcoded.
-- `cva` para variantes; `cn()` para composição segura.
-- Componente novo exige contrato, estado e critérios de acessibilidade.
-- Evitar duplicação de componente entre pacotes.
+## Rules
+- Semantic token before hardcoded color.
+- `cva` for variants; `cn()` for safe composition.
+- Componente novo exige contrato, estado e criteria of accessibility.
+- Avoid duplication of components between packages.

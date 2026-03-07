@@ -1,17 +1,15 @@
 schemaVersion: 1.0.0
 name: cms-dev-standards
 displayName: CMS Development Standards
-description: >-
-  Manter padroes tecnicos do projeto. Use para garantir tema escuro, evitar
-  textos hardcoded, gerenciar tipos do Supabase e operar o monorepo com
-  pnpm/turbo.
+description: Maintain technical project standards. Use to ensure dark theme, avoid
+  hardcoded texts, manage Supabase types and operate monorepo with pnpm/turbo.
 triggers:
-  - dev standards
-  - dark theme
-  - hardcoded text
-  - supabase types
-  - monorepo standards
-  - code standards
+- dev standards
+- dark theme
+- hardcoded text
+- supabase types
+- monorepo standards
+- code standards
 stack:
   framework: Next.js 15+ App Router
   react: React 19+
@@ -19,18 +17,18 @@ stack:
   ui: shadcn/ui + Tailwind v4
   workspace: Monorepo (apps + packages)
 workflow:
-  - step: 1
-    action: Auditar componentes por uso de cores hardcoded e textos fixos.
-  - step: 2
-    action: Verificar que todos os tipos de entidade usam Tables<'...'> gerados.
-  - step: 3
-    action: Confirmar que logica de fetch reside em pacote api-client, nao em apps.
-  - step: 4
-    action: Validar commits com padrao semantic atomic.
-  - step: 5
-    action: Executar deploy via script padronizado e verificar health checks.
+- step: 1
+  action: Auditar components by uso of cores hardcoded e textos fixos.
+- step: 2
+  action: Verificar que todos os tipos of entidade usam Tables<'...'> gerados.
+- step: 3
+  action: Confirmar que logica of fetch reside in pacote api-client, not in apps.
+- step: 4
+  action: Validar commits with standard semantic atomic.
+- step: 5
+  action: Executar deploy via script padronizado e verificar health checks.
 outputContract:
-  - Relatorio de violacoes de padroes por arquivo.
-  - Lista de textos hardcoded para externalizar.
-  - Mapa de tipos locais para migrar para gerados.
-  - Checklist pre-deploy.
+- Relatorio of violactions of padroes by arquivo.
+- Lista of textos hardcoded for externalizar.
+- Mapa of tipos locais for migrar for gerados.
+- Checklist pre-deploy.

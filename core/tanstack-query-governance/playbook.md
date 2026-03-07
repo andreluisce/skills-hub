@@ -1,10 +1,10 @@
 # Playbook
 
-## Objetivo
-Tornar o estado de servidor previsível, auditável e eficiente.
+## Objective
+Make server status predictable, auditable and efficient.
 
-## Regras
-- Toda query key deve ser determinística e documentada.
-- Invalidação baseada em eventos de negócio, não em conveniência.
-- Retry e backoff diferentes por tipo de erro.
-- Estado de UI não deve vazar para cache de servidor.
+## Rules
+- Every query key must be deterministic and documented.
+- Invalidation based on business events, not on convenience.
+- Retry e backoff diferentes by tipo of error.
+- Estado of UI not deve vazar for cache of servidor.

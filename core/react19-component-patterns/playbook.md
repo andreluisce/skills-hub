@@ -1,10 +1,10 @@
 # Playbook
 
-## Objetivo
-Padronizar componentes React 19 para previsibilidade de manutenção e evolução.
+## Objective
+Padronizar components React 19 for previsibilidade of maintenance e evolution.
 
-## Regras
-- Componentes visuais sem efeitos colaterais.
-- Hooks de orquestração isolados por feature.
-- Contratos de props pequenos e coesos.
-- Reuso via composição, não herança implícita.
+## Rules
+- Componentes visuais without efeitos colaterais.
+- Hooks of orchestration isolated by feature.
+- Contratos of props pequenos e coesos.
+- Reuse via composition, not implicit inheritance.

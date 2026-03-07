@@ -1,0 +1,38 @@
+schemaVersion: 1.0.0
+name: security-secrets-management
+displayName: Secrets Management
+description: Design and audit secrets management practices for applications. Use to ensure no hardcoded credentials, proper environment variable handling, secret rotation policies, and vault integration.
+triggers:
+- secrets
+- environment variables
+- credentials
+- api keys
+- secret rotation
+- vault
+- hardcoded secrets
+- env files
+stack:
+  framework: Next.js 15+ App Router
+  react: React 19+
+  serverState: TanStack Query
+  ui: shadcn/ui + Tailwind v4
+  workspace: Monorepo (apps + packages)
+workflow:
+- step: 1
+  action: Scan codebase and git history for hardcoded credentials, API keys, and tokens.
+- step: 2
+  action: Audit .env files — ensure .env.local is gitignored, .env.example is committed.
+- step: 3
+  action: Classify secrets by sensitivity — public keys vs private keys vs service credentials.
+- step: 4
+  action: Define rotation policy per secret type with owner and cadence.
+- step: 5
+  action: Configure CI/CD secrets with least-privilege scopes per environment.
+- step: 6
+  action: Document secret inventory with location, owner, rotation schedule, and access list.
+outputContract:
+- Hardcoded secret scan report.
+- Secret inventory with classification and rotation policy.
+- CI/CD secrets configuration guide.
+- .env.example template with all required keys documented.
+- Remediation plan for exposed or weak secrets.

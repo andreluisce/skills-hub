@@ -1,0 +1,37 @@
+schemaVersion: 1.0.0
+name: e2e-testing-playwright
+displayName: E2E Testing with Playwright
+description: Design and implement end-to-end tests with Playwright. Use to test critical user flows, form submissions, auth scenarios, and multi-page interactions with reliable selectors and CI integration.
+triggers:
+- e2e
+- playwright
+- end to end testing
+- browser testing
+- user flow testing
+- integration test
+- smoke test
+stack:
+  framework: Next.js 15+ App Router
+  react: React 19+
+  serverState: TanStack Query
+  ui: shadcn/ui + Tailwind v4
+  workspace: Monorepo (apps + packages)
+workflow:
+- step: 1
+  action: Identify critical user flows — auth, core feature journeys, payment, onboarding.
+- step: 2
+  action: Write page objects for reusable selectors and actions per page/component.
+- step: 3
+  action: Implement tests using data-testid attributes — never couple to CSS classes or text.
+- step: 4
+  action: Handle auth state with storageState — avoid logging in on every test.
+- step: 5
+  action: Configure CI to run tests in headed/headless mode with retries and screenshots on failure.
+- step: 6
+  action: Set coverage thresholds for critical paths and block merge if flows break.
+outputContract:
+- E2E test suite for critical user flows.
+- Page object library for tested pages.
+- CI configuration with Playwright runner.
+- Test coverage map per user journey.
+- Failure artifact strategy (screenshots, traces, videos).

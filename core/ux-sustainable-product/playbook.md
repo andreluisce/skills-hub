@@ -3,17 +3,17 @@
 ## Source
 Sustainable Web Design — Tom Greenwood
 
-## Objetivo
-Produto mais leve = mais rápido, mais acessível em rede móvel, mais barato para operar.
+## Objective
+Lighter product = faster, more accessible on the mobile network, cheaper to operate.
 
-## Regras
-- Performance budget definido antes de implementar novos fluxos.
-- Imagens: tamanho certo, formato moderno (WebP/AVIF), compressão consistente.
-- Fontes: subset e fallback controlados.
-- Evitar bibliotecas pesadas para ganhos marginais.
-- Rendering strategy por necessidade real — não por padrão único.
-- Progressive enhancement: fluxo principal funciona em condições adversas.
-- Core Web Vitals monitorados em produção como KPI.
+## Rules
+- Performance budget definido antes of implementar novos flows.
+- Images: right size, modern format (WebP/AVIF), consistent compression.
+- Fontes: subset and fallback controlados.
+- Evitar bibliotecas pesadas for ganhos marginais.
+- Rendering strategy by real need — not by single standard.
+- Progressive enhancement: main flow works in adverse conditions.
+- Core Web Vitals monitored in production as KPI.
 
 ## Core Web Vitals Targets
 - LCP < 2.5s
@@ -21,7 +21,7 @@ Produto mais leve = mais rápido, mais acessível em rede móvel, mais barato pa
 - CLS < 0.1
 
 ## Checklist
-1. O fluxo principal carrega rápido em 4G mediano?
-2. Existe conteúdo bloqueante desnecessário no above-the-fold?
-3. O componente pode ser simplificado sem perda de valor?
-4. A página falha com graça em dispositivos mais fracos?
+1. Does the main stream load quickly on average 4G?
+2. Is there unnecessary blocking content in above-the-fold?
+3. O component pode ser simplificado without perda of valor?
+4. Does the page crash gracefully on weaker devices?

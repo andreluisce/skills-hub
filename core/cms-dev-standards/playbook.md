@@ -1,12 +1,12 @@
 # Playbook
 
-## Objetivo
-Garantir integridade técnica e arquitetural do projeto ao longo do tempo.
+## Objective
+Ensure technical and architectural integrity of the project over time.
 
-## Regras Mandatórias
-- Dark Theme Only: todos os componentes usam tema escuro.
-- Zero Hardcoded Text: todos os labels e dados visíveis vêm do banco ou arquivos de tradução.
-- Supabase Types: usar sempre Tables<'...'> gerados — nunca criar tipos manuais para entidades.
-- API-Client: toda lógica de fetch em pacotes compartilhados, nunca em apps diretamente.
+## Mandatory Rules
+- Dark Theme Only: todos os components usam tema escuro.
+- Zero Hardcoded Text: all visible labels and data come from the database or translation files.
+- Supabase Types: usar sempre Tables<'...'> gerados — nunca criar tipos manuais for entidades.
+- API-Client: all fetch logic in shared packages, never in apps directly.
 - pnpm exclusivamente — nunca npm ou yarn.
 - Commits: Atomic Semantic Commits (feat, fix, chore, refactor, docs).

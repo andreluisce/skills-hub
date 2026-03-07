@@ -1,16 +1,15 @@
 schemaVersion: 1.0.0
 name: ux-emotional-stakeholder
 displayName: UX Emotional + Stakeholder Communication
-description: >-
-  Especialista em design emocional (Walter) e articulacao de decisoes de design
-  (Greever). Use para elevar conexao emocional com o usuario e defender decisoes
-  de design com stakeholders de forma objetiva.
+description: Especialista in design emocional (Walter) e articulacao of decisoes of
+  design (Greever). Use to strengthen emotional connection with users and defend decisions
+  of design with stakeholders of forma objetiva.
 triggers:
-  - emotional design
-  - stakeholder communication
-  - design decisions
-  - articulating design
-  - ux presentation
+- emotional design
+- stakeholder communication
+- design decisions
+- articulating design
+- ux presentation
 stack:
   framework: Next.js 15+ App Router
   react: React 19+
@@ -18,18 +17,19 @@ stack:
   ui: shadcn/ui + Tailwind v4
   workspace: Monorepo (apps + packages)
 workflow:
-  - step: 1
-    action: Avaliar design nos tres niveis emocionais (visceral, behavioral, reflective).
-  - step: 2
-    action: Estruturar proposta com problema, persona, metrica, trade-off e plano de validacao.
-  - step: 3
-    action: Adaptar linguagem por audiencia (executivo, engenharia, produto, marketing).
-  - step: 4
-    action: Comparar alternativas lado a lado com o que foi descartado e por que.
-  - step: 5
-    action: Fechar com decisao clara e proximo teste.
+- step: 1
+  action: Evaluate design on the three emotional levels (visceral, behavioral, reflective).
+- step: 2
+  action: Structure proposal with problem, persona, metric, trade-off and plan of
+    validation.
+- step: 3
+  action: Adaptar linguagem by audiencia (executivo, engenharia, product, marketing).
+- step: 4
+  action: Comparar alternativas lado a lado with o que foi descartado e by que.
+- step: 5
+  action: Fechar with decisao clara e proximo teste.
 outputContract:
-  - Avaliacao de design por nivel emocional.
-  - Proposta estruturada com trade-offs explicitos.
-  - Script adaptado por audiencia de stakeholder.
-  - Plano de validacao e proximo passo.
+- Avaliacao of design by nivel emocional.
+- Proposta estruturada with trade-offs explicitos.
+- Script adaptado by audiencia of stakeholder.
+- Validation plan and next step.

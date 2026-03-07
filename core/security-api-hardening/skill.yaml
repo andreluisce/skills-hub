@@ -1,0 +1,38 @@
+schemaVersion: 1.0.0
+name: security-api-hardening
+displayName: API Security Hardening
+description: Harden API endpoints against abuse, data exposure, and unauthorized access. Use to implement rate limiting, CORS policies, CSP headers, input validation, and API authentication patterns.
+triggers:
+- api security
+- rate limiting
+- cors
+- csp
+- api hardening
+- ddos protection
+- api authentication
+- input sanitization
+stack:
+  framework: Next.js 15+ App Router
+  react: React 19+
+  serverState: TanStack Query
+  ui: shadcn/ui + Tailwind v4
+  workspace: Monorepo (apps + packages)
+workflow:
+- step: 1
+  action: Audit every API route for authentication and authorization enforcement.
+- step: 2
+  action: Implement rate limiting per endpoint and per user with appropriate thresholds.
+- step: 3
+  action: Configure CORS — allowlist specific origins, restrict methods and headers.
+- step: 4
+  action: Set security headers — CSP, HSTS, X-Content-Type-Options, Permissions-Policy.
+- step: 5
+  action: Validate and sanitize all inputs at the API boundary — reject malformed requests early.
+- step: 6
+  action: Audit response payloads — no sensitive fields leaked, consistent error format.
+outputContract:
+- API security audit report per endpoint.
+- Rate limiting configuration with thresholds.
+- CORS policy definition per environment.
+- Security headers configuration for Next.js.
+- Input validation inventory per endpoint.

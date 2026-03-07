@@ -1,0 +1,38 @@
+schemaVersion: 1.0.0
+name: security-auth-authz
+displayName: Security Auth & Authorization Hardening
+description: Harden authentication and authorization systems against common attack vectors. Use to audit JWT configuration, OAuth flows, session management, token storage, privilege escalation risks, and RBAC correctness.
+triggers:
+- auth security
+- jwt security
+- oauth hardening
+- session security
+- privilege escalation
+- token storage
+- rbac audit
+- broken authentication
+stack:
+  framework: Next.js 15+ App Router
+  react: React 19+
+  serverState: TanStack Query
+  ui: shadcn/ui + Tailwind v4
+  workspace: Monorepo (apps + packages)
+workflow:
+- step: 1
+  action: Audit JWT — algorithm (RS256 preferred), expiry, refresh rotation, and claim validation.
+- step: 2
+  action: Review token storage — no JWT in localStorage, use httpOnly cookies or server sessions.
+- step: 3
+  action: Verify OAuth flows — state parameter, PKCE, redirect URI validation.
+- step: 4
+  action: Audit RBAC — map every role to permissions, verify no privilege escalation paths.
+- step: 5
+  action: Test authorization on every protected endpoint with each role and anonymous access.
+- step: 6
+  action: Review account recovery flows — password reset, magic link expiry, rate limiting.
+outputContract:
+- JWT configuration audit with recommendations.
+- Token storage security assessment.
+- RBAC matrix with permission coverage.
+- OAuth flow security checklist.
+- Authorization test plan per role.

@@ -1,0 +1,51 @@
+{
+  "instruction": "Create and maintain Architecture Decision Records (ADRs) for significant technical decisions. Use to document context, options considered, decision rationale, tradeoffs, and consequences in a durable, searchable format. Base operacional: # Playbook  ## Objective Create durable, searchable records of significant architectural decisions with full context and tradeoffs.  ## Rules of When to Write an ADR",
+  "triggers": [
+    "adr",
+    "architecture decision",
+    "decision record",
+    "technical decision",
+    "tradeoffs",
+    "design decision",
+    "decision log"
+  ],
+  "stack": {
+    "framework": "Next.js 15+ App Router",
+    "react": "React 19+",
+    "serverState": "TanStack Query",
+    "ui": "shadcn/ui + Tailwind v4",
+    "workspace": "Monorepo (apps + packages)"
+  },
+  "workflow": [
+    {
+      "step": 1,
+      "action": "Identify the decision — what problem is being solved, what is the trigger."
+    },
+    {
+      "step": 2,
+      "action": "Document context — constraints, requirements, and forces driving the decision."
+    },
+    {
+      "step": 3,
+      "action": "List options considered with pros and cons per option."
+    },
+    {
+      "step": 4,
+      "action": "Record the decision with explicit rationale and tradeoffs accepted."
+    },
+    {
+      "step": 5,
+      "action": "Document consequences — positive outcomes expected and risks introduced."
+    },
+    {
+      "step": 6,
+      "action": "Store ADR in docs/decisions/ with sequential numbering and link from relevant code."
+    }
+  ],
+  "outputContract": [
+    "ADR document in standard format (Status/Context/Decision/Consequences).",
+    "Options matrix with evaluated tradeoffs.",
+    "Link map between ADR and affected code/systems.",
+    "Decision index for project ADR history."
+  ]
+}

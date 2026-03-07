@@ -1,20 +1,19 @@
 schemaVersion: 1.0.0
 name: software-architecture-fundamentals
 displayName: Fundamentals of Software Architecture
-description: >-
-  Aplicar principios de arquitetura de software de Richards e Ford. Use para
-  tomar decisoes arquiteturais, avaliar trade-offs, classificar estilos
-  arquiteturais e definir fitness functions para qualidade continua.
+description: Apply principles of software architecture from Richards and Ford. Use
+  to make architectural decisions, evaluate trade-offs, classify architectural styles,
+  and define fitness functions for continuous quality.
 triggers:
-  - software architecture
-  - architecture decision
-  - adr
-  - trade-offs
-  - fitness functions
-  - modularity
-  - coupling
-  - cohesion
-  - architecture styles
+- software architecture
+- architecture decision
+- adr
+- trade-offs
+- fitness functions
+- modularity
+- coupling
+- cohesion
+- architecture styles
 stack:
   framework: Next.js 15+ App Router
   react: React 19+
@@ -22,18 +21,18 @@ stack:
   ui: shadcn/ui + Tailwind v4
   workspace: Monorepo (apps + packages)
 workflow:
-  - step: 1
-    action: Definir 3-7 caracteristicas de qualidade prioritarias para o sistema.
-  - step: 2
-    action: Avaliar acoplamento e coesao por modulo — identificar connascence indesejada.
-  - step: 3
-    action: Documentar decisao arquitetural com ADR (contexto, decisao, consequencias).
-  - step: 4
-    action: Definir fitness functions para verificar caracteristicas continuamente no CI.
-  - step: 5
-    action: Escolher estilo arquitetural adequado ao contexto e documentar trade-offs.
+- step: 1
+  action: Define 3-7 priority quality characteristics for the system.
+- step: 2
+  action: "Assess coupling and cohesion by module \u2014 identify unwanted connascence."
+- step: 3
+  action: Documentar decisao architecturel with ADR (contexto, decisao, consequencias).
+- step: 4
+  action: Define fitness functions to continuously check characteristics in the CI.
+- step: 5
+  action: Escolher estilo architecturel adequado ao contexto e documentar trade-offs.
 outputContract:
-  - Lista de caracteristicas de qualidade priorizadas.
-  - ADRs para decisoes relevantes.
-  - Fitness functions implementadas no CI.
-  - Mapa de acoplamento e coesao por modulo.
+- Lista of caracteristicas of qualidade priorizadas.
+- ADRs for decisoes relevantes.
+- Fitness functions implementadas no CI.
+- Mapa of acoplamento e coesao by modulo.

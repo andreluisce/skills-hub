@@ -1,21 +1,20 @@
 schemaVersion: 1.0.0
 name: designing-data-intensive-apps
 displayName: Designing Data-Intensive Applications
-description: >-
-  Aplicar principios de sistemas de dados de Martin Kleppmann. Use para
-  decisoes de modelagem de dados, consistencia, cache, indexacao, filas e
-  confiabilidade em aplicacoes que dependem fortemente de dados.
+description: Apply principles of data systems by Martin Kleppmann. Use for decisions
+  of modeling of data, consistency, caching, indexing, queuing and reliability in
+  applications that rely heavily on data.
 triggers:
-  - data modeling
-  - consistency
-  - caching
-  - indexing
-  - reliability
-  - scalability
-  - database design
-  - kleppmann
-  - ddia
-  - eventual consistency
+- data modeling
+- consistency
+- caching
+- indexing
+- reliability
+- scalability
+- database design
+- kleppmann
+- ddia
+- eventual consistency
 stack:
   framework: Next.js 15+ App Router
   react: React 19+
@@ -23,18 +22,18 @@ stack:
   ui: shadcn/ui + Tailwind v4
   workspace: Monorepo (apps + packages)
 workflow:
-  - step: 1
-    action: Mapear padroes de acesso a dados por entidade e frequencia.
-  - step: 2
-    action: Definir indices por coluna de filtro e join mais frequentes.
-  - step: 3
-    action: Estabelecer politica de cache por volatilidade de dado.
-  - step: 4
-    action: Garantir atomicidade em operacoes compostas via transacao.
-  - step: 5
-    action: Monitorar latencia P95/P99 e diagnosticar queries lentas com EXPLAIN.
+- step: 1
+  action: Mapear padroes of acesso a data by entidade e frequencia.
+- step: 2
+  action: Define indices by column of filter and most frequent join.
+- step: 3
+  action: Estabelecer politica of cache by volatilidade of dado.
+- step: 4
+  action: Garantir atomicidade in operactions compostas via transacao.
+- step: 5
+  action: Monitorar latencia P95/P99 e diagnosticar queries lentas with EXPLAIN.
 outputContract:
-  - Mapa de acesso a dados por entidade.
-  - Lista de indices criados e justificativa.
-  - Politica de cache por dominio de dado.
-  - Plano de confiabilidade e tratamento de falha.
+- Mapa of acesso a data by entidade.
+- Lista of indices criados e justificativa.
+- Politica of cache by dominio of dado.
+- Plano of confiabilidade e tratamento of falha.

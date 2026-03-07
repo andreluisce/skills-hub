@@ -1,0 +1,48 @@
+{
+  "instruction": "Aplicar tecnicas avancadas of React of Nadia Makarevich e React Anti-Patterns of Juntao Qiu. Use for otimizar renders, entender reconciliation, corrigir anti-patterns e dominar composicao avancada. Base operacional: # Playbook  ## Sources - Advanced React — Nadia Makarevich - React Anti-Patterns — Juntao Qiu - Fluent React — Tejas Kumar",
+  "triggers": [
+    "advanced react",
+    "reconciliation",
+    "render optimization",
+    "memo",
+    "context performance",
+    "react anti-patterns",
+    "composition advanced",
+    "react internals"
+  ],
+  "stack": {
+    "framework": "Next.js 15+ App Router",
+    "react": "React 19+",
+    "serverState": "TanStack Query",
+    "ui": "shadcn/ui + Tailwind v4",
+    "workspace": "Monorepo (apps + packages)"
+  },
+  "workflow": [
+    {
+      "step": 1,
+      "action": "Auditar triggers of re-render e identificar renders desnecessarios."
+    },
+    {
+      "step": 2,
+      "action": "Aplicar React.memo, useMemo e useCallback apenas onde profiling confirmar necessidade."
+    },
+    {
+      "step": 3,
+      "action": "Eliminar anti-patterns (prop drilling, context leak, stale closure, index as key)."
+    },
+    {
+      "step": 4,
+      "action": "Refatorar with composition patterns (compound components, render props)."
+    },
+    {
+      "step": 5,
+      "action": "Migrar fetch of data of useEffect for Server Components ou TanStack Query."
+    }
+  ],
+  "outputContract": [
+    "Diagnostico of renders desnecessarios by component.",
+    "Lista of anti-patterns eliminados.",
+    "Plano of refatoracao with composition patterns.",
+    "Checklist of performance of renderizacao."
+  ]
+}

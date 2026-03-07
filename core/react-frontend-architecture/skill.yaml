@@ -1,17 +1,16 @@
 schemaVersion: 1.0.0
 name: react-frontend-architecture-2026
 displayName: React Frontend Architecture 2026
-description: >-
-  Arquitetar e refatorar frontend com Next.js 15+, React 19+, TanStack Query,
-  shadcn/ui e monorepo, com foco em fronteiras de domínio, contratos entre
-  pacotes e qualidade evolutiva.
+description: Architect and refactor frontend with Next.js 15+, React 19+, TanStack
+  Query, shadcn/ui and monorepo, focused on domain boundaries, contracts between packages
+  and evolutionary quality.
 triggers:
-  - arquitetura frontend
-  - nextjs 15
-  - react 19
-  - tanstack query
-  - shadcn
-  - monorepo
+- architecture frontend
+- nextjs 15
+- react 19
+- tanstack query
+- shadcn
+- monorepo
 stack:
   framework: Next.js 15+ App Router
   react: React 19+
@@ -19,19 +18,19 @@ stack:
   ui: shadcn/ui + Tailwind v4
   workspace: Monorepo (apps + packages)
 workflow:
-  - step: 1
-    action: Classificar contexto de produto, risco e limites de domínio.
-  - step: 2
-    action: Definir blueprint com boundaries e contratos por pacote.
-  - step: 3
-    action: Escolher estratégia RSC/Client e cache de dados no TanStack Query.
-  - step: 4
-    action: Implementar com SOLID, KISS, DRY e regras de governança no monorepo.
-  - step: 5
-    action: Validar com auditoria técnica, métricas e plano incremental.
+- step: 1
+  action: Classify context of product, risk and limits of domain.
+- step: 2
+  action: Define blueprint with boundaries and contracts by package.
+- step: 3
+  action: Escolher strategy RSC/Client and cache of data in TanStack Query.
+- step: 4
+  action: Implementar with SOLID, KISS, DRY and rules of governance in monorepo.
+- step: 5
+  action: Validate with technical audit, metrics and incremental plan.
 outputContract:
-  - Diagnóstico objetivo do estado atual.
-  - Arquitetura alvo por módulos e pacotes.
-  - Plano de migração em etapas pequenas.
-  - Critérios de qualidade e observabilidade.
-  - Tradeoffs e riscos aceitos.
+- Objective diagnosis of the current state.
+- Target architecture by modules and packages.
+- Plan the migration in small steps.
+- Quality and observability criteria.
+- Tradeoffs and riscos aceitos.

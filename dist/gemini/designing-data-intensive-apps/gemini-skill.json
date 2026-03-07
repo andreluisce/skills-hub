@@ -1,0 +1,50 @@
+{
+  "instruction": "Apply principles of data systems by Martin Kleppmann. Use for decisions of modeling of data, consistency, caching, indexing, queuing and reliability in applications that rely heavily on data. Base operacional: # Playbook  ## Source Designing Data-Intensive Applications — Martin Kleppmann  ## Objective",
+  "triggers": [
+    "data modeling",
+    "consistency",
+    "caching",
+    "indexing",
+    "reliability",
+    "scalability",
+    "database design",
+    "kleppmann",
+    "ddia",
+    "eventual consistency"
+  ],
+  "stack": {
+    "framework": "Next.js 15+ App Router",
+    "react": "React 19+",
+    "serverState": "TanStack Query",
+    "ui": "shadcn/ui + Tailwind v4",
+    "workspace": "Monorepo (apps + packages)"
+  },
+  "workflow": [
+    {
+      "step": 1,
+      "action": "Mapear padroes of acesso a data by entidade e frequencia."
+    },
+    {
+      "step": 2,
+      "action": "Define indices by column of filter and most frequent join."
+    },
+    {
+      "step": 3,
+      "action": "Estabelecer politica of cache by volatilidade of dado."
+    },
+    {
+      "step": 4,
+      "action": "Garantir atomicidade in operactions compostas via transacao."
+    },
+    {
+      "step": 5,
+      "action": "Monitorar latencia P95/P99 e diagnosticar queries lentas with EXPLAIN."
+    }
+  ],
+  "outputContract": [
+    "Mapa of acesso a data by entidade.",
+    "Lista of indices criados e justificativa.",
+    "Politica of cache by dominio of dado.",
+    "Plano of confiabilidade e tratamento of falha."
+  ]
+}

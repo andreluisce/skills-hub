@@ -1,5 +1,5 @@
 {
-  "instruction": "Operar e evoluir design system com shadcn/ui e Tailwind v4, padronizando tokens, variantes, acessibilidade e governança de componentes para múltiplos apps em monorepo Next.js 15+ e React 19+. Base operacional: # Playbook  ## Objetivo Escalar UI consistente entre apps sem travar evolução de produto.  ## Regras",
+  "instruction": "Operate and evolve design system with shadcn/ui and Tailwind v4, standardizing tokens, variants, accessibility and governance of components for multiple apps in monorepo Next.js 15+ and React 19+. Base operacional: # Playbook  ## Objective Escalar UI consistente entre apps without travar evolution of product.  ## Rules",
   "triggers": [
     "shadcn",
     "design system",
@@ -17,29 +17,29 @@
   "workflow": [
     {
       "step": 1,
-      "action": "Definir tokens semânticos globais e variações por tema/contexto."
+      "action": "Define global semantic tokens and variations by theme/context."
     },
     {
       "step": 2,
-      "action": "Estabelecer padrões de componentes base e variantes com cva."
+      "action": "Establish standards of base components and variants with cva."
     },
     {
       "step": 3,
-      "action": "Criar política de contribuição e revisão para novos componentes."
+      "action": "Create contribution and review policy for new components."
     },
     {
       "step": 4,
-      "action": "Validar acessibilidade, foco visível e contraste em fluxos críticos."
+      "action": "Validate accessibility, visible focus and contrast in critical flows."
     },
     {
       "step": 5,
-      "action": "Publicar changelog de DS e plano de adoção por app."
+      "action": "Publish changelog of DS and plan of adoption by app."
     }
   ],
   "outputContract": [
-    "Catálogo de tokens e variantes aprovadas.",
-    "Guia de contribuição de componentes.",
-    "Checklist de acessibilidade operacional.",
-    "Estratégia de rollout do design system."
+    "Catalog of tokens and approved variants.",
+    "Guide of contribution of components.",
+    "Checklist of accessibility operacional.",
+    "Design system rollout strategy."
   ]
 }

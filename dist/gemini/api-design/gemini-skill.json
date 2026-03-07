@@ -1,0 +1,48 @@
+{
+  "instruction": "Apply principles of design of APIs of Brenda Jin and Kirsten Hunter. Use to design clear, consistent, versioned, and secure RESTful APIs for frontend consumption and integration with external services. Base operacional: # Playbook  ## Sources - Designing Web APIs — Brenda Jin - Irresistible APIs — Kirsten Hunter",
+  "triggers": [
+    "api design",
+    "rest api",
+    "api versioning",
+    "api contract",
+    "endpoint design",
+    "http methods",
+    "api consistency",
+    "irresistible api"
+  ],
+  "stack": {
+    "framework": "Next.js 15+ App Router",
+    "react": "React 19+",
+    "serverState": "TanStack Query",
+    "ui": "shadcn/ui + Tailwind v4",
+    "workspace": "Monorepo (apps + packages)"
+  },
+  "workflow": [
+    {
+      "step": 1,
+      "action": "Define resources, hierarchy of URLs and semantics of HTTP methods."
+    },
+    {
+      "step": 2,
+      "action": "Padronizar contratos of request/response (sucesso, error, paginacao)."
+    },
+    {
+      "step": 3,
+      "action": "Implementar validation of input with Zod in todos os endpoints."
+    },
+    {
+      "step": 4,
+      "action": "Adicionar autenticacao e autorizacao consistentes by route."
+    },
+    {
+      "step": 5,
+      "action": "Define strategy of versioning and deprecation."
+    }
+  ],
+  "outputContract": [
+    "Mapa of endpoints with metodos e contratos.",
+    "Schema of resposta padronizado (sucesso, error, paginacao).",
+    "Checklist of seguranca by endpoint.",
+    "Plano of versionamento e backward compatibility."
+  ]
+}

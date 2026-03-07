@@ -10,7 +10,7 @@ Avaliar boundaries de domínio, organização de pacotes, estratégias RSC/Clien
 <skill>
 ---
 name: react-frontend-architecture-2026
-description: Arquitetar e refatorar frontend com Next.js 15+, React 19+, TanStack Query, shadcn/ui e monorepo, com foco em fronteiras de domínio, contratos entre pacotes e qualidade evolutiva.
+description: Architect and refactor frontend with Next.js 15+, React 19+, TanStack Query, shadcn/ui and monorepo, focused on domain boundaries, contracts between packages and evolutionary quality.
 ---
 # React Frontend Architecture 2026
 
@@ -22,40 +22,40 @@ description: Arquitetar e refatorar frontend com Next.js 15+, React 19+, TanStac
 - Monorepo (apps + packages)
 
 ## Workflow
-1. Classificar contexto de produto, risco e limites de domínio.
-2. Definir blueprint com boundaries e contratos por pacote.
-3. Escolher estratégia RSC/Client e cache de dados no TanStack Query.
-4. Implementar com SOLID, KISS, DRY e regras de governança no monorepo.
-5. Validar com auditoria técnica, métricas e plano incremental.
+1. Classify context of product, risk and limits of domain.
+2. Define blueprint with boundaries and contracts by package.
+3. Escolher strategy RSC/Client and cache of data in TanStack Query.
+4. Implementar with SOLID, KISS, DRY and rules of governance in monorepo.
+5. Validate with technical audit, metrics and incremental plan.
 
 ## Output esperado
-1. Diagnóstico objetivo do estado atual.
-2. Arquitetura alvo por módulos e pacotes.
-3. Plano de migração em etapas pequenas.
-4. Critérios de qualidade e observabilidade.
-5. Tradeoffs e riscos aceitos.
+1. Objective diagnosis of the current state.
+2. Target architecture by modules and packages.
+3. Plan the migration in small steps.
+4. Quality and observability criteria.
+5. Tradeoffs and riscos aceitos.
 
 # Playbook
 
-## Stack padrão
-- Next.js 15+ App Router com Server Components por padrão.
-- React 19+ para UI e boundaries Client quando necessário.
-- TanStack Query para estado de servidor e invalidação explícita.
-- shadcn/ui + Tailwind v4 com tokens semânticos e cva/cn.
-- Monorepo com apps e packages de domínio/design system/shared.
+## Standard stack
+- Next.js 15+ App Router with Server Components by standard.
+- React 19+ for UI and Client boundaries when necessary.
+- TanStack Query for server state and explicit invalidation.
+- shadcn/ui + Tailwind v4 with semantic tokens and cva/cn.
+- Monorepo with apps and packages of domain/design system/shared.
 
-## Regras essenciais
+## Rules essenciais
 - Proibir import profundo entre pacotes.
-- Expor somente surface pública por package.
-- Separar ui/application/domain/infra em features críticas.
-- Encapsular SDK externo em adapters.
+- Expose only public surface by package.
+- Separate ui/application/domain/infra into critical features.
+- Encapsular SDK externo in adapters.
 </skill>
 
 ### next15-app-router-architecture
 <skill>
 ---
 name: next15-app-router-architecture
-description: Definir e refatorar arquitetura em Next.js 15+ App Router com Server Components-first, boundaries Client, streaming e cache orientado a domínio para apps React 19+ em monorepo.
+description: Define and refatorar architecture in Next.js 15+ App Router with Server Components-first, boundaries Client, streaming and cache orientado a domínio for apps React 19+ in monorepo.
 ---
 # Next.js 15 App Router Architecture
 
@@ -67,35 +67,35 @@ description: Definir e refatorar arquitetura em Next.js 15+ App Router com Serve
 - Monorepo (apps + packages)
 
 ## Workflow
-1. Mapear rotas, segmentos dinâmicos e requisitos de renderização por página.
-2. Definir fronteiras Server vs Client por responsabilidade e custo de hidratação.
-3. Projetar estratégia de cache e revalidação por domínio de dados.
-4. Estruturar loaders, actions e error boundaries por segmento.
-5. Validar performance com Web Vitals e perfil de render em navegação real.
+1. Map routes, dynamic segments and page rendering requirements.
+2. Define Server vs Client boundaries by responsibility and cost of hydration.
+3. Design strategy of cache and revalidation by domain of data.
+4. Estruturar loaders, actions and errorr boundaries by segmento.
+5. Validate performance with Web Vitals and render profile in real browsing.
 
 ## Output esperado
-1. Mapa de rotas e boundaries Server/Client.
-2. Decisões de cache/revalidação por domínio.
-3. Plano de implementação por segmento.
-4. Checklist de performance e regressão.
+1. Mapa of rotas and boundaries Server/Client.
+2. Caching/revalidation decisions by domain.
+3. Implementation plan by segment.
+4. Checklist of performance and regression.
 
 # Playbook
 
-## Objetivo
-Projetar App Router com mínimo JS de cliente e máxima previsibilidade operacional.
+## Objective
+Design App Router with minimal client JS and maximum operational predictability.
 
-## Regras
-- Server Components por padrão; Client apenas quando houver interatividade real.
-- Cache e invalidação explícitos por tipo de dado e criticidade.
-- Error/loading boundaries definidos no nível correto de rota.
-- Evitar lógica de domínio em componentes de página.
+## Rules
+- Server Components by standard; Client apenas when houver interatividade real.
+- Explicit caching and invalidation by data type and criticality.
+- Error/loading boundaries set at the correct level of route.
+- Avoid logic of domain in components of page.
 </skill>
 
 ### monorepo-frontend-governance
 <skill>
 ---
 name: monorepo-frontend-governance
-description: Estruturar governança técnica de monorepo frontend com apps Next.js 15+, pacotes compartilhados React 19+, boundaries de dependência, ownership, versionamento e fluxo de entrega sustentável.
+description: Structure technical governance of monorepo frontend with Next.js 15+ apps, React 19+ shared packages, boundaries of dependency, ownership, versioning and sustainable flow of delivery.
 ---
 # Monorepo Frontend Governance
 
@@ -107,28 +107,28 @@ description: Estruturar governança técnica de monorepo frontend com apps Next.
 - Monorepo (apps + packages)
 
 ## Workflow
-1. Definir topologia do monorepo e responsabilidades por pacote/app.
-2. Estabelecer regras de dependência e imports permitidos.
-3. Formalizar ownership, revisão e política de mudanças.
-4. Padronizar pipelines de build, test e release por escopo.
-5. Monitorar lead time, falhas de integração e custo de manutenção.
+1. Define monorepo topology and responsibilities for package/app.
+2. Establish rules of dependency and allowed imports.
+3. Formalize ownership, review and policy of changes.
+4. Padronizar pipelines of build, test and release by escopo.
+5. Monitor lead time, failures of integration and custo of maintenance.
 
 ## Output esperado
-1. Mapa de apps/pacotes e ownership.
-2. Matriz de dependências permitidas.
-3. Regras de pipeline e release.
-4. Métricas de saúde do monorepo.
+1. Mapa of apps/pacotes and ownership.
+2. Array of allowed dependencies.
+3. Rules of pipeline and release.
+4. Monorepo health metrics.
 
 # Playbook
 
-## Objetivo
-Garantir escala de time e código sem erosão arquitetural.
+## Objective
+Ensure scale of time and code without architectural erosion.
 
-## Regras
+## Rules
 - Proibir imports profundos entre pacotes.
-- API pública obrigatória por pacote.
-- Donos explícitos por domínio técnico.
-- Mudança cross-package requer checklist arquitetural.
+- Mandatory public API by package.
+- Explicit owners by technical domain.
+- Cross-package change requires architectural checklist.
 </skill>
 
 ### nextjs-mastery

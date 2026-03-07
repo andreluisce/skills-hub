@@ -3,30 +3,30 @@
 ## Source
 Fundamentals of Software Architecture — Mark Richards & Neal Ford
 
-## Objetivo
-Tomar decisões arquiteturais defensáveis com trade-offs explícitos e verificação contínua de qualidade.
+## Objective
+Make defensible architectural decisions with explicit trade-offs and continuous quality assurance.
 
-## Leis da Arquitetura
-- Tudo é trade-off. Se não encontrou o trade-off, ainda não procurou.
-- "Por que" é mais importante que "como".
+## Architectural Laws
+- Everything is a trade-off. If you haven't found the trade-off, you haven't looked yet.
+- “Why” is more important than “how”.
 
 ## Quality Attributes — Priorize 3-7
-Disponibilidade, Escalabilidade, Manutenibilidade, Testabilidade, Performance, Segurança, Deployability.
+Availability, Scalability, Maintainability, Testability, Performance, Security, Deployability.
 
 ## Modularity
-- Alta coesão: elementos dentro de um módulo pertencem juntos.
-- Baixo acoplamento: mudança em um módulo não exige mudança em outro.
-- Teste: "Quantos módulos mudam se eu trocar o banco?" — se mais de um, há problema.
+- High cohesion: elements within a module belong together.
+- Loose coupling: change in one module does not require change in another.
+- Test: "How many modules change if I change the bank?" — if more than one, there is a problem.
 
 ## ADR Template
-1. Título: decisão em uma frase.
+1. Title: decision in one sentence.
 2. Status: proposta / aceita / deprecada.
-3. Contexto: por que esta decisão foi necessária.
-4. Decisão: o que foi decidido.
-5. Consequências: trade-offs, o que fica mais fácil, o que fica mais difícil.
+3. Context: why this decision was necessary.
+4. Decision: what was decided.
+5. Consequences: trade-offs, what becomes easier, what becomes more difficult.
 
 ## Fitness Functions
 - Typecheck + lint no CI.
-- Bundle size budget por PR.
-- Cobertura mínima de testes como gate.
+- Bundle size budget by PR.
+- Minimum coverage of tests such as gate.
 - Imports proibidos entre layers verificados automaticamente.

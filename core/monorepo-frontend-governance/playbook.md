@@ -1,10 +1,10 @@
 # Playbook
 
-## Objetivo
-Garantir escala de time e código sem erosão arquitetural.
+## Objective
+Ensure scale of time and code without architectural erosion.
 
-## Regras
+## Rules
 - Proibir imports profundos entre pacotes.
-- API pública obrigatória por pacote.
-- Donos explícitos por domínio técnico.
-- Mudança cross-package requer checklist arquitetural.
+- Mandatory public API by package.
+- Explicit owners by technical domain.
+- Cross-package change requires architectural checklist.

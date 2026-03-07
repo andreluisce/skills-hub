@@ -1,0 +1,50 @@
+{
+  "instruction": "Aplicar principios of performance web of Ilya Grigorik and caching inteligente. Use for otimizar tempo of carregamento, networking, cache and experiencia em conexoes lentas. Base operacional: # Playbook  ## Sources - High Performance Browser Networking — Ilya Grigorik - Intelligent Caching — Barker - HTTP: The Definitive Guide — Gourley",
+  "triggers": [
+    "web performance",
+    "http",
+    "caching",
+    "browser networking",
+    "latency",
+    "core web vitals",
+    "cdn",
+    "compression",
+    "http2",
+    "resource hints"
+  ],
+  "stack": {
+    "framework": "Next.js 15+ App Router",
+    "react": "React 19+",
+    "serverState": "TanStack Query",
+    "ui": "shadcn/ui + Tailwind v4",
+    "workspace": "Monorepo (apps + packages)"
+  },
+  "workflow": [
+    {
+      "step": 1,
+      "action": "Medir Core Web Vitals in producao and identificar regressoes by rota."
+    },
+    {
+      "step": 2,
+      "action": "Auditar critical rendering path and eliminar resources bloqueantes."
+    },
+    {
+      "step": 3,
+      "action": "Define politica of cache by tipo of asset (imutavel, revalidavel, without cache)."
+    },
+    {
+      "step": 4,
+      "action": "Otimizar assets (imagens, fontes, JS) with budget by jornada."
+    },
+    {
+      "step": 5,
+      "action": "Analisar bundle with bundle-analyzer and eliminar dependencies pesadas desnecessarias."
+    }
+  ],
+  "outputContract": [
+    "Relatorio of Core Web Vitals by rota.",
+    "Matriz of politica of cache by tipo of asset.",
+    "Plano of reducao of bundle with impacto estimado.",
+    "Checklist of optimization of critical path."
+  ]
+}

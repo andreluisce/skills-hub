@@ -4,23 +4,23 @@
 - Hooked — Nir Eyal
 - Modelo Fogg (BJ Fogg)
 
-## Objetivo
-Criar retorno voluntário porque o produto resolve dor real de forma repetida — sem manipulação.
+## Objective
+Create voluntary feedback because the product solves real pain repeatedly — without manipulation.
 
 ## Modelo: Trigger → Action → Variable Reward → Investment
 
-## Regras
-- O loop reduz custo de vida/trabalho do usuário?
-- O usuário tem controle sobre notificações e frequência?
-- O engajamento vem de utilidade, não de medo de perder algo?
-- Existe transparência sobre o que é opcional vs obrigatório?
+## Rules
+- O loop reduz custo of vida/trabalho do user?
+- Does the user have control over notifications and frequency?
+- O engajamento vem of utilidade, not of medo of perder algo?
+- Is there transparency about what is optional vs mandatory?
 
 ## Simplicidade (Fogg)
-Comportamento = Motivação + Habilidade + Gatilho.
-Habilidade (facilidade) tem maior ROI: remover passos, clarificar ação, reduzir fricção.
+Behavior = Motivation + Skill + Trigger.
+Skill (ease) has greater ROI: remove steps, clarify action, reduce friction.
 
 ## Anti-Patterns
 - Escassez falsa.
-- Urgência artificial constante.
-- Notificação sem valor contextual.
-- Retenção sem ganho real para o usuário.
+- Constant artificial urgency.
+- Notification without contextual value.
+- Retention without real gain for the user.

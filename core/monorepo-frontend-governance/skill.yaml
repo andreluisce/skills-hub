@@ -1,16 +1,15 @@
 schemaVersion: 1.0.0
 name: monorepo-frontend-governance
 displayName: Monorepo Frontend Governance
-description: >-
-  Estruturar governança técnica de monorepo frontend com apps Next.js 15+,
-  pacotes compartilhados React 19+, boundaries de dependência, ownership,
-  versionamento e fluxo de entrega sustentável.
+description: Structure technical governance of monorepo frontend with Next.js 15+
+  apps, React 19+ shared packages, boundaries of dependency, ownership, versioning
+  and sustainable flow of delivery.
 triggers:
-  - monorepo
-  - package boundaries
-  - frontend governance
-  - workspace architecture
-  - ownership
+- monorepo
+- package boundaries
+- frontend governance
+- workspace architecture
+- ownership
 stack:
   framework: Next.js 15+ App Router
   react: React 19+
@@ -18,18 +17,18 @@ stack:
   ui: shadcn/ui + Tailwind v4
   workspace: Monorepo (apps + packages)
 workflow:
-  - step: 1
-    action: Definir topologia do monorepo e responsabilidades por pacote/app.
-  - step: 2
-    action: Estabelecer regras de dependência e imports permitidos.
-  - step: 3
-    action: Formalizar ownership, revisão e política de mudanças.
-  - step: 4
-    action: Padronizar pipelines de build, test e release por escopo.
-  - step: 5
-    action: Monitorar lead time, falhas de integração e custo de manutenção.
+- step: 1
+  action: Define monorepo topology and responsibilities for package/app.
+- step: 2
+  action: Establish rules of dependency and allowed imports.
+- step: 3
+  action: Formalize ownership, review and policy of changes.
+- step: 4
+  action: Padronizar pipelines of build, test and release by escopo.
+- step: 5
+  action: Monitor lead time, failures of integration and custo of maintenance.
 outputContract:
-  - Mapa de apps/pacotes e ownership.
-  - Matriz de dependências permitidas.
-  - Regras de pipeline e release.
-  - Métricas de saúde do monorepo.
+- Mapa of apps/pacotes and ownership.
+- Array of allowed dependencies.
+- Rules of pipeline and release.
+- Monorepo health metrics.

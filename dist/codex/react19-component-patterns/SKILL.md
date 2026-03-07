@@ -1,6 +1,6 @@
 ---
 name: react19-component-patterns
-description: Aplicar padrões avançados de componentes React 19+ para reduzir acoplamento, melhorar composição e eliminar anti-patterns em interfaces escaláveis com shadcn/ui e arquitetura orientada a domínio. Base operacional: # Playbook  ## Objetivo Padronizar componentes React 19 para previsibilidade de manutenção e evolução.  ## Regras Use quando o pedido envolver: react 19, component patterns, anti patterns, refactor components, composition.
+description: Apply advanced patterns of React 19+ components to reduce coupling, improve composition and eliminate anti-patterns in scalable interfaces with shadcn/ui and domain-oriented architecture. Base operacional: # Playbook  ## Objective Padronizar components React 19 for previsibilidade of maintenance e evolution.  ## Rules Use quando o pedido envolver: react 19, component patterns, anti patterns, refactor components, composition.
 ---
 
 # React 19 Component Patterns
@@ -13,14 +13,14 @@ description: Aplicar padrões avançados de componentes React 19+ para reduzir a
 - Monorepo (apps + packages)
 
 ## Workflow
-1. Auditar componentes críticos e identificar anti-patterns recorrentes.
-2. Separar apresentação, orquestração e regras de domínio.
-3. Aplicar composição com contratos explícitos de props e estados.
-4. Consolidar padrões de acessibilidade e feedback de interação.
-5. Definir plano de refatoração incremental com critérios de aceite.
+1. Audit critical components and identify recurring anti-patterns.
+2. Separate presentation, orchestration and rules of domain.
+3. Apply composition with explicit contracts of props and states.
+4. Consolidate standards of accessibility and feedback of interaction.
+5. Define plan of incremental refactoring with criteria of acceptance.
 
 ## Saída esperada
-1. Diagnóstico de anti-patterns por componente.
-2. Padrão alvo de composição e contratos.
-3. Estratégia de refatoração por lotes.
-4. Critérios de acessibilidade e consistência.
+1. Diagnóstico of anti-patterns by component.
+2. Target pattern of composition and contracts.
+3. Batch refactoring strategy.
+4. Criteria of accessibility and consistency.

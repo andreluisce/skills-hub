@@ -1,30 +1,30 @@
 # Playbook
 
 ## Source
-Refatoração — Martin Fowler
+Refactoring — Martin Fowler
 
-## Objetivo
-Melhorar estrutura interna sem alterar comportamento externo, em passos pequenos e seguros.
+## Objective
+Melhorar estrutura interna without alterar comportamento externo, in passos pequenos and seguros.
 
 ## Regra Zero
-Nunca refatore sem testes cobrindo o comportamento atual.
+Nunca refatore without testes cobrindo o comportamento atual.
 
 ## Code Smells Mais Comuns
 
-| Smell | Remédio |
+| Smell | Medicine |
 |---|---|
 | Long Method/Component | Extract Function/Component |
-| Large Class/God Component | Separar hook + componente apresentação |
+| Large Class/God Component | Separate hook + component presentation |
 | Duplicate Code | Extract Function + consolidar |
 | Long Parameter List | Introduce Parameter Object |
-| Feature Envy | Move Function para o módulo com os dados |
+| Feature Envy | Move function to the module that owns the data |
 | Primitive Obsession | Replace Primitive with Object / Enum |
-| Shotgun Surgery | Consolidar lógica relacionada |
+| Shotgun Surgery | Consolidate related logic |
 
 ## Processo
-1. Rode os testes — todos passam.
-2. Identifique um smell específico.
-3. Aplique UMA refatoração catalogada.
-4. Rode os testes — todos continuam passando.
+1. Rode the testes — todos passam.
+2. Identify a specific smell.
+3. Apply ONE cataloged refactoring.
+4. Rode the testes — todos continuousm passando.
 5. Commit.
 6. Repita.

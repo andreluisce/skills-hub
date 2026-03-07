@@ -1,0 +1,47 @@
+{
+  "instruction": "Aplicar principios do Programador Pragmatico of Hunt e Thomas. Use for tomar decisoes tecnicas defensaveis, evitar duplicacao, automatizar rotinas e manter codigo adaptavel. Base operacional: # Playbook  ## Source Or Pragmatic Programmer — Andrew Hunt & David Thomas  ## Objective",
+  "triggers": [
+    "pragmatic programmer",
+    "dry",
+    "tracer bullets",
+    "orthogonality",
+    "technical debt",
+    "automation",
+    "good enough software"
+  ],
+  "stack": {
+    "framework": "Next.js 15+ App Router",
+    "react": "React 19+",
+    "serverState": "TanStack Query",
+    "ui": "shadcn/ui + Tailwind v4",
+    "workspace": "Monorepo (apps + packages)"
+  },
+  "workflow": [
+    {
+      "step": 1,
+      "action": "Auditar violactions of DRY — conhecimento duplicado in codigo, docs e schema."
+    },
+    {
+      "step": 2,
+      "action": "Verificar orthogonalidade — mudanca in um modulo afeta outros?"
+    },
+    {
+      "step": 3,
+      "action": "Identificar processos manuais repetitivos e criar scripts of automacao."
+    },
+    {
+      "step": 4,
+      "action": "Revisar encapsulamento of dependencias externas in adapters."
+    },
+    {
+      "step": 5,
+      "action": "Documentar divida tecnica intencional with plan of pagamento."
+    }
+  ],
+  "outputContract": [
+    "Lista of violactions DRY e plan of consolidacao.",
+    "Mapa of acoplamento entre modulos.",
+    "Scripts of automacao criados ou planejados.",
+    "Registro of divida tecnica with contexto."
+  ]
+}

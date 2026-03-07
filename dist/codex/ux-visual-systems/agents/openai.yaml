@@ -1,0 +1,4 @@
+interface:
+  display_name: "UX Visual Systems"
+  short_description: "Arquitetura React em stack moderna"
+  default_prompt: "Use $ux-visual-systems para desenhar ou refatorar arquitetura frontend com Next.js 15+ App Router, React 19+ e TanStack Query."

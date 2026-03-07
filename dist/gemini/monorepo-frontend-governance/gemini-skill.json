@@ -1,5 +1,5 @@
 {
-  "instruction": "Estruturar governança técnica de monorepo frontend com apps Next.js 15+, pacotes compartilhados React 19+, boundaries de dependência, ownership, versionamento e fluxo de entrega sustentável. Base operacional: # Playbook  ## Objetivo Garantir escala de time e código sem erosão arquitetural.  ## Regras",
+  "instruction": "Structure technical governance of monorepo frontend with Next.js 15+ apps, React 19+ shared packages, boundaries of dependency, ownership, versioning and sustainable flow of delivery. Base operacional: # Playbook  ## Objective Ensure scale of time and code without architectural erosion.  ## Rules",
   "triggers": [
     "monorepo",
     "package boundaries",
@@ -17,29 +17,29 @@
   "workflow": [
     {
       "step": 1,
-      "action": "Definir topologia do monorepo e responsabilidades por pacote/app."
+      "action": "Define monorepo topology and responsibilities for package/app."
     },
     {
       "step": 2,
-      "action": "Estabelecer regras de dependência e imports permitidos."
+      "action": "Establish rules of dependency and allowed imports."
     },
     {
       "step": 3,
-      "action": "Formalizar ownership, revisão e política de mudanças."
+      "action": "Formalize ownership, review and policy of changes."
     },
     {
       "step": 4,
-      "action": "Padronizar pipelines de build, test e release por escopo."
+      "action": "Padronizar pipelines of build, test and release by escopo."
     },
     {
       "step": 5,
-      "action": "Monitorar lead time, falhas de integração e custo de manutenção."
+      "action": "Monitor lead time, failures of integration and custo of maintenance."
     }
   ],
   "outputContract": [
-    "Mapa de apps/pacotes e ownership.",
-    "Matriz de dependências permitidas.",
-    "Regras de pipeline e release.",
-    "Métricas de saúde do monorepo."
+    "Mapa of apps/pacotes and ownership.",
+    "Array of allowed dependencies.",
+    "Rules of pipeline and release.",
+    "Monorepo health metrics."
   ]
 }

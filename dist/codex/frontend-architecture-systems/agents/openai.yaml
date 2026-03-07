@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frontend Architecture for Design Systems"
+  short_description: "Arquitetura React em stack moderna"
+  default_prompt: "Use $frontend-architecture-systems para desenhar ou refatorar arquitetura frontend com Next.js 15+ App Router, React 19+ e TanStack Query."

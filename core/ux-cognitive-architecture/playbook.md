@@ -5,21 +5,21 @@
 - The Design of Everyday Things — Don Norman
 - Laws of UX — Jon Yablonski
 
-## Objetivo
-Minimizar custo de decisão e tornar óbvio: onde estou, o que posso fazer, o que acontece depois.
+## Objective
+Minimize cost of decision and make it obvious: where I am, what I can do, what happens next.
 
-## Regras
-- Cada tela autoexplicativa em segundos sem leitura pesada.
-- Um CTA primário por contexto — múltiplos CTAs primários são proibidos.
-- Lei de Hick: reduza opções simultâneas. Progressão por etapas.
-- Lei de Miller: blocos curtos e semanticamente coerentes.
-- Lei de Jakob: convenções conhecidas antes de inovação de navegação.
+## Rules
+- Cada tela autoexplicativa in segundos without leitura pesada.
+- One primary CTA by context — multiple primary CTAs are prohibited.
+- Hick's Law: reduce simultaneous options. Progression by stages.
+- Lei of Miller: blocos curtos e semanticamente coerentes.
+- Jakob's Law: conventions known before the innovation of navigation.
 - Signifiers e affordances: elemento interativo deve parecer interativo.
 - Peak-End Rule: priorize clareza no final da jornada.
-- Prevenção de erro antes de tratamento de erro.
+- Error prevention before error handling.
 
 ## Anti-Patterns
-- Múltiplos CTAs primários na mesma dobra.
-- Formulários longos sem segmentação.
-- Feedback tardio ou ambíguo.
-- Navegação criativa sem ganho funcional real.
+- Multiple primary CTAs on the same fold.
+- Long forms without segmentation.
+- Late or ambiguous feedback.
+- Creative navigation without real functional gain.

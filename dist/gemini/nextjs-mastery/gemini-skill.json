@@ -1,0 +1,47 @@
+{
+  "instruction": "Skill for advanced development with Next.js 15+ App Router. Use to manage Server/Client Components, optimization of dynamic routes, streaming and fetching of data with cache by domain. Base operacional: # Playbook  ## Objective Design Next.js 15 applications with minimal JS on the client and maximum operational predictability.  ## Rules",
+  "triggers": [
+    "nextjs mastery",
+    "server components",
+    "app router",
+    "dynamic routes",
+    "data fetching",
+    "revalidation",
+    "next.js advanced"
+  ],
+  "stack": {
+    "framework": "Next.js 15+ App Router",
+    "react": "React 19+",
+    "serverState": "TanStack Query",
+    "ui": "shadcn/ui + Tailwind v4",
+    "workspace": "Monorepo (apps + packages)"
+  },
+  "workflow": [
+    {
+      "step": 1,
+      "action": "Mapear rotas e classify cada pagina como Server ou Client Component."
+    },
+    {
+      "step": 2,
+      "action": "Define strategy of cache and revalidation by domain of given."
+    },
+    {
+      "step": 3,
+      "action": "Implementar errorr boundaries e loading states by segmento of rota."
+    },
+    {
+      "step": 4,
+      "action": "Otimizar data fetching with parallel fetch e React cache()."
+    },
+    {
+      "step": 5,
+      "action": "Medir performance with Web Vitals e bundle analyzer."
+    }
+  ],
+  "outputContract": [
+    "Mapa of rotas with classificacao Server/Client.",
+    "Matriz of cache e revalidation by dominio.",
+    "Plano of errorr/loading boundaries.",
+    "Relatorio of performance e bundle."
+  ]
+}

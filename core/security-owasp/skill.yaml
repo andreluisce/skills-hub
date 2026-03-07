@@ -1,0 +1,39 @@
+schemaVersion: 1.0.0
+name: security-owasp
+displayName: OWASP Security Standards
+description: Apply OWASP Top 10 principles to audit and harden web applications. Use to identify and fix injection vulnerabilities, XSS, insecure deserialization, broken access control, and security misconfigurations.
+triggers:
+- owasp
+- xss
+- sql injection
+- security audit
+- vulnerability
+- input validation
+- csrf
+- security misconfiguration
+- broken access control
+stack:
+  framework: Next.js 15+ App Router
+  react: React 19+
+  serverState: TanStack Query
+  ui: shadcn/ui + Tailwind v4
+  workspace: Monorepo (apps + packages)
+workflow:
+- step: 1
+  action: Run OWASP Top 10 checklist scan against application entry points.
+- step: 2
+  action: Audit all user inputs for validation, sanitization, and parameterized queries.
+- step: 3
+  action: Review access control — ensure authorization checks on every protected route/action.
+- step: 4
+  action: Inspect HTTP headers — CSP, HSTS, X-Frame-Options, Referrer-Policy.
+- step: 5
+  action: Review dependency tree for known CVEs using audit tools.
+- step: 6
+  action: Document findings by severity (Critical/High/Medium/Low) with remediation steps.
+outputContract:
+- OWASP Top 10 audit report with findings per category.
+- Input validation inventory per form/API endpoint.
+- HTTP security headers configuration.
+- Dependency CVE report with remediation priority.
+- Remediation plan ordered by severity.

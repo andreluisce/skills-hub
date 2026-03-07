@@ -1,0 +1,46 @@
+{
+  "instruction": "Especialista in UX of alta performance e sustentabilidade digital baseado em Greenwood. Use for reduzir peso, energia e friccao without degradar experiencia user experience. Base operacional: # Playbook  ## Source Sustainable Web Design — Tom Greenwood  ## Objective",
+  "triggers": [
+    "web performance",
+    "sustainable web",
+    "bundle size",
+    "core web vitals",
+    "green ux",
+    "performance budget"
+  ],
+  "stack": {
+    "framework": "Next.js 15+ App Router",
+    "react": "React 19+",
+    "serverState": "TanStack Query",
+    "ui": "shadcn/ui + Tailwind v4",
+    "workspace": "Monorepo (apps + packages)"
+  },
+  "workflow": [
+    {
+      "step": 1,
+      "action": "Define performance budget by jornada (weight, TTI, critical requests)."
+    },
+    {
+      "step": 2,
+      "action": "Auditar assets (imagens, fontes, bibliotecas) by oportunidade of reducao."
+    },
+    {
+      "step": 3,
+      "action": "Escolher strategy of render (SSR/SSG/CSR) by necessidade real."
+    },
+    {
+      "step": 4,
+      "action": "Verificar progressive enhancement in condicoes adversas of rede."
+    },
+    {
+      "step": 5,
+      "action": "Monitorar Core Web Vitals como KPI of product in producao."
+    }
+  ],
+  "outputContract": [
+    "Diagnostico of custo by tela/rota.",
+    "Plano of reducao of peso e scripts.",
+    "Priorizacao by impacto in UX e performance.",
+    "Guardrails for PRs of frontend (asset, bundle, render)."
+  ]
+}

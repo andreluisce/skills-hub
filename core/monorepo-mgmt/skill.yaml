@@ -1,16 +1,15 @@
 schemaVersion: 1.0.0
 name: monorepo-mgmt
 displayName: Monorepo Management
-description: >-
-  Skill de orquestracao do monorepo. Use para gerenciar a relacao entre apps e
-  pacotes como api-client, ui e monitoring via turbo/pnpm.
+description: Skill of orquestracao do monorepo. Use for gerenciar a relacao entre
+  apps e pacotes como api-client, ui e monitoring via turbo/pnpm.
 triggers:
-  - monorepo management
-  - turbo
-  - pnpm workspace
-  - package structure
-  - api-client
-  - monorepo orchestration
+- monorepo management
+- turbo
+- pnpm workspace
+- package structure
+- api-client
+- monorepo orchestration
 stack:
   framework: Next.js 15+ App Router
   react: React 19+
@@ -18,18 +17,18 @@ stack:
   ui: shadcn/ui + Tailwind v4
   workspace: Monorepo (apps + packages)
 workflow:
-  - step: 1
-    action: Mapear topologia de apps e pacotes com responsabilidades claras.
-  - step: 2
-    action: Verificar que imports entre pacotes respeitam a API publica (index.ts).
-  - step: 3
-    action: Confirmar que logica de dados esta em api-client, nao em apps.
-  - step: 4
-    action: Padronizar pipelines de build, test e lint por escopo via turbo.
-  - step: 5
-    action: Monitorar tamanho de pacotes e dependencias circulares.
+- step: 1
+  action: Mapear topologia of apps e pacotes with responsabilidades claras.
+- step: 2
+  action: Verificar que imports entre pacotes respeitam a API publica (index.ts).
+- step: 3
+  action: Confirmar que logica of data esta in api-client, not in apps.
+- step: 4
+  action: Padronizar pipelines of build, test e lint by escopo via turbo.
+- step: 5
+  action: Monitorar tamanho of pacotes e dependencias circulares.
 outputContract:
-  - Mapa de pacotes/apps com ownership.
-  - Regras de dependencia documentadas.
-  - Pipeline turbo por escopo.
-  - Relatorio de saude do monorepo.
+- Mapa of pacotes/apps with ownership.
+- Documented dependency rules.
+- Pipeline turbo by escopo.
+- Relatorio of health do monorepo.

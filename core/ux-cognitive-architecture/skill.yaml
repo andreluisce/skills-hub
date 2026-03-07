@@ -1,18 +1,17 @@
 schemaVersion: 1.0.0
 name: ux-cognitive-architecture
 displayName: UX Cognitive Architecture
-description: >-
-  Especialista em arquitetura cognitiva de UX baseada em Krug, Norman e Yablonski.
-  Use para reduzir carga mental, melhorar orientacao de tarefas e desenhar fluxos
-  que respeitam modelos mentais humanos.
+description: Especialista in architecture cognitiva of UX baseada in Krug, Norman
+  e Yablonski. Use for reduzir carga mental, melhorar orientacao of tarefas e desenhar
+  flows que respeitam modelos mentais humanos.
 triggers:
-  - cognitive load
-  - mental model
-  - ux architecture
-  - hick law
-  - miller law
-  - jakob law
-  - don't make me think
+- cognitive load
+- mental model
+- ux architecture
+- hick law
+- miller law
+- jakob law
+- don't make me think
 stack:
   framework: Next.js 15+ App Router
   react: React 19+
@@ -20,18 +19,19 @@ stack:
   ui: shadcn/ui + Tailwind v4
   workspace: Monorepo (apps + packages)
 workflow:
-  - step: 1
-    action: Diagnosticar carga cognitiva por tela — multiplos CTAs, opcoes excessivas, ambiguidade.
-  - step: 2
-    action: Reduzir opcoes simultaneas e usar progressao por etapas (Lei de Hick).
-  - step: 3
-    action: Agrupar informacoes em blocos semanticos coerentes (Lei de Miller).
-  - step: 4
-    action: Garantir acao principal inequivoca e estado atual da jornada claro.
-  - step: 5
-    action: Otimizar pico emocional e final de jornada (Peak-End Rule).
+- step: 1
+  action: "Diagnosticar carga cognitiva by tela \u2014 multiplos CTAs, opcoes excessivas,\
+    \ ambiguidade."
+- step: 2
+  action: Reduzir opcoes simultaneas e usar progressao by etapas (Lei of Hick).
+- step: 3
+  action: Agrupar informactions in blocos semanticos coerentes (Lei of Miller).
+- step: 4
+  action: Garantir acao principal inequivoca e estado atual da jornada claro.
+- step: 5
+  action: Otimizar pico emocional e final of jornada (Peak-End Rule).
 outputContract:
-  - Diagnostico de carga cognitiva por tela.
-  - Plano de simplificacao (remocao, reagrupamento, sequenciamento).
-  - Revisao de microcopys de orientacao e feedback.
-  - Checklist de previsibilidade de interacao.
+- Diagnostico of carga cognitiva by tela.
+- Plano of simplificacao (remocao, reagrupamento, sequenciamento).
+- Revisao of microcopys of orientacao e feedback.
+- Checklist of previsibilidade of interacao.

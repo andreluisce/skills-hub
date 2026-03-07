@@ -1,15 +1,15 @@
 # Playbook
 
-## Objetivo
-Projetar aplicações Next.js 15 com mínimo JS no cliente e máxima previsibilidade operacional.
+## Objective
+Design Next.js 15 applications with minimal JS on the client and maximum operational predictability.
 
-## Regras
-- Server Components por padrão. Client apenas com interatividade real.
-- Cache e invalidação explícitos por tipo de dado — nunca implícito.
-- Error/loading boundaries no nível correto de rota.
-- Empurre o boundary 'use client' o mais fundo possível na árvore.
-- Parallel data fetching com Promise.all em Server Components.
-- React cache() para deduplicação de requests no mesmo render.
-- Tag-based revalidation com revalidateTag() em Server Actions.
-- dynamic imports para componentes pesados não críticos.
-- next/image para todas as imagens — size, format, priority explícitos.
+## Rules
+- Server Components by standard. Client apenas with interatividade real.
+- Explicit caching and invalidation by data type — never implicit.
+- Error/loading boundaries at the correct level of route.
+- Push the 'use client' boundary as far down the tree as possible.
+- Parallel data fetching with Promise.all in Server Components.
+- React cache() for deduplication of requests in the same render.
+- Tag-based revalidation with revalidateTag() in Server Actions.
+- dynamic imports for heavy non-critical components.
+- next/image for all images — explicit size, format, priority.

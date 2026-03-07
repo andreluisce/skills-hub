@@ -10,7 +10,7 @@ Avaliar cobertura de comportamento, confianca da suite e estrategia de mocks seg
 <skill>
 ---
 name: kent-c-dodds-testing
-description: Definir e aplicar estratégia de testes orientada ao usuário com princípios de Kent C. Dodds e Testing Library, priorizando confiança real de produto, testes de integração, seletores acessíveis e mocks na fronteira da rede.
+description: Define and apply user-oriented testing strategy with principles from Kent C. Dodds and Testing Library, prioritizing real confidence of product, tests of integration, accessible selectors and mocks at the network border.
 ---
 # Kent C. Dodds Testing Strategy
 
@@ -22,44 +22,44 @@ description: Definir e aplicar estratégia de testes orientada ao usuário com p
 - Monorepo (apps + packages)
 
 ## Workflow
-1. Mapear fluxos críticos de usuário e classificar risco por funcionalidade.
-2. Definir pirâmide prática com Testing Trophy e foco em integração.
-3. Escrever testes pela ótica do usuário com queries acessíveis e user-event.
-4. Substituir mocks frágeis por MSW e mockar somente fronteiras externas.
-5. Auditar estabilidade, velocidade e taxa de falso positivo da suíte.
+1. Map critical user flows and classify risk by functionality.
+2. Define practical pyramid with Testing Trophy and focus on integration.
+3. Write tests from a user perspective with accessible queries and user-events.
+4. Replace fragile mocks with MSW and mock only external borders.
+5. Audit suite stability, speed and false positive rate.
 
 ## Output esperado
-1. Matriz de cenários críticos e nível de teste recomendado.
-2. Guia de padrões de teste (Arrange/Act/Assert, queries e mocks).
-3. Plano de migração de testes frágeis para testes de comportamento.
-4. Checklist de qualidade e confiabilidade da suíte.
+1. Matrix of critical scenarios and recommended level of testing.
+2. Guide of test patterns (Arrange/Act/Assert, queries and mocks).
+3. Plan of migration of fragile tests to tests of behavior.
+4. Checklist of suite quality and reliability.
 
 # Playbook
 
-## Objetivo
-Maximizar confiança de produto com testes que validam comportamento real e não detalhes de implementacao.
+## Objective
+Maximize confidence of product with tests that validate real behavior and not implementation details.
 
-## Regras
-- Quanto mais o teste se parecer com o uso real, maior sua confianca.
-- Priorizar testes de integracao sobre excesso de unitarios acoplados.
-- Consultar UI por papel, nome acessivel e texto visivel; evitar seletores de estrutura.
-- Preferir `@testing-library/user-event` para interacoes reais em vez de `fireEvent` bruto.
+## Rules
+- Quanto mais o teste se parecer with o uso real, maior sua confidence.
+- Priorizar testes of integration sobre excesso of unitarios acoplados.
+- Consultar UI by papel, nome acessivel e texto visivel; evitar seletores of estrutura.
+- Preferir `@testing-library/user-event` for interactions reais in vez of `fireEvent` bruto.
 - Mockar apenas fronteiras externas (rede, terceiros, tempo); evitar mockar internals do app.
-- Usar MSW para HTTP em testes de integracao e E2E locais.
-- Cobrir fluxos felizes e estados de erro importantes; evitar cobertura inflada sem valor.
-- Reduzir snapshots amplos; snapshots pequenos apenas quando agregam sinal.
+- Usar MSW for HTTP in testes of integration e E2E locais.
+- Cobrir flows felizes e estados of error importantes; evitar cobertura inflada without valor.
+- Reduzir snapshots amplos; snapshots pequenos apenas when agregam sinal.
 
-## Heuristica de distribuicao (Testing Trophy)
-- Static: lint, types e testes estaticos de contrato.
-- Unit: funcoes puras e regras de dominio isoladas.
-- Integration: prioridade principal para componentes + estado + rede simulada.
-- E2E: poucos fluxos criticos de ponta a ponta para validar confianca final.
+## Heuristica of distribuicao (Testing Trophy)
+- Static: lint, types e testes estaticos of contrato.
+- Unit: functions puras e rules of dominio isoladas.
+- Integration: prioridade principal for components + estado + rede simulada.
+- E2E: few end-to-end critical flows to validate final confidence.
 
-## Checklist de qualidade
-- O teste falha quando o usuario realmente quebraria?
-- O teste continua valido apos refactor sem mudanca de comportamento?
+## Checklist of qualidade
+- Does the test fail when a real user-impacting break happens?
+- O teste continuous valido apos refactor without mudanca of comportamento?
 - O setup e minimo e legivel?
-- O motivo da falha e acionavel para o time?
+- O motivo da falha e acionavel for o time?
 </skill>
 
 ## Instruções de execução

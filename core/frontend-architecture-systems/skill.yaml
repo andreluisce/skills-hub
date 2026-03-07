@@ -1,19 +1,17 @@
 schemaVersion: 1.0.0
 name: frontend-architecture-systems
 displayName: Frontend Architecture for Design Systems
-description: >-
-  Aplicar principios de arquitetura de frontend e design systems de Micah
-  Godbolt e livros de frontend profissional. Use para estruturar componentes
-  reutilizaveis, governar design systems e planejar arquitetura de frontend
-  escalavel.
+description: Aplicar principios of architecture of frontend and design systems of Micah
+  Godbolt and livros of frontend profissional. Use for structure components reutilizaveis,
+  governar design systems and planejar architecture of frontend escalavel.
 triggers:
-  - frontend architecture
-  - design system architecture
-  - component library
-  - frontend unicorn
-  - professional frontend
-  - reusable components
-  - component governance
+- frontend architecture
+- design system architecture
+- component library
+- frontend unicorn
+- professional frontend
+- reusable components
+- component governance
 stack:
   framework: Next.js 15+ App Router
   react: React 19+
@@ -21,18 +19,18 @@ stack:
   ui: shadcn/ui + Tailwind v4
   workspace: Monorepo (apps + packages)
 workflow:
-  - step: 1
-    action: Classificar componentes em atoms, molecules, organisms e templates.
-  - step: 2
-    action: Definir contratos explicitOs por componente (props, estados, variantes, eventos).
-  - step: 3
-    action: Estabelecer hierarquia de tokens (primitivos, semanticos, de componente).
-  - step: 4
-    action: Definir regras de governanca (contrib, review, breaking change).
-  - step: 5
-    action: Auditar acessibilidade e performance budget por componente critico.
+- step: 1
+  action: Classificar components in atoms, molecules, organisms and templates.
+- step: 2
+  action: Define explicit contracts by component (props, states, variants, events).
+- step: 3
+  action: Establish hierarquia of tokens (primitivos, semanticos, of component).
+- step: 4
+  action: Define rules of governance (contrib, review, breaking change).
+- step: 5
+  action: Auditar accessibility and performance budget by component critico.
 outputContract:
-  - Catalogo de componentes por categoria.
-  - Hierarquia de tokens documentada.
-  - Regras de governanca de design system.
-  - Checklist de acessibilidade e performance.
+- Catalogo of components by categoria.
+- Hierarquia of tokens documentada.
+- Rules of governance of design system.
+- Checklist of accessibility and performance.

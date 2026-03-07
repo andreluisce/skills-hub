@@ -1,17 +1,16 @@
 schemaVersion: 1.0.0
 name: ux-cpa-orchestrator
 displayName: UX CPA Orchestrator
-description: >-
-  Skill master da Cognitive Product Architecture (CPA). Use para orquestrar
-  analise completa de UX envolvendo cognicao, comportamento, UI, estrategia,
-  etica e sustentabilidade.
+description: Skill master of Cognitive Product Architecture (CPA). Use for orquestrar
+  analise completa of UX envolvendo cognicao, comportamento, UI, strategy, etica e
+  sustentabilidade.
 triggers:
-  - ux audit
-  - ux analysis
-  - ux orchestrator
-  - cognitive product architecture
-  - cpa
-  - full ux review
+- ux audit
+- ux analysis
+- ux orchestrator
+- cognitive product architecture
+- cpa
+- full ux review
 stack:
   framework: Next.js 15+ App Router
   react: React 19+
@@ -19,22 +18,22 @@ stack:
   ui: shadcn/ui + Tailwind v4
   workspace: Monorepo (apps + packages)
 workflow:
-  - step: 1
-    action: Diagnostico cognitivo com ux-cognitive-architecture.
-  - step: 2
-    action: Mapeamento de loop comportamental com ux-behavioral-loop.
-  - step: 3
-    action: Correcao de sistema visual com ux-visual-systems.
-  - step: 4
-    action: Plano de experimento com ux-lean-experimentation.
-  - step: 5
-    action: Gate etico com ux-ethics-bias e gate de sustentabilidade com ux-sustainable-product.
-  - step: 6
-    action: Narrativa para stakeholders com ux-emotional-stakeholder.
+- step: 1
+  action: Diagnostico cognitivo with ux-cognitive-architecture.
+- step: 2
+  action: Mapeamento of loop comportamental with ux-behavioral-loop.
+- step: 3
+  action: Correcao of sistema visual with ux-visual-systems.
+- step: 4
+  action: Plano of experimento with ux-lean-experimentation.
+- step: 5
+  action: Gate etico with ux-ethics-bias and gate of sustentabilidade with ux-sustainable-product.
+- step: 6
+  action: Narrativa for stakeholders with ux-emotional-stakeholder.
 outputContract:
-  - Problema sintetizado.
-  - Diagnostico por camada (cognitiva, visual, comportamental).
-  - Plano de mudanca priorizado (P0/P1/P2).
-  - Hipoteses e metricas de validacao.
-  - Riscos eticos e mitigacoes.
-  - Script de comunicacao para stakeholders.
+- Problema sintetizado.
+- Diagnostico by camada (cognitiva, visual, comportamental).
+- Plano of mudanca priorizado (P0/P1/P2).
+- Hypotheses and metrics of validation.
+- Riscos eticos and mitigactions.
+- Script of comunicacao for stakeholders.

@@ -1,0 +1,46 @@
+{
+  "instruction": "Maintain technical project standards. Use to ensure dark theme, avoid hardcoded texts, manage Supabase types and operate monorepo with pnpm/turbo. Base operacional: # Playbook  ## Objective Ensure technical and architectural integrity of the project over time.  ## Mandatory Rules",
+  "triggers": [
+    "dev standards",
+    "dark theme",
+    "hardcoded text",
+    "supabase types",
+    "monorepo standards",
+    "code standards"
+  ],
+  "stack": {
+    "framework": "Next.js 15+ App Router",
+    "react": "React 19+",
+    "serverState": "TanStack Query",
+    "ui": "shadcn/ui + Tailwind v4",
+    "workspace": "Monorepo (apps + packages)"
+  },
+  "workflow": [
+    {
+      "step": 1,
+      "action": "Auditar components by uso of cores hardcoded e textos fixos."
+    },
+    {
+      "step": 2,
+      "action": "Verificar que todos os tipos of entidade usam Tables<'...'> gerados."
+    },
+    {
+      "step": 3,
+      "action": "Confirmar que logica of fetch reside in pacote api-client, not in apps."
+    },
+    {
+      "step": 4,
+      "action": "Validar commits with standard semantic atomic."
+    },
+    {
+      "step": 5,
+      "action": "Executar deploy via script padronizado e verificar health checks."
+    }
+  ],
+  "outputContract": [
+    "Relatorio of violactions of padroes by arquivo.",
+    "Lista of textos hardcoded for externalizar.",
+    "Mapa of tipos locais for migrar for gerados.",
+    "Checklist pre-deploy."
+  ]
+}

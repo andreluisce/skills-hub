@@ -36,7 +36,7 @@ Avaliar boundaries de domínio, organização de pacotes, estratégias RSC/Clien
 <skill>
 ---
 name: react-frontend-architecture-2026
-description: Arquitetar e refatorar frontend com Next.js 15+, React 19+, TanStack Query, shadcn/ui e monorepo, com foco em fronteiras de domínio, contratos entre pacotes e qualidade evolutiva.
+description: Architect and refactor frontend with Next.js 15+, React 19+, TanStack Query, shadcn/ui and monorepo, focused on domain boundaries, contracts between packages and evolutionary quality.
 ---
 # React Frontend Architecture 2026
 
@@ -48,40 +48,40 @@ description: Arquitetar e refatorar frontend com Next.js 15+, React 19+, TanStac
 - Monorepo (apps + packages)
 
 ## Workflow
-1. Classificar contexto de produto, risco e limites de domínio.
-2. Definir blueprint com boundaries e contratos por pacote.
-3. Escolher estratégia RSC/Client e cache de dados no TanStack Query.
-4. Implementar com SOLID, KISS, DRY e regras de governança no monorepo.
-5. Validar com auditoria técnica, métricas e plano incremental.
+1. Classify context of product, risk and limits of domain.
+2. Define blueprint with boundaries and contracts by package.
+3. Escolher strategy RSC/Client and cache of data in TanStack Query.
+4. Implementar with SOLID, KISS, DRY and rules of governance in monorepo.
+5. Validate with technical audit, metrics and incremental plan.
 
 ## Output esperado
-1. Diagnóstico objetivo do estado atual.
-2. Arquitetura alvo por módulos e pacotes.
-3. Plano de migração em etapas pequenas.
-4. Critérios de qualidade e observabilidade.
-5. Tradeoffs e riscos aceitos.
+1. Objective diagnosis of the current state.
+2. Target architecture by modules and packages.
+3. Plan the migration in small steps.
+4. Quality and observability criteria.
+5. Tradeoffs and riscos aceitos.
 
 # Playbook
 
-## Stack padrão
-- Next.js 15+ App Router com Server Components por padrão.
-- React 19+ para UI e boundaries Client quando necessário.
-- TanStack Query para estado de servidor e invalidação explícita.
-- shadcn/ui + Tailwind v4 com tokens semânticos e cva/cn.
-- Monorepo com apps e packages de domínio/design system/shared.
+## Standard stack
+- Next.js 15+ App Router with Server Components by standard.
+- React 19+ for UI and Client boundaries when necessary.
+- TanStack Query for server state and explicit invalidation.
+- shadcn/ui + Tailwind v4 with semantic tokens and cva/cn.
+- Monorepo with apps and packages of domain/design system/shared.
 
-## Regras essenciais
+## Rules essenciais
 - Proibir import profundo entre pacotes.
-- Expor somente surface pública por package.
-- Separar ui/application/domain/infra em features críticas.
-- Encapsular SDK externo em adapters.
+- Expose only public surface by package.
+- Separate ui/application/domain/infra into critical features.
+- Encapsular SDK externo in adapters.
 </skill>
 
 ### next15-app-router-architecture
 <skill>
 ---
 name: next15-app-router-architecture
-description: Definir e refatorar arquitetura em Next.js 15+ App Router com Server Components-first, boundaries Client, streaming e cache orientado a domínio para apps React 19+ em monorepo.
+description: Define and refatorar architecture in Next.js 15+ App Router with Server Components-first, boundaries Client, streaming and cache orientado a domínio for apps React 19+ in monorepo.
 ---
 # Next.js 15 App Router Architecture
 
@@ -93,35 +93,35 @@ description: Definir e refatorar arquitetura em Next.js 15+ App Router com Serve
 - Monorepo (apps + packages)
 
 ## Workflow
-1. Mapear rotas, segmentos dinâmicos e requisitos de renderização por página.
-2. Definir fronteiras Server vs Client por responsabilidade e custo de hidratação.
-3. Projetar estratégia de cache e revalidação por domínio de dados.
-4. Estruturar loaders, actions e error boundaries por segmento.
-5. Validar performance com Web Vitals e perfil de render em navegação real.
+1. Map routes, dynamic segments and page rendering requirements.
+2. Define Server vs Client boundaries by responsibility and cost of hydration.
+3. Design strategy of cache and revalidation by domain of data.
+4. Estruturar loaders, actions and errorr boundaries by segmento.
+5. Validate performance with Web Vitals and render profile in real browsing.
 
 ## Output esperado
-1. Mapa de rotas e boundaries Server/Client.
-2. Decisões de cache/revalidação por domínio.
-3. Plano de implementação por segmento.
-4. Checklist de performance e regressão.
+1. Mapa of rotas and boundaries Server/Client.
+2. Caching/revalidation decisions by domain.
+3. Implementation plan by segment.
+4. Checklist of performance and regression.
 
 # Playbook
 
-## Objetivo
-Projetar App Router com mínimo JS de cliente e máxima previsibilidade operacional.
+## Objective
+Design App Router with minimal client JS and maximum operational predictability.
 
-## Regras
-- Server Components por padrão; Client apenas quando houver interatividade real.
-- Cache e invalidação explícitos por tipo de dado e criticidade.
-- Error/loading boundaries definidos no nível correto de rota.
-- Evitar lógica de domínio em componentes de página.
+## Rules
+- Server Components by standard; Client apenas when houver interatividade real.
+- Explicit caching and invalidation by data type and criticality.
+- Error/loading boundaries set at the correct level of route.
+- Avoid logic of domain in components of page.
 </skill>
 
 ### monorepo-frontend-governance
 <skill>
 ---
 name: monorepo-frontend-governance
-description: Estruturar governança técnica de monorepo frontend com apps Next.js 15+, pacotes compartilhados React 19+, boundaries de dependência, ownership, versionamento e fluxo de entrega sustentável.
+description: Structure technical governance of monorepo frontend with Next.js 15+ apps, React 19+ shared packages, boundaries of dependency, ownership, versioning and sustainable flow of delivery.
 ---
 # Monorepo Frontend Governance
 
@@ -133,28 +133,28 @@ description: Estruturar governança técnica de monorepo frontend com apps Next.
 - Monorepo (apps + packages)
 
 ## Workflow
-1. Definir topologia do monorepo e responsabilidades por pacote/app.
-2. Estabelecer regras de dependência e imports permitidos.
-3. Formalizar ownership, revisão e política de mudanças.
-4. Padronizar pipelines de build, test e release por escopo.
-5. Monitorar lead time, falhas de integração e custo de manutenção.
+1. Define monorepo topology and responsibilities for package/app.
+2. Establish rules of dependency and allowed imports.
+3. Formalize ownership, review and policy of changes.
+4. Padronizar pipelines of build, test and release by escopo.
+5. Monitor lead time, failures of integration and custo of maintenance.
 
 ## Output esperado
-1. Mapa de apps/pacotes e ownership.
-2. Matriz de dependências permitidas.
-3. Regras de pipeline e release.
-4. Métricas de saúde do monorepo.
+1. Mapa of apps/pacotes and ownership.
+2. Array of allowed dependencies.
+3. Rules of pipeline and release.
+4. Monorepo health metrics.
 
 # Playbook
 
-## Objetivo
-Garantir escala de time e código sem erosão arquitetural.
+## Objective
+Ensure scale of time and code without architectural erosion.
 
-## Regras
+## Rules
 - Proibir imports profundos entre pacotes.
-- API pública obrigatória por pacote.
-- Donos explícitos por domínio técnico.
-- Mudança cross-package requer checklist arquitetural.
+- Mandatory public API by package.
+- Explicit owners by technical domain.
+- Cross-package change requires architectural checklist.
 </skill>
 
 ### nextjs-mastery
@@ -210,7 +210,7 @@ Avaliar padrões de componentes React 19, uso de shadcn/ui, tokens de design e a
 <skill>
 ---
 name: react19-component-patterns
-description: Aplicar padrões avançados de componentes React 19+ para reduzir acoplamento, melhorar composição e eliminar anti-patterns em interfaces escaláveis com shadcn/ui e arquitetura orientada a domínio.
+description: Apply advanced patterns of React 19+ components to reduce coupling, improve composition and eliminate anti-patterns in scalable interfaces with shadcn/ui and domain-oriented architecture.
 ---
 # React 19 Component Patterns
 
@@ -222,35 +222,35 @@ description: Aplicar padrões avançados de componentes React 19+ para reduzir a
 - Monorepo (apps + packages)
 
 ## Workflow
-1. Auditar componentes críticos e identificar anti-patterns recorrentes.
-2. Separar apresentação, orquestração e regras de domínio.
-3. Aplicar composição com contratos explícitos de props e estados.
-4. Consolidar padrões de acessibilidade e feedback de interação.
-5. Definir plano de refatoração incremental com critérios de aceite.
+1. Audit critical components and identify recurring anti-patterns.
+2. Separate presentation, orchestration and rules of domain.
+3. Apply composition with explicit contracts of props and states.
+4. Consolidate standards of accessibility and feedback of interaction.
+5. Define plan of incremental refactoring with criteria of acceptance.
 
 ## Output esperado
-1. Diagnóstico de anti-patterns por componente.
-2. Padrão alvo de composição e contratos.
-3. Estratégia de refatoração por lotes.
-4. Critérios de acessibilidade e consistência.
+1. Diagnóstico of anti-patterns by component.
+2. Target pattern of composition and contracts.
+3. Batch refactoring strategy.
+4. Criteria of accessibility and consistency.
 
 # Playbook
 
-## Objetivo
-Padronizar componentes React 19 para previsibilidade de manutenção e evolução.
+## Objective
+Padronizar components React 19 for previsibilidade of maintenance e evolution.
 
-## Regras
-- Componentes visuais sem efeitos colaterais.
-- Hooks de orquestração isolados por feature.
-- Contratos de props pequenos e coesos.
-- Reuso via composição, não herança implícita.
+## Rules
+- Componentes visuais without efeitos colaterais.
+- Hooks of orchestration isolated by feature.
+- Contratos of props pequenos e coesos.
+- Reuse via composition, not implicit inheritance.
 </skill>
 
 ### shadcn-design-system-ops
 <skill>
 ---
 name: shadcn-design-system-ops
-description: Operar e evoluir design system com shadcn/ui e Tailwind v4, padronizando tokens, variantes, acessibilidade e governança de componentes para múltiplos apps em monorepo Next.js 15+ e React 19+.
+description: Operate and evolve design system with shadcn/ui and Tailwind v4, standardizing tokens, variants, accessibility and governance of components for multiple apps in monorepo Next.js 15+ and React 19+.
 ---
 # shadcn Design System Operations
 
@@ -262,28 +262,28 @@ description: Operar e evoluir design system com shadcn/ui e Tailwind v4, padroni
 - Monorepo (apps + packages)
 
 ## Workflow
-1. Definir tokens semânticos globais e variações por tema/contexto.
-2. Estabelecer padrões de componentes base e variantes com cva.
-3. Criar política de contribuição e revisão para novos componentes.
-4. Validar acessibilidade, foco visível e contraste em fluxos críticos.
-5. Publicar changelog de DS e plano de adoção por app.
+1. Define global semantic tokens and variations by theme/context.
+2. Establish standards of base components and variants with cva.
+3. Create contribution and review policy for new components.
+4. Validate accessibility, visible focus and contrast in critical flows.
+5. Publish changelog of DS and plan of adoption by app.
 
 ## Output esperado
-1. Catálogo de tokens e variantes aprovadas.
-2. Guia de contribuição de componentes.
-3. Checklist de acessibilidade operacional.
-4. Estratégia de rollout do design system.
+1. Catalog of tokens and approved variants.
+2. Guide of contribution of components.
+3. Checklist of accessibility operacional.
+4. Design system rollout strategy.
 
 # Playbook
 
-## Objetivo
-Escalar UI consistente entre apps sem travar evolução de produto.
+## Objective
+Escalar UI consistente entre apps without travar evolution of product.
 
-## Regras
-- Token semântico antes de cor hardcoded.
-- `cva` para variantes; `cn()` para composição segura.
-- Componente novo exige contrato, estado e critérios de acessibilidade.
-- Evitar duplicação de componente entre pacotes.
+## Rules
+- Semantic token before hardcoded color.
+- `cva` for variants; `cn()` for safe composition.
+- Componente novo exige contrato, estado e criteria of accessibility.
+- Avoid duplication of components between packages.
 </skill>
 
 ### master-ux-ui
@@ -388,7 +388,7 @@ Avaliar gestão de estado de servidor, query keys, cache, invalidação, schema 
 <skill>
 ---
 name: tanstack-query-governance
-description: Definir governança de estado de servidor com TanStack Query em React 19+, incluindo query keys, staleTime, invalidação, optimistic updates e políticas de erro/retry para apps Next.js 15+ em monorepo.
+description: Define governance of estado of servidor with TanStack Query in React 19+, including query keys, staleTime, invalidation, optimistic updates and políticas of error/retry for apps Next.js 15+ in monorepo.
 ---
 # TanStack Query Governance
 
@@ -400,28 +400,28 @@ description: Definir governança de estado de servidor com TanStack Query em Rea
 - Monorepo (apps + packages)
 
 ## Workflow
-1. Classificar domínios de dados por volatilidade e criticidade.
-2. Padronizar convenção de query keys e ownership por pacote.
-3. Definir staleTime, gcTime e regras de invalidação por evento.
-4. Especificar optimistic updates, rollback e tratamento de erro.
-5. Monitorar taxa de refetch, latência percebida e falhas.
+1. Classify domains of data by volatility and criticality.
+2. Standardize convention of query keys and ownership by package.
+3. Define staleTime, gcTime and rules of invalidation by evento.
+4. Especificar optimistic updates, rollback and tratamento of error.
+5. Monitor refetch rate, perceived latency and failures.
 
 ## Output esperado
-1. Matriz de domínios de dados e política de cache.
-2. Convenção oficial de query keys.
-3. Regras de invalidação e update otimista.
-4. Indicadores de qualidade de server state.
+1. Matrix of domains of data and policy of cache.
+2. Official convention of query keys.
+3. Rules of invalidation and optimistic update.
+4. Indicadores of qualidade of server state.
 
 # Playbook
 
-## Objetivo
-Tornar o estado de servidor previsível, auditável e eficiente.
+## Objective
+Make server status predictable, auditable and efficient.
 
-## Regras
-- Toda query key deve ser determinística e documentada.
-- Invalidação baseada em eventos de negócio, não em conveniência.
-- Retry e backoff diferentes por tipo de erro.
-- Estado de UI não deve vazar para cache de servidor.
+## Rules
+- Every query key must be deterministic and documented.
+- Invalidation based on business events, not on convenience.
+- Retry e backoff diferentes by tipo of error.
+- Estado of UI not deve vazar for cache of servidor.
 </skill>
 
 ### supabase-expert
@@ -806,7 +806,7 @@ Avaliar cobertura de comportamento, confianca da suite e estrategia de mocks seg
 <skill>
 ---
 name: kent-c-dodds-testing
-description: Definir e aplicar estratégia de testes orientada ao usuário com princípios de Kent C. Dodds e Testing Library, priorizando confiança real de produto, testes de integração, seletores acessíveis e mocks na fronteira da rede.
+description: Define and apply user-oriented testing strategy with principles from Kent C. Dodds and Testing Library, prioritizing real confidence of product, tests of integration, accessible selectors and mocks at the network border.
 ---
 # Kent C. Dodds Testing Strategy
 
@@ -818,44 +818,44 @@ description: Definir e aplicar estratégia de testes orientada ao usuário com p
 - Monorepo (apps + packages)
 
 ## Workflow
-1. Mapear fluxos críticos de usuário e classificar risco por funcionalidade.
-2. Definir pirâmide prática com Testing Trophy e foco em integração.
-3. Escrever testes pela ótica do usuário com queries acessíveis e user-event.
-4. Substituir mocks frágeis por MSW e mockar somente fronteiras externas.
-5. Auditar estabilidade, velocidade e taxa de falso positivo da suíte.
+1. Map critical user flows and classify risk by functionality.
+2. Define practical pyramid with Testing Trophy and focus on integration.
+3. Write tests from a user perspective with accessible queries and user-events.
+4. Replace fragile mocks with MSW and mock only external borders.
+5. Audit suite stability, speed and false positive rate.
 
 ## Output esperado
-1. Matriz de cenários críticos e nível de teste recomendado.
-2. Guia de padrões de teste (Arrange/Act/Assert, queries e mocks).
-3. Plano de migração de testes frágeis para testes de comportamento.
-4. Checklist de qualidade e confiabilidade da suíte.
+1. Matrix of critical scenarios and recommended level of testing.
+2. Guide of test patterns (Arrange/Act/Assert, queries and mocks).
+3. Plan of migration of fragile tests to tests of behavior.
+4. Checklist of suite quality and reliability.
 
 # Playbook
 
-## Objetivo
-Maximizar confiança de produto com testes que validam comportamento real e não detalhes de implementacao.
+## Objective
+Maximize confidence of product with tests that validate real behavior and not implementation details.
 
-## Regras
-- Quanto mais o teste se parecer com o uso real, maior sua confianca.
-- Priorizar testes de integracao sobre excesso de unitarios acoplados.
-- Consultar UI por papel, nome acessivel e texto visivel; evitar seletores de estrutura.
-- Preferir `@testing-library/user-event` para interacoes reais em vez de `fireEvent` bruto.
+## Rules
+- Quanto mais o teste se parecer with o uso real, maior sua confidence.
+- Priorizar testes of integration sobre excesso of unitarios acoplados.
+- Consultar UI by papel, nome acessivel e texto visivel; evitar seletores of estrutura.
+- Preferir `@testing-library/user-event` for interactions reais in vez of `fireEvent` bruto.
 - Mockar apenas fronteiras externas (rede, terceiros, tempo); evitar mockar internals do app.
-- Usar MSW para HTTP em testes de integracao e E2E locais.
-- Cobrir fluxos felizes e estados de erro importantes; evitar cobertura inflada sem valor.
-- Reduzir snapshots amplos; snapshots pequenos apenas quando agregam sinal.
+- Usar MSW for HTTP in testes of integration e E2E locais.
+- Cobrir flows felizes e estados of error importantes; evitar cobertura inflada without valor.
+- Reduzir snapshots amplos; snapshots pequenos apenas when agregam sinal.
 
-## Heuristica de distribuicao (Testing Trophy)
-- Static: lint, types e testes estaticos de contrato.
-- Unit: funcoes puras e regras de dominio isoladas.
-- Integration: prioridade principal para componentes + estado + rede simulada.
-- E2E: poucos fluxos criticos de ponta a ponta para validar confianca final.
+## Heuristica of distribuicao (Testing Trophy)
+- Static: lint, types e testes estaticos of contrato.
+- Unit: functions puras e rules of dominio isoladas.
+- Integration: prioridade principal for components + estado + rede simulada.
+- E2E: few end-to-end critical flows to validate final confidence.
 
-## Checklist de qualidade
-- O teste falha quando o usuario realmente quebraria?
-- O teste continua valido apos refactor sem mudanca de comportamento?
+## Checklist of qualidade
+- Does the test fail when a real user-impacting break happens?
+- O teste continuous valido apos refactor without mudanca of comportamento?
 - O setup e minimo e legivel?
-- O motivo da falha e acionavel para o time?
+- O motivo da falha e acionavel for o time?
 </skill>
 
 ## Instruções de execução

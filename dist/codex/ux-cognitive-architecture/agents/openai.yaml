@@ -1,0 +1,4 @@
+interface:
+  display_name: "UX Cognitive Architecture"
+  short_description: "Arquitetura React em stack moderna"
+  default_prompt: "Use $ux-cognitive-architecture para desenhar ou refatorar arquitetura frontend com Next.js 15+ App Router, React 19+ e TanStack Query."

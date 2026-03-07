@@ -1,0 +1,39 @@
+schemaVersion: 1.0.0
+name: supabase-auth
+displayName: Supabase Auth & Authorization
+description: Design and implement authentication and authorization flows with Supabase Auth. Use to manage user sessions, JWT tokens, OAuth providers, RBAC, and RLS policies scoped by role.
+triggers:
+- supabase auth
+- authentication
+- authorization
+- jwt
+- oauth
+- rbac
+- session management
+- magic link
+- social login
+stack:
+  framework: Next.js 15+ App Router
+  react: React 19+
+  serverState: TanStack Query
+  ui: shadcn/ui + Tailwind v4
+  workspace: Monorepo (apps + packages)
+workflow:
+- step: 1
+  action: Map auth flows — email/password, magic link, OAuth providers, SSO.
+- step: 2
+  action: Configure Supabase Auth settings, redirect URLs, and email templates.
+- step: 3
+  action: Implement server-side session management with @supabase/ssr and middleware.
+- step: 4
+  action: Define RBAC roles and map to RLS policies per table and operation.
+- step: 5
+  action: Test all auth flows with authenticated, anonymous, and role-specific users.
+- step: 6
+  action: Audit JWT claims, token expiry, and refresh token rotation policies.
+outputContract:
+- Auth flow diagram with provider matrix.
+- RLS policies scoped by role (anon, authenticated, admin).
+- Middleware configuration for route protection.
+- Token lifecycle and refresh strategy documentation.
+- Security checklist per auth provider.

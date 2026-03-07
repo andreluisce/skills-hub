@@ -1,0 +1,38 @@
+schemaVersion: 1.0.0
+name: llm-extraction-pipeline
+displayName: LLM Extraction Pipeline
+description: Build pipelines that use LLMs to extract, normalize, and validate structured data from unstructured documents. Use to design prompts for structured output, handle multi-document batching, validate against schemas, and manage extraction quality.
+triggers:
+- llm extraction
+- structured output
+- document extraction
+- prompt engineering extraction
+- json schema extraction
+- batch document processing
+- extraction pipeline
+- data normalization
+stack:
+  framework: Next.js 15+ App Router
+  react: React 19+
+  serverState: TanStack Query
+  ui: shadcn/ui + Tailwind v4
+  workspace: Monorepo (apps + packages)
+workflow:
+- step: 1
+  action: Define target schema — JSON Schema for the structured output expected from each document type.
+- step: 2
+  action: Design extraction prompt with schema enforcement, examples, and edge case instructions.
+- step: 3
+  action: Implement structured output call (response_format or tool_use) with model selection.
+- step: 4
+  action: Validate LLM output against JSON Schema — reject and retry on schema violation.
+- step: 5
+  action: Handle batch processing — chunking, parallelism, rate limiting, and cost tracking.
+- step: 6
+  action: Implement human review queue for low-confidence or schema-failing extractions.
+outputContract:
+- Extraction prompt templates per document type.
+- JSON Schema definitions for all output types.
+- Validation pipeline with retry and escalation logic.
+- Batch processing configuration with cost estimate.
+- Human review queue specification.

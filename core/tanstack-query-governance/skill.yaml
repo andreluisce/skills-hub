@@ -1,16 +1,15 @@
 schemaVersion: 1.0.0
 name: tanstack-query-governance
 displayName: TanStack Query Governance
-description: >-
-  Definir governança de estado de servidor com TanStack Query em React 19+,
-  incluindo query keys, staleTime, invalidação, optimistic updates e políticas
-  de erro/retry para apps Next.js 15+ em monorepo.
+description: "Define governance of estado of servidor with TanStack Query in React\
+  \ 19+, including query keys, staleTime, invalidation, optimistic updates and pol\xED\
+  ticas of error/retry for apps Next.js 15+ in monorepo."
 triggers:
-  - tanstack query
-  - query keys
-  - invalidation
-  - optimistic update
-  - server state
+- tanstack query
+- query keys
+- invalidation
+- optimistic update
+- server state
 stack:
   framework: Next.js 15+ App Router
   react: React 19+
@@ -18,18 +17,18 @@ stack:
   ui: shadcn/ui + Tailwind v4
   workspace: Monorepo (apps + packages)
 workflow:
-  - step: 1
-    action: Classificar domínios de dados por volatilidade e criticidade.
-  - step: 2
-    action: Padronizar convenção de query keys e ownership por pacote.
-  - step: 3
-    action: Definir staleTime, gcTime e regras de invalidação por evento.
-  - step: 4
-    action: Especificar optimistic updates, rollback e tratamento de erro.
-  - step: 5
-    action: Monitorar taxa de refetch, latência percebida e falhas.
+- step: 1
+  action: Classify domains of data by volatility and criticality.
+- step: 2
+  action: Standardize convention of query keys and ownership by package.
+- step: 3
+  action: Define staleTime, gcTime and rules of invalidation by evento.
+- step: 4
+  action: Especificar optimistic updates, rollback and tratamento of error.
+- step: 5
+  action: Monitor refetch rate, perceived latency and failures.
 outputContract:
-  - Matriz de domínios de dados e política de cache.
-  - Convenção oficial de query keys.
-  - Regras de invalidação e update otimista.
-  - Indicadores de qualidade de server state.
+- Matrix of domains of data and policy of cache.
+- Official convention of query keys.
+- Rules of invalidation and optimistic update.
+- Indicadores of qualidade of server state.

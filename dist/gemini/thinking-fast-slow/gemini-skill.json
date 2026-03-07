@@ -1,0 +1,49 @@
+{
+  "instruction": "Aplicar insights of Daniel Kahneman sobre Sistema 1 e Sistema 2 for tomar melhores decisoes tecnicas, projetar interfaces que respeitam cognicao humana e avoid biases in code reviews and architecture. Base operacional: # Playbook  ## Source Fast and Slow — Daniel Kahneman  ## Objective",
+  "triggers": [
+    "kahneman",
+    "system 1 system 2",
+    "cognitive bias",
+    "decision making",
+    "heuristics",
+    "anchoring",
+    "confirmation bias",
+    "slow thinking",
+    "product decisions"
+  ],
+  "stack": {
+    "framework": "Next.js 15+ App Router",
+    "react": "React 19+",
+    "serverState": "TanStack Query",
+    "ui": "shadcn/ui + Tailwind v4",
+    "workspace": "Monorepo (apps + packages)"
+  },
+  "workflow": [
+    {
+      "step": 1,
+      "action": "Identificar decisao architecturel ou of product sendo tomada by Sistema 1 (rapido, intuitivo)."
+    },
+    {
+      "step": 2,
+      "action": "Ativar Sistema 2 — documentar o problema antes of pensar in solucao."
+    },
+    {
+      "step": 3,
+      "action": "Gerar 2-3 alternativas e evaluate trade-offs of forma explicita."
+    },
+    {
+      "step": 4,
+      "action": "Aplicar pre-mortem — \"assumindo que falhou, o que deu errado?\""
+    },
+    {
+      "step": 5,
+      "action": "Buscar contra-argumento da solucao favorita antes of decide."
+    }
+  ],
+  "outputContract": [
+    "Analise of alternativas with trade-offs explicitos.",
+    "Pre-mortem with riscos identificados.",
+    "Decisao documentada with contexto e raciocinio.",
+    "Checklist anti-bias for code review."
+  ]
+}

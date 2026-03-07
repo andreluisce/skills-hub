@@ -1,5 +1,5 @@
 {
-  "instruction": "Aplicar padrões avançados de componentes React 19+ para reduzir acoplamento, melhorar composição e eliminar anti-patterns em interfaces escaláveis com shadcn/ui e arquitetura orientada a domínio. Base operacional: # Playbook  ## Objetivo Padronizar componentes React 19 para previsibilidade de manutenção e evolução.  ## Regras",
+  "instruction": "Apply advanced patterns of React 19+ components to reduce coupling, improve composition and eliminate anti-patterns in scalable interfaces with shadcn/ui and domain-oriented architecture. Base operacional: # Playbook  ## Objective Padronizar components React 19 for previsibilidade of maintenance e evolution.  ## Rules",
   "triggers": [
     "react 19",
     "component patterns",
@@ -17,29 +17,29 @@
   "workflow": [
     {
       "step": 1,
-      "action": "Auditar componentes críticos e identificar anti-patterns recorrentes."
+      "action": "Audit critical components and identify recurring anti-patterns."
     },
     {
       "step": 2,
-      "action": "Separar apresentação, orquestração e regras de domínio."
+      "action": "Separate presentation, orchestration and rules of domain."
     },
     {
       "step": 3,
-      "action": "Aplicar composição com contratos explícitos de props e estados."
+      "action": "Apply composition with explicit contracts of props and states."
     },
     {
       "step": 4,
-      "action": "Consolidar padrões de acessibilidade e feedback de interação."
+      "action": "Consolidate standards of accessibility and feedback of interaction."
     },
     {
       "step": 5,
-      "action": "Definir plano de refatoração incremental com critérios de aceite."
+      "action": "Define plan of incremental refactoring with criteria of acceptance."
     }
   ],
   "outputContract": [
-    "Diagnóstico de anti-patterns por componente.",
-    "Padrão alvo de composição e contratos.",
-    "Estratégia de refatoração por lotes.",
-    "Critérios de acessibilidade e consistência."
+    "Diagnóstico of anti-patterns by component.",
+    "Target pattern of composition and contracts.",
+    "Batch refactoring strategy.",
+    "Criteria of accessibility and consistency."
   ]
 }

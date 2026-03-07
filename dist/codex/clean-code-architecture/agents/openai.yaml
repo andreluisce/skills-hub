@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clean Code & Clean Architecture"
+  short_description: "Arquitetura React em stack moderna"
+  default_prompt: "Use $clean-code-architecture para desenhar ou refatorar arquitetura frontend com Next.js 15+ App Router, React 19+ e TanStack Query."

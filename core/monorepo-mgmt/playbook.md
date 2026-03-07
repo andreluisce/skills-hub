@@ -1,12 +1,12 @@
 # Playbook
 
-## Objetivo
-Garantir que o monorepo escale sem erosão de boundaries e sem duplicação de lógica.
+## Objective
+Ensure that the monorepo scales without erosion of boundaries and without duplication of logic.
 
-## Regras
-- Instalar exclusivamente com pnpm.
-- Nunca importar diretamente de apps vizinhos — sempre via pacote compartilhado.
-- Cada pacote expõe apenas sua API pública via index.ts.
-- Lógica de dados inicia em packages/api-client, nunca em apps/.
-- Mudanças cross-package exigem revisão arquitetural.
-- Comandos globais via turbo — nunca executar build/test em cada pacote manualmente.
+## Rules
+- Instalar exclusivamente with pnpm.
+- Nunca importar diretamente of apps vizinhos — sempre via pacote compartilhado.
+- Each package only exposes its public API via index.ts.
+- Logic of data starts in packages/api-client, never in apps/.
+- Cross-package changes require architectural review.
+- Comandos globais via turbo — nunca execute build/test in cada pacote manualmente.

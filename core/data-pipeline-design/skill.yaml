@@ -1,0 +1,39 @@
+schemaVersion: 1.0.0
+name: data-pipeline-design
+displayName: Data Pipeline Design
+description: Design and implement data pipelines for ingestion, transformation, and delivery. Use to choose between ETL and ELT patterns, design batch vs streaming pipelines, handle failures, ensure idempotency, and monitor pipeline health.
+triggers:
+- data pipeline
+- etl
+- elt
+- data ingestion
+- data transformation
+- streaming
+- batch processing
+- pipeline design
+- data flow
+stack:
+  framework: Next.js 15+ App Router
+  react: React 19+
+  serverState: TanStack Query
+  ui: shadcn/ui + Tailwind v4
+  workspace: Monorepo (apps + packages)
+workflow:
+- step: 1
+  action: Define pipeline requirements — data sources, volume, latency SLA, and destination.
+- step: 2
+  action: Choose pattern — ETL vs ELT, batch vs streaming, push vs pull.
+- step: 3
+  action: Design transformation logic — normalization, deduplication, enrichment, validation.
+- step: 4
+  action: Implement idempotency — pipelines must produce the same result when re-run.
+- step: 5
+  action: Design failure handling — dead letter queues, retry policies, alerting on failures.
+- step: 6
+  action: Define observability — pipeline run metrics, data quality metrics, SLA tracking.
+outputContract:
+- Pipeline architecture diagram with data flow.
+- Pattern decision (ETL/ELT, batch/streaming) with rationale.
+- Transformation logic specification.
+- Idempotency strategy per pipeline stage.
+- Failure handling and monitoring plan.

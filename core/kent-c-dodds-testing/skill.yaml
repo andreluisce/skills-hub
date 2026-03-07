@@ -1,17 +1,16 @@
 schemaVersion: 1.0.0
 name: kent-c-dodds-testing
 displayName: Kent C. Dodds Testing Strategy
-description: >-
-  Definir e aplicar estratégia de testes orientada ao usuário com princípios de
-  Kent C. Dodds e Testing Library, priorizando confiança real de produto,
-  testes de integração, seletores acessíveis e mocks na fronteira da rede.
+description: Define and apply user-oriented testing strategy with principles from
+  Kent C. Dodds and Testing Library, prioritizing real confidence of product, tests
+  of integration, accessible selectors and mocks at the network border.
 triggers:
-  - kent c dodds
-  - testing trophy
-  - testing library
-  - react testing library
-  - user centric tests
-  - msw
+- kent c dodds
+- testing trophy
+- testing library
+- react testing library
+- user centric tests
+- msw
 stack:
   framework: Next.js 15+ App Router
   react: React 19+
@@ -19,18 +18,18 @@ stack:
   ui: shadcn/ui + Tailwind v4
   workspace: Monorepo (apps + packages)
 workflow:
-  - step: 1
-    action: Mapear fluxos críticos de usuário e classificar risco por funcionalidade.
-  - step: 2
-    action: Definir pirâmide prática com Testing Trophy e foco em integração.
-  - step: 3
-    action: Escrever testes pela ótica do usuário com queries acessíveis e user-event.
-  - step: 4
-    action: Substituir mocks frágeis por MSW e mockar somente fronteiras externas.
-  - step: 5
-    action: Auditar estabilidade, velocidade e taxa de falso positivo da suíte.
+- step: 1
+  action: Map critical user flows and classify risk by functionality.
+- step: 2
+  action: Define practical pyramid with Testing Trophy and focus on integration.
+- step: 3
+  action: Write tests from a user perspective with accessible queries and user-events.
+- step: 4
+  action: Replace fragile mocks with MSW and mock only external borders.
+- step: 5
+  action: Audit suite stability, speed and false positive rate.
 outputContract:
-  - Matriz de cenários críticos e nível de teste recomendado.
-  - Guia de padrões de teste (Arrange/Act/Assert, queries e mocks).
-  - Plano de migração de testes frágeis para testes de comportamento.
-  - Checklist de qualidade e confiabilidade da suíte.
+- Matrix of critical scenarios and recommended level of testing.
+- Guide of test patterns (Arrange/Act/Assert, queries and mocks).
+- Plan of migration of fragile tests to tests of behavior.
+- Checklist of suite quality and reliability.

@@ -1,18 +1,17 @@
 schemaVersion: 1.0.0
 name: nextjs-mastery
 displayName: Next.js Mastery
-description: >-
-  Skill para desenvolvimento avancado com Next.js 15+ App Router. Use para
-  gerenciar Server/Client Components, otimizacao de rotas dinamicas, streaming
-  e fetching de dados com cache por dominio.
+description: Skill for advanced development with Next.js 15+ App Router. Use to manage
+  Server/Client Components, optimization of dynamic routes, streaming and fetching
+  of data with cache by domain.
 triggers:
-  - nextjs mastery
-  - server components
-  - app router
-  - dynamic routes
-  - data fetching
-  - revalidation
-  - next.js advanced
+- nextjs mastery
+- server components
+- app router
+- dynamic routes
+- data fetching
+- revalidation
+- next.js advanced
 stack:
   framework: Next.js 15+ App Router
   react: React 19+
@@ -20,18 +19,18 @@ stack:
   ui: shadcn/ui + Tailwind v4
   workspace: Monorepo (apps + packages)
 workflow:
-  - step: 1
-    action: Mapear rotas e classificar cada pagina como Server ou Client Component.
-  - step: 2
-    action: Definir estrategia de cache e revalidacao por dominio de dado.
-  - step: 3
-    action: Implementar error boundaries e loading states por segmento de rota.
-  - step: 4
-    action: Otimizar data fetching com parallel fetch e React cache().
-  - step: 5
-    action: Medir performance com Web Vitals e bundle analyzer.
+- step: 1
+  action: Mapear rotas e classify cada pagina como Server ou Client Component.
+- step: 2
+  action: Define strategy of cache and revalidation by domain of given.
+- step: 3
+  action: Implementar errorr boundaries e loading states by segmento of rota.
+- step: 4
+  action: Otimizar data fetching with parallel fetch e React cache().
+- step: 5
+  action: Medir performance with Web Vitals e bundle analyzer.
 outputContract:
-  - Mapa de rotas com classificacao Server/Client.
-  - Matriz de cache e revalidacao por dominio.
-  - Plano de error/loading boundaries.
-  - Relatorio de performance e bundle.
+- Mapa of rotas with classificacao Server/Client.
+- Matriz of cache e revalidation by dominio.
+- Plano of errorr/loading boundaries.
+- Relatorio of performance e bundle.

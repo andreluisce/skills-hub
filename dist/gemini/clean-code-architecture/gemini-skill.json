@@ -1,0 +1,49 @@
+{
+  "instruction": "Aplicar principios of codigo limpo e architecture limpa of Robert C. Martin. Use for revisar, refatorar e structure codigo with responsabilidade unica, dependencias corretas e limites architectureis claros. Base operacional: # Playbook  ## Sources - Codigo Limpo (Clean Code) — Robert C. Martin - Clean Architecture — Robert C. Martin - Desenvolvimento Agil Limpo — Robert C. Martin",
+  "triggers": [
+    "clean code",
+    "clean architecture",
+    "solid",
+    "uncle bob",
+    "refactor",
+    "code smell",
+    "dependency rule",
+    "use case",
+    "entity"
+  ],
+  "stack": {
+    "framework": "Next.js 15+ App Router",
+    "react": "React 19+",
+    "serverState": "TanStack Query",
+    "ui": "shadcn/ui + Tailwind v4",
+    "workspace": "Monorepo (apps + packages)"
+  },
+  "workflow": [
+    {
+      "step": 1,
+      "action": "Auditar naming, tamanho of functions e separacao of responsabilidades."
+    },
+    {
+      "step": 2,
+      "action": "Mapear dependencias e verificar conformidade with Dependency Rule."
+    },
+    {
+      "step": 3,
+      "action": "Isolar logica of negocio of frameworks e banco of data."
+    },
+    {
+      "step": 4,
+      "action": "Aplicar SOLID by modulo — identificar violactions e refatorar."
+    },
+    {
+      "step": 5,
+      "action": "Validate testability — business logic must be testable without framework."
+    }
+  ],
+  "outputContract": [
+    "Diagnostico of violactions by camada.",
+    "Mapa of dependencias corrigido.",
+    "Plano of refatoracao by modulo.",
+    "Checklist SOLID by component/servico."
+  ]
+}

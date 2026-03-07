@@ -1,0 +1,37 @@
+schemaVersion: 1.0.0
+name: database-migrations
+displayName: Database Migrations & Schema Evolution
+description: Plan and execute safe database schema migrations with zero-downtime strategies. Use to add columns, rename tables, backfill data, and evolve schema without breaking running services.
+triggers:
+- migrations
+- schema change
+- database evolution
+- alter table
+- backfill
+- zero downtime migration
+- schema versioning
+stack:
+  framework: Next.js 15+ App Router
+  react: React 19+
+  serverState: TanStack Query
+  ui: shadcn/ui + Tailwind v4
+  workspace: Monorepo (apps + packages)
+workflow:
+- step: 1
+  action: Classify migration — additive (safe), destructive (risky), or data backfill (complex).
+- step: 2
+  action: Write forward migration with explicit rollback script.
+- step: 3
+  action: For destructive changes, use expand-contract pattern — add new, migrate data, remove old.
+- step: 4
+  action: Test migration on staging with production data snapshot before applying to prod.
+- step: 5
+  action: Apply migration, regenerate Supabase types, and validate application health.
+- step: 6
+  action: Document schema change in ADR with rationale and impact assessment.
+outputContract:
+- Migration file with rollback script.
+- Classification of migration risk level.
+- Expand-contract plan for destructive changes.
+- Post-migration validation checklist.
+- Updated schema documentation.
