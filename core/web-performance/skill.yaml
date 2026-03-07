@@ -1,0 +1,40 @@
+schemaVersion: 1.0.0
+name: web-performance
+displayName: Web Performance & Browser Networking
+description: >-
+  Aplicar principios de performance web de Ilya Grigorik e caching inteligente.
+  Use para otimizar tempo de carregamento, networking, cache e experiencia em
+  conexoes lentas.
+triggers:
+  - web performance
+  - http
+  - caching
+  - browser networking
+  - latency
+  - core web vitals
+  - cdn
+  - compression
+  - http2
+  - resource hints
+stack:
+  framework: Next.js 15+ App Router
+  react: React 19+
+  serverState: TanStack Query
+  ui: shadcn/ui + Tailwind v4
+  workspace: Monorepo (apps + packages)
+workflow:
+  - step: 1
+    action: Medir Core Web Vitals em producao e identificar regressoes por rota.
+  - step: 2
+    action: Auditar critical rendering path e eliminar recursos bloqueantes.
+  - step: 3
+    action: Definir politica de cache por tipo de asset (imutavel, revalidavel, sem cache).
+  - step: 4
+    action: Otimizar assets (imagens, fontes, JS) com budget por jornada.
+  - step: 5
+    action: Analisar bundle com bundle-analyzer e eliminar dependencias pesadas desnecessarias.
+outputContract:
+  - Relatorio de Core Web Vitals por rota.
+  - Matriz de politica de cache por tipo de asset.
+  - Plano de reducao de bundle com impacto estimado.
+  - Checklist de otimizacao de critical path.

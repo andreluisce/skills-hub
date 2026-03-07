@@ -1,0 +1,37 @@
+schemaVersion: 1.0.0
+name: ux-lean-experimentation
+displayName: UX Lean Experimentation
+description: >-
+  Estrategista de Lean UX e validacao continua baseado em Gothelf e Seiden. Use
+  para transformar backlog em hipoteses testaveis, definir MVPs de aprendizagem
+  e orientar produto por outcomes mensuráveis.
+triggers:
+  - lean ux
+  - hypothesis
+  - mvp
+  - experimentation
+  - a/b test
+  - product validation
+  - outcomes over outputs
+stack:
+  framework: Next.js 15+ App Router
+  react: React 19+
+  serverState: TanStack Query
+  ui: shadcn/ui + Tailwind v4
+  workspace: Monorepo (apps + packages)
+workflow:
+  - step: 1
+    action: Converter item de backlog em hipotese com problema, persona e metrica.
+  - step: 2
+    action: Definir solucao minima que testa a hipotese com menor custo.
+  - step: 3
+    action: Estabelecer metrica primaria e de guarda com janela de observacao.
+  - step: 4
+    action: Executar experimento com colaboracao cross-functional desde o inicio.
+  - step: 5
+    action: Avaliar resultado e decidir: continuar, pivotar ou descartar.
+outputContract:
+  - Hypothesis Cards por item de backlog.
+  - Metricas primarias e de guarda por experimento.
+  - Plano de descoberta continua.
+  - Relatorio de aprendizado por ciclo.

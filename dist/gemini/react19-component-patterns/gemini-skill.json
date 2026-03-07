@@ -1,0 +1,45 @@
+{
+  "instruction": "Aplicar padrões avançados de componentes React 19+ para reduzir acoplamento, melhorar composição e eliminar anti-patterns em interfaces escaláveis com shadcn/ui e arquitetura orientada a domínio. Base operacional: # Playbook  ## Objetivo Padronizar componentes React 19 para previsibilidade de manutenção e evolução.  ## Regras",
+  "triggers": [
+    "react 19",
+    "component patterns",
+    "anti patterns",
+    "refactor components",
+    "composition"
+  ],
+  "stack": {
+    "framework": "Next.js 15+ App Router",
+    "react": "React 19+",
+    "serverState": "TanStack Query",
+    "ui": "shadcn/ui + Tailwind v4",
+    "workspace": "Monorepo (apps + packages)"
+  },
+  "workflow": [
+    {
+      "step": 1,
+      "action": "Auditar componentes críticos e identificar anti-patterns recorrentes."
+    },
+    {
+      "step": 2,
+      "action": "Separar apresentação, orquestração e regras de domínio."
+    },
+    {
+      "step": 3,
+      "action": "Aplicar composição com contratos explícitos de props e estados."
+    },
+    {
+      "step": 4,
+      "action": "Consolidar padrões de acessibilidade e feedback de interação."
+    },
+    {
+      "step": 5,
+      "action": "Definir plano de refatoração incremental com critérios de aceite."
+    }
+  ],
+  "outputContract": [
+    "Diagnóstico de anti-patterns por componente.",
+    "Padrão alvo de composição e contratos.",
+    "Estratégia de refatoração por lotes.",
+    "Critérios de acessibilidade e consistência."
+  ]
+}

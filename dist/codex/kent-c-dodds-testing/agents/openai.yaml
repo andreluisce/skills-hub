@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kent C. Dodds Testing Strategy"
+  short_description: "Arquitetura React em stack moderna"
+  default_prompt: "Use $kent-c-dodds-testing para desenhar ou refatorar arquitetura frontend com Next.js 15+ App Router, React 19+ e TanStack Query."

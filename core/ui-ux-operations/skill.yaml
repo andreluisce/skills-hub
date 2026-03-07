@@ -1,0 +1,37 @@
+schemaVersion: 1.0.0
+name: ui-ux-operations
+displayName: UI/UX Operations
+description: >-
+  Skill para design de fluxos de experiencia do usuario. Use para otimizar
+  processos de upload, validacao e operacoes longas, com feedback em tempo real,
+  erros acionaveis e dashboards intuitivos.
+triggers:
+  - ux flow
+  - upload flow
+  - progress bar
+  - toast notifications
+  - friendly errors
+  - dashboard ux
+  - form ux
+stack:
+  framework: Next.js 15+ App Router
+  react: React 19+
+  serverState: TanStack Query
+  ui: shadcn/ui + Tailwind v4
+  workspace: Monorepo (apps + packages)
+workflow:
+  - step: 1
+    action: Mapear fluxo critico e identificar pontos de friccao e espera.
+  - step: 2
+    action: Implementar loading states imediatos apos qualquer acao do usuario.
+  - step: 3
+    action: Substituir erros genericos por mensagens com campo, causa e acao corretiva.
+  - step: 4
+    action: Adicionar progress indicators para operacoes acima de 1 segundo.
+  - step: 5
+    action: Validar fluxo em cenario de erro, lentidao e estado vazio.
+outputContract:
+  - Mapa de fluxo com pontos de friccao identificados.
+  - Padrao de loading/error/empty por operacao.
+  - Mensagens de erro acionaveis por caso.
+  - Checklist de estados do fluxo cobertos.

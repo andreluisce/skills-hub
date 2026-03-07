@@ -1,0 +1,36 @@
+schemaVersion: 1.0.0
+name: kent-c-dodds-testing
+displayName: Kent C. Dodds Testing Strategy
+description: >-
+  Definir e aplicar estratégia de testes orientada ao usuário com princípios de
+  Kent C. Dodds e Testing Library, priorizando confiança real de produto,
+  testes de integração, seletores acessíveis e mocks na fronteira da rede.
+triggers:
+  - kent c dodds
+  - testing trophy
+  - testing library
+  - react testing library
+  - user centric tests
+  - msw
+stack:
+  framework: Next.js 15+ App Router
+  react: React 19+
+  serverState: TanStack Query
+  ui: shadcn/ui + Tailwind v4
+  workspace: Monorepo (apps + packages)
+workflow:
+  - step: 1
+    action: Mapear fluxos críticos de usuário e classificar risco por funcionalidade.
+  - step: 2
+    action: Definir pirâmide prática com Testing Trophy e foco em integração.
+  - step: 3
+    action: Escrever testes pela ótica do usuário com queries acessíveis e user-event.
+  - step: 4
+    action: Substituir mocks frágeis por MSW e mockar somente fronteiras externas.
+  - step: 5
+    action: Auditar estabilidade, velocidade e taxa de falso positivo da suíte.
+outputContract:
+  - Matriz de cenários críticos e nível de teste recomendado.
+  - Guia de padrões de teste (Arrange/Act/Assert, queries e mocks).
+  - Plano de migração de testes frágeis para testes de comportamento.
+  - Checklist de qualidade e confiabilidade da suíte.

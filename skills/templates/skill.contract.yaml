@@ -1,0 +1,21 @@
+skillId: code-review
+version: 1.0.0
+intent: Revisar mudanças com foco em bugs, riscos e regressões.
+triggers:
+  - review
+  - pull request
+inputs:
+  - pr-diff
+  - repository-context
+outputs:
+  - findings-ranked-by-severity
+  - open-questions
+successCriteria:
+  - achou-riscos-reais-com-evidencia
+  - evitou-feedback-vago
+allowedTools:
+  - mcp.github
+  - mcp.code-search
+guardrails:
+  - no-style-nit-sem-impacto
+  - incluir-referencias-de-arquivo

@@ -1,0 +1,17 @@
+evaluatorId: quality-score-v1
+criteria:
+  - id: correctness
+    weight: 0.4
+  - id: safety
+    weight: 0.2
+  - id: completeness
+    weight: 0.2
+  - id: cost-efficiency
+    weight: 0.2
+thresholds:
+  pass: 0.8
+  warn: 0.65
+actions:
+  onPass: continue
+  onWarn: require-review
+  onFail: retry-or-escalate

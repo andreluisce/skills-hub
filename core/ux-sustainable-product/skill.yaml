@@ -1,0 +1,36 @@
+schemaVersion: 1.0.0
+name: ux-sustainable-product
+displayName: UX Sustainable Product
+description: >-
+  Especialista em UX de alta performance e sustentabilidade digital baseado em
+  Greenwood. Use para reduzir peso, energia e friccao sem degradar experiencia
+  do usuario.
+triggers:
+  - web performance
+  - sustainable web
+  - bundle size
+  - core web vitals
+  - green ux
+  - performance budget
+stack:
+  framework: Next.js 15+ App Router
+  react: React 19+
+  serverState: TanStack Query
+  ui: shadcn/ui + Tailwind v4
+  workspace: Monorepo (apps + packages)
+workflow:
+  - step: 1
+    action: Definir performance budget por jornada (peso, TTI, requests criticos).
+  - step: 2
+    action: Auditar assets (imagens, fontes, bibliotecas) por oportunidade de reducao.
+  - step: 3
+    action: Escolher estrategia de render (SSR/SSG/CSR) por necessidade real.
+  - step: 4
+    action: Verificar progressive enhancement em condicoes adversas de rede.
+  - step: 5
+    action: Monitorar Core Web Vitals como KPI de produto em producao.
+outputContract:
+  - Diagnostico de custo por tela/rota.
+  - Plano de reducao de peso e scripts.
+  - Priorizacao por impacto em UX e performance.
+  - Guardrails para PRs de frontend (asset, bundle, render).

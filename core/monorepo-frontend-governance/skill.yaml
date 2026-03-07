@@ -1,0 +1,35 @@
+schemaVersion: 1.0.0
+name: monorepo-frontend-governance
+displayName: Monorepo Frontend Governance
+description: >-
+  Estruturar governança técnica de monorepo frontend com apps Next.js 15+,
+  pacotes compartilhados React 19+, boundaries de dependência, ownership,
+  versionamento e fluxo de entrega sustentável.
+triggers:
+  - monorepo
+  - package boundaries
+  - frontend governance
+  - workspace architecture
+  - ownership
+stack:
+  framework: Next.js 15+ App Router
+  react: React 19+
+  serverState: TanStack Query
+  ui: shadcn/ui + Tailwind v4
+  workspace: Monorepo (apps + packages)
+workflow:
+  - step: 1
+    action: Definir topologia do monorepo e responsabilidades por pacote/app.
+  - step: 2
+    action: Estabelecer regras de dependência e imports permitidos.
+  - step: 3
+    action: Formalizar ownership, revisão e política de mudanças.
+  - step: 4
+    action: Padronizar pipelines de build, test e release por escopo.
+  - step: 5
+    action: Monitorar lead time, falhas de integração e custo de manutenção.
+outputContract:
+  - Mapa de apps/pacotes e ownership.
+  - Matriz de dependências permitidas.
+  - Regras de pipeline e release.
+  - Métricas de saúde do monorepo.

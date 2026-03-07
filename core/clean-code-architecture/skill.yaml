@@ -1,0 +1,39 @@
+schemaVersion: 1.0.0
+name: clean-code-architecture
+displayName: Clean Code & Clean Architecture
+description: >-
+  Aplicar principios de codigo limpo e arquitetura limpa de Robert C. Martin.
+  Use para revisar, refatorar e estruturar codigo com responsabilidade unica,
+  dependencias corretas e limites arquiteturais claros.
+triggers:
+  - clean code
+  - clean architecture
+  - solid
+  - uncle bob
+  - refactor
+  - code smell
+  - dependency rule
+  - use case
+  - entity
+stack:
+  framework: Next.js 15+ App Router
+  react: React 19+
+  serverState: TanStack Query
+  ui: shadcn/ui + Tailwind v4
+  workspace: Monorepo (apps + packages)
+workflow:
+  - step: 1
+    action: Auditar naming, tamanho de funcoes e separacao de responsabilidades.
+  - step: 2
+    action: Mapear dependencias e verificar conformidade com Dependency Rule.
+  - step: 3
+    action: Isolar logica de negocio de frameworks e banco de dados.
+  - step: 4
+    action: Aplicar SOLID por modulo — identificar violacoes e refatorar.
+  - step: 5
+    action: Validar testabilidade — logica de negocio deve ser testavel sem framework.
+outputContract:
+  - Diagnostico de violacoes por camada.
+  - Mapa de dependencias corrigido.
+  - Plano de refatoracao por modulo.
+  - Checklist SOLID por componente/servico.

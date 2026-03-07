@@ -1,0 +1,12 @@
+sessionMemory:
+  ttlMinutes: 180
+  maxItems: 200
+ragMemory:
+  index: knowledge-base-v1
+  retrievalTopK: 8
+profileMemory:
+  enabled: true
+  piiAllowed: false
+decisionLog:
+  enabled: true
+  format: adr-short

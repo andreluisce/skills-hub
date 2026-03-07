@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://skills-hub.local/schemas/skill.schema.json",
+  "title": "Skill Contract",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "name",
+    "displayName",
+    "description",
+    "triggers",
+    "stack",
+    "workflow",
+    "outputContract"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "pattern": "^1\\.0\\.0$"
+    },
+    "name": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]{3,64}$"
+    },
+    "displayName": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 80
+    },
+    "description": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 1000
+    },
+    "triggers": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "stack": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["framework", "react", "serverState", "ui", "workspace"],
+      "properties": {
+        "framework": { "type": "string" },
+        "react": { "type": "string" },
+        "serverState": { "type": "string" },
+        "ui": { "type": "string" },
+        "workspace": { "type": "string" }
+      }
+    },
+    "workflow": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["step", "action"],
+        "properties": {
+          "step": { "type": "integer", "minimum": 1 },
+          "action": { "type": "string", "minLength": 3 }
+        }
+      }
+    },
+    "outputContract": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

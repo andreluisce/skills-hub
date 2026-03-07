@@ -1,0 +1,35 @@
+schemaVersion: 1.0.0
+name: react-architecture-playbook
+displayName: React Architecture Playbook
+description: >-
+  Structure and refactor React/Next.js architecture with explicit boundaries,
+  component contracts, anti-pattern removal, and incremental evolution focused
+  on maintainability and performance.
+triggers:
+  - react architecture
+  - component architecture
+  - anti patterns react
+  - frontend refactor
+  - domain boundaries
+stack:
+  framework: Next.js 15+ App Router
+  react: React 19+
+  serverState: TanStack Query
+  ui: shadcn/ui + Tailwind v4
+  workspace: Monorepo (apps + packages)
+workflow:
+  - step: 1
+    action: Identify domain boundaries and undesired coupling.
+  - step: 2
+    action: Separate orchestration, presentation, and external integrations.
+  - step: 3
+    action: Define explicit contracts for props, state, and events.
+  - step: 4
+    action: Standardize async state handling and failure behavior.
+  - step: 5
+    action: Deliver refactoring in small batches with behavior-focused tests.
+outputContract:
+  - Component and boundary map.
+  - Anti-pattern list with proposed fixes.
+  - Incremental refactoring plan.
+  - Test and regression criteria.

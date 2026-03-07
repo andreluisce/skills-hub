@@ -1,0 +1,4 @@
+interface:
+  display_name: "Next.js 15 App Router Architecture"
+  short_description: "Arquitetura React em stack moderna"
+  default_prompt: "Use $next15-app-router-architecture para desenhar ou refatorar arquitetura frontend com Next.js 15+ App Router, React 19+ e TanStack Query."

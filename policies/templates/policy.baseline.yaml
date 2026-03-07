@@ -1,0 +1,11 @@
+security:
+  redactPII: true
+  allowProdWrite: false
+  requireHumanApprovalFor:
+    - destructive-command
+    - payment-operation
+compliance:
+  logAllToolCalls: true
+  keepAuditTrailDays: 90
+quality:
+  requireCitationsForCriticalClaims: true

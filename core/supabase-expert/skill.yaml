@@ -1,0 +1,38 @@
+schemaVersion: 1.0.0
+name: supabase-expert
+displayName: Supabase Expert
+description: >-
+  Skill para operacao do backend Supabase do projeto. Use para gerenciar
+  tabelas, RLS, migracoes, tipos gerados, storage e fluxo de dados com
+  seguranca e performance.
+triggers:
+  - supabase
+  - rls
+  - row level security
+  - migrations
+  - supabase types
+  - postgrest
+  - supabase storage
+  - supabase auth
+stack:
+  framework: Next.js 15+ App Router
+  react: React 19+
+  serverState: TanStack Query
+  ui: shadcn/ui + Tailwind v4
+  workspace: Monorepo (apps + packages)
+workflow:
+  - step: 1
+    action: Usar sempre tipos gerados Tables<'...'> e regenerar apos migracoes.
+  - step: 2
+    action: Escrever queries com colunas explicitas e paginacao obrigatoria em listagens.
+  - step: 3
+    action: Definir e testar politicas RLS por operacao (SELECT, INSERT, UPDATE, DELETE).
+  - step: 4
+    action: Criar indices para colunas de WHERE e JOIN frequentes e diagnosticar com EXPLAIN.
+  - step: 5
+    action: Gerenciar storage com buckets de acesso explicito e signed URLs para privados.
+outputContract:
+  - Esquema de tabelas com indices documentados.
+  - Politicas RLS por tabela e operacao.
+  - Plano de migracoes com rollback.
+  - Checklist de performance de queries criticas.

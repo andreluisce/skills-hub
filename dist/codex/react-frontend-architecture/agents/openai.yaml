@@ -1,0 +1,4 @@
+interface:
+  display_name: "React Frontend Architecture 2026"
+  short_description: "Arquitetura React em stack moderna"
+  default_prompt: "Use $react-frontend-architecture-2026 para desenhar ou refatorar arquitetura frontend com Next.js 15+ App Router, React 19+ e TanStack Query."

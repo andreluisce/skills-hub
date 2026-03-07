@@ -1,0 +1,37 @@
+schemaVersion: 1.0.0
+name: ux-master
+displayName: Master UX/UI Principles
+description: >-
+  Super skill de UX e UI Design integrando Refactoring UI, Laws of UX e Don't
+  Make Me Think. Use para criar ou refatorar interfaces com usabilidade extrema,
+  hierarquia visual impecavel e clareza cognitiva.
+triggers:
+  - ux ui
+  - refactor ui
+  - interface design
+  - usability
+  - design principles
+  - ui design
+  - ux design
+stack:
+  framework: Next.js 15+ App Router
+  react: React 19+
+  serverState: TanStack Query
+  ui: shadcn/ui + Tailwind v4
+  workspace: Monorepo (apps + packages)
+workflow:
+  - step: 1
+    action: Definir hierarquia sem cores — apenas pesos tipograficos, tamanhos e espacamento.
+  - step: 2
+    action: Aplicar paleta cromatica sobre hierarquia ja estabelecida.
+  - step: 3
+    action: Validar CTA primario singular, botoes grandes e convencoes familiares.
+  - step: 4
+    action: Implementar loading states, erros acionaveis e micro-interacoes.
+  - step: 5
+    action: Auditar acessibilidade e prevencao de erros em fluxos criticos.
+outputContract:
+  - Hierarquia visual documentada por tela.
+  - Paleta de acoes e estados de botao.
+  - Checklist de loading/error/empty states.
+  - Relatorio de acessibilidade e prevencao de erro.

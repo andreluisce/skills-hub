@@ -1,0 +1,4 @@
+interface:
+  display_name: "React 19 Component Patterns"
+  short_description: "Arquitetura React em stack moderna"
+  default_prompt: "Use $react19-component-patterns para desenhar ou refatorar arquitetura frontend com Next.js 15+ App Router, React 19+ e TanStack Query."

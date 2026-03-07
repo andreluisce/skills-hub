@@ -1,0 +1,39 @@
+schemaVersion: 1.0.0
+name: thinking-fast-slow
+displayName: Thinking Fast and Slow Applied to Product & Architecture
+description: >-
+  Aplicar insights de Daniel Kahneman sobre Sistema 1 e Sistema 2 para tomar
+  melhores decisoes tecnicas, projetar interfaces que respeitam cognicao humana
+  e evitar vieses em code reviews e arquitetura.
+triggers:
+  - kahneman
+  - system 1 system 2
+  - cognitive bias
+  - decision making
+  - heuristics
+  - anchoring
+  - confirmation bias
+  - slow thinking
+  - product decisions
+stack:
+  framework: Next.js 15+ App Router
+  react: React 19+
+  serverState: TanStack Query
+  ui: shadcn/ui + Tailwind v4
+  workspace: Monorepo (apps + packages)
+workflow:
+  - step: 1
+    action: Identificar decisao arquitetural ou de produto sendo tomada por Sistema 1 (rapido, intuitivo).
+  - step: 2
+    action: Ativar Sistema 2 — documentar o problema antes de pensar em solucao.
+  - step: 3
+    action: Gerar 2-3 alternativas e avaliar trade-offs de forma explicita.
+  - step: 4
+    action: Aplicar pre-mortem — "assumindo que falhou, o que deu errado?"
+  - step: 5
+    action: Buscar contra-argumento da solucao favorita antes de decidir.
+outputContract:
+  - Analise de alternativas com trade-offs explicitos.
+  - Pre-mortem com riscos identificados.
+  - Decisao documentada com contexto e raciocinio.
+  - Checklist anti-bias para code review.

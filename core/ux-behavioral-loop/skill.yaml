@@ -1,0 +1,36 @@
+schemaVersion: 1.0.0
+name: ux-behavioral-loop
+displayName: UX Behavioral Loop
+description: >-
+  Arquiteto de comportamento baseado em Hooked (Eyal) e modelo Fogg. Use para
+  desenhar loops de engajamento e retencao baseados em valor real e etica de
+  produto.
+triggers:
+  - behavioral loop
+  - engagement
+  - retention
+  - hooked
+  - fogg model
+  - habit design
+stack:
+  framework: Next.js 15+ App Router
+  react: React 19+
+  serverState: TanStack Query
+  ui: shadcn/ui + Tailwind v4
+  workspace: Monorepo (apps + packages)
+workflow:
+  - step: 1
+    action: Mapear trigger, acao, recompensa e investimento do fluxo principal.
+  - step: 2
+    action: Simplificar acao — reduzir passos, friccao motora e cognitiva.
+  - step: 3
+    action: Validar que recompensa reforça valor funcional, nao ansiedade artificial.
+  - step: 4
+    action: Projetar micro-investimentos que aumentam utilidade futura do produto.
+  - step: 5
+    action: Auditar por dark patterns de retencao e aplicar guardrails eticos.
+outputContract:
+  - Mapa de loop comportamental por etapa.
+  - Tabela de friccao (reduzir, manter, aumentar).
+  - Plano de experimento de retencao com metricas D1/D7/D30.
+  - Checklist etico de engajamento.

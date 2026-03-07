@@ -1,0 +1,38 @@
+schemaVersion: 1.0.0
+name: api-design
+displayName: API Design
+description: >-
+  Aplicar principios de design de APIs de Brenda Jin e Kirsten Hunter. Use para
+  projetar APIs RESTful claras, consistentes, versionadas e seguras para consumo
+  frontend e integracao com servicos externos.
+triggers:
+  - api design
+  - rest api
+  - api versioning
+  - api contract
+  - endpoint design
+  - http methods
+  - api consistency
+  - irresistible api
+stack:
+  framework: Next.js 15+ App Router
+  react: React 19+
+  serverState: TanStack Query
+  ui: shadcn/ui + Tailwind v4
+  workspace: Monorepo (apps + packages)
+workflow:
+  - step: 1
+    action: Definir recursos, hierarquia de URLs e semantica de metodos HTTP.
+  - step: 2
+    action: Padronizar contratos de request/response (sucesso, erro, paginacao).
+  - step: 3
+    action: Implementar validacao de input com Zod em todos os endpoints.
+  - step: 4
+    action: Adicionar autenticacao e autorizacao consistentes por route.
+  - step: 5
+    action: Definir estrategia de versionamento e deprecacao.
+outputContract:
+  - Mapa de endpoints com metodos e contratos.
+  - Schema de resposta padronizado (sucesso, erro, paginacao).
+  - Checklist de seguranca por endpoint.
+  - Plano de versionamento e backward compatibility.

@@ -1,0 +1,38 @@
+schemaVersion: 1.0.0
+name: advanced-react
+displayName: Advanced React
+description: >-
+  Aplicar tecnicas avancadas de React de Nadia Makarevich e React Anti-Patterns
+  de Juntao Qiu. Use para otimizar renders, entender reconciliation, corrigir
+  anti-patterns e dominar composicao avancada.
+triggers:
+  - advanced react
+  - reconciliation
+  - render optimization
+  - memo
+  - context performance
+  - react anti-patterns
+  - composition advanced
+  - react internals
+stack:
+  framework: Next.js 15+ App Router
+  react: React 19+
+  serverState: TanStack Query
+  ui: shadcn/ui + Tailwind v4
+  workspace: Monorepo (apps + packages)
+workflow:
+  - step: 1
+    action: Auditar triggers de re-render e identificar renders desnecessarios.
+  - step: 2
+    action: Aplicar React.memo, useMemo e useCallback apenas onde profiling confirmar necessidade.
+  - step: 3
+    action: Eliminar anti-patterns (prop drilling, context leak, stale closure, index as key).
+  - step: 4
+    action: Refatorar com composition patterns (compound components, render props).
+  - step: 5
+    action: Migrar fetch de dados de useEffect para Server Components ou TanStack Query.
+outputContract:
+  - Diagnostico de renders desnecessarios por componente.
+  - Lista de anti-patterns eliminados.
+  - Plano de refatoracao com composition patterns.
+  - Checklist de performance de renderizacao.

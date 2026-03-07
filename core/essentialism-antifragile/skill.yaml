@@ -1,0 +1,41 @@
+schemaVersion: 1.0.0
+name: essentialism-antifragile
+displayName: Essentialism & Antifragile Applied to Software
+description: >-
+  Aplicar principios de Essentialism (McKeown), Antifragil (Taleb) e 80/20
+  (Koch) para tomar decisoes de produto e arquitetura. Use para priorizar
+  funcionalidades, eliminar escopo desnecessario e construir sistemas
+  resilientes.
+triggers:
+  - essentialism
+  - antifragile
+  - taleb
+  - mckeown
+  - prioritization
+  - scope
+  - resilience
+  - 80/20
+  - less but better
+  - optionality
+stack:
+  framework: Next.js 15+ App Router
+  react: React 19+
+  serverState: TanStack Query
+  ui: shadcn/ui + Tailwind v4
+  workspace: Monorepo (apps + packages)
+workflow:
+  - step: 1
+    action: Identificar os 20% de features que geram 80% do valor para o usuario.
+  - step: 2
+    action: Eliminar ou adiar features que nao sao "sim obvio".
+  - step: 3
+    action: Avaliar fragilidade do sistema — pontos de falha unica e acoplamento rigido.
+  - step: 4
+    action: Aplicar barbell strategy — 80% fundacoes solidas, 20% experimentacao.
+  - step: 5
+    action: Definir optionality — quais decisoes podem ser revertidas facilmente.
+outputContract:
+  - Mapa de features por valor/esforco.
+  - Lista de itens eliminados e justificativa.
+  - Diagnostico de fragilidade arquitetural.
+  - Plano de resiliencia e rollback.

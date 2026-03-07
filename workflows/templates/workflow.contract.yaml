@@ -1,0 +1,18 @@
+workflowId: release-readiness
+stages:
+  - id: plan
+    ownerAgent: engineering-architect
+  - id: execute
+    ownerAgent: engineering-implementer
+  - id: verify
+    ownerAgent: qa-auditor
+  - id: evaluate
+    ownerAgent: quality-evaluator
+retryPolicy:
+  maxRetries: 2
+  onFail: escalate-to-human
+handoffContract:
+  requiredArtifacts:
+    - summary
+    - diff
+    - risks

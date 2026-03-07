@@ -1,0 +1,45 @@
+{
+  "instruction": "Operar e evoluir design system com shadcn/ui e Tailwind v4, padronizando tokens, variantes, acessibilidade e governança de componentes para múltiplos apps em monorepo Next.js 15+ e React 19+. Base operacional: # Playbook  ## Objetivo Escalar UI consistente entre apps sem travar evolução de produto.  ## Regras",
+  "triggers": [
+    "shadcn",
+    "design system",
+    "tailwind v4",
+    "cva",
+    "accessibility"
+  ],
+  "stack": {
+    "framework": "Next.js 15+ App Router",
+    "react": "React 19+",
+    "serverState": "TanStack Query",
+    "ui": "shadcn/ui + Tailwind v4",
+    "workspace": "Monorepo (apps + packages)"
+  },
+  "workflow": [
+    {
+      "step": 1,
+      "action": "Definir tokens semânticos globais e variações por tema/contexto."
+    },
+    {
+      "step": 2,
+      "action": "Estabelecer padrões de componentes base e variantes com cva."
+    },
+    {
+      "step": 3,
+      "action": "Criar política de contribuição e revisão para novos componentes."
+    },
+    {
+      "step": 4,
+      "action": "Validar acessibilidade, foco visível e contraste em fluxos críticos."
+    },
+    {
+      "step": 5,
+      "action": "Publicar changelog de DS e plano de adoção por app."
+    }
+  ],
+  "outputContract": [
+    "Catálogo de tokens e variantes aprovadas.",
+    "Guia de contribuição de componentes.",
+    "Checklist de acessibilidade operacional.",
+    "Estratégia de rollout do design system."
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "instruction": "Definir e refatorar arquitetura em Next.js 15+ App Router com Server Components-first, boundaries Client, streaming e cache orientado a domínio para apps React 19+ em monorepo. Base operacional: # Playbook  ## Objetivo Projetar App Router com mínimo JS de cliente e máxima previsibilidade operacional.  ## Regras",
+  "triggers": [
+    "nextjs 15",
+    "app router",
+    "server components",
+    "streaming",
+    "route architecture"
+  ],
+  "stack": {
+    "framework": "Next.js 15+ App Router",
+    "react": "React 19+",
+    "serverState": "TanStack Query",
+    "ui": "shadcn/ui + Tailwind v4",
+    "workspace": "Monorepo (apps + packages)"
+  },
+  "workflow": [
+    {
+      "step": 1,
+      "action": "Mapear rotas, segmentos dinâmicos e requisitos de renderização por página."
+    },
+    {
+      "step": 2,
+      "action": "Definir fronteiras Server vs Client por responsabilidade e custo de hidratação."
+    },
+    {
+      "step": 3,
+      "action": "Projetar estratégia de cache e revalidação por domínio de dados."
+    },
+    {
+      "step": 4,
+      "action": "Estruturar loaders, actions e error boundaries por segmento."
+    },
+    {
+      "step": 5,
+      "action": "Validar performance com Web Vitals e perfil de render em navegação real."
+    }
+  ],
+  "outputContract": [
+    "Mapa de rotas e boundaries Server/Client.",
+    "Decisões de cache/revalidação por domínio.",
+    "Plano de implementação por segmento.",
+    "Checklist de performance e regressão."
+  ]
+}

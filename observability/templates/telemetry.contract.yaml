@@ -1,0 +1,16 @@
+metrics:
+  - workflow_latency_ms
+  - tool_error_rate
+  - llm_cost_usd
+  - retry_rate
+  - human_escalation_rate
+traces:
+  enabled: true
+  include:
+    - agent_id
+    - skill_id
+    - tool_id
+    - workflow_stage
+logs:
+  retentionDays: 30
+  sampling: adaptive

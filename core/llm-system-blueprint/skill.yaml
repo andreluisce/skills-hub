@@ -1,0 +1,35 @@
+schemaVersion: 1.0.0
+name: llm-system-blueprint
+displayName: LLM System Blueprint
+description: >-
+  Projetar sistemas de LLM com arquitetura modular de agents, skills, tools,
+  memory, workflows, evaluators, policies e observability, incluindo integração
+  via MCP com governança e segurança operacional.
+triggers:
+  - llm architecture
+  - multi-agent system
+  - mcp
+  - ai governance
+  - ai platform blueprint
+stack:
+  framework: Agentic LLM Platform
+  react: N/A
+  serverState: N/A
+  ui: N/A
+  workspace: Monorepo (apps + packages)
+workflow:
+  - step: 1
+    action: Definir papéis de agentes e contratos de responsabilidade.
+  - step: 2
+    action: Modelar skills com critérios de sucesso e limites de execução.
+  - step: 3
+    action: Integrar tools via MCP com escopo mínimo e auditabilidade.
+  - step: 4
+    action: Estruturar memória, workflows, evaluators e políticas.
+  - step: 5
+    action: Ativar observabilidade e checklist de produção.
+outputContract:
+  - Blueprint arquitetural por camadas.
+  - Contratos mínimos de operação.
+  - Plano de governança e segurança.
+  - Checklist de readiness para produção.

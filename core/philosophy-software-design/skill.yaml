@@ -1,0 +1,38 @@
+schemaVersion: 1.0.0
+name: philosophy-software-design
+displayName: A Philosophy of Software Design
+description: >-
+  Aplicar principios de design de software de John Ousterhout. Use para reduzir
+  complexidade, criar modulos profundos, escrever codigo obvio e tomar decisoes
+  de design defensaveis.
+triggers:
+  - software design
+  - complexity
+  - deep modules
+  - shallow modules
+  - obvious code
+  - tactical programming
+  - strategic programming
+  - ousterhout
+stack:
+  framework: Next.js 15+ App Router
+  react: React 19+
+  serverState: TanStack Query
+  ui: shadcn/ui + Tailwind v4
+  workspace: Monorepo (apps + packages)
+workflow:
+  - step: 1
+    action: Identificar sintomas de complexidade (change amplification, cognitive load, unknown unknowns).
+  - step: 2
+    action: Classificar modulos como profundos ou rasos e eliminar pass-through desnecessario.
+  - step: 3
+    action: Verificar information hiding — o que e exposto nao deveria ser?
+  - step: 4
+    action: Auditar consistencia de convencoes em todo o codebase.
+  - step: 5
+    action: Refatorar para modulos mais profundos com interfaces mais simples.
+outputContract:
+  - Diagnostico de complexidade por modulo.
+  - Lista de modulos rasos para aprofundar.
+  - Plano de information hiding por servico.
+  - Checklist de consistencia de convencoes.

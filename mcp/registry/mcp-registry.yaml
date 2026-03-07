@@ -1,0 +1,20 @@
+servers:
+  - id: github
+    transport: streamable_http
+    url: https://api.githubcopilot.com/mcp/
+    scopes:
+      - repo:read
+      - pull_request:read
+      - issues:read
+    allowedAgents:
+      - engineering-architect
+      - code-reviewer
+
+  - id: filesystem
+    transport: local
+    url: mcp://filesystem
+    scopes:
+      - read
+      - write
+    allowedAgents:
+      - engineering-architect
