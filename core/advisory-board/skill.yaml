@@ -1,0 +1,34 @@
+schemaVersion: "1.0.0"
+name: advisory-board
+displayName: "Advisory Board Squad"
+description: "Convenes 11 legendary strategic advisors — Ray Dalio, Charlie Munger, Naval Ravikant, Peter Thiel, Reid Hoffman, Simon Sinek, Brene Brown, and more — to deliver multi-perspective strategic counsel on investment, scaling, leadership, culture, and founder decisions."
+triggers:
+  - advisory-board
+  - strategic counsel
+  - board meeting
+  - investor advice
+  - mental models
+  - leadership strategy
+  - founder dilemma
+stack:
+  framework: "Any framework"
+  react: "Not applicable"
+  serverState: "Not applicable"
+  ui: "Not applicable"
+  workspace: "AIOS / Claude Code"
+workflow:
+  - step: 1
+    action: "Diagnose the strategic question and identify which advisors are most relevant"
+  - step: 2
+    action: "Activate 2-4 specialist advisors based on domain routing matrix"
+  - step: 3
+    action: "Gather each advisor's perspective in their authentic voice and framework"
+  - step: 4
+    action: "Identify tensions and complementarities between advisor perspectives"
+  - step: 5
+    action: "Synthesize into actionable recommendations with dissenting views noted"
+outputContract:
+  - "Multi-advisor strategic synthesis with clear recommendations"
+  - "Identified tensions between advisor perspectives"
+  - "Specific next steps with accountability"
+  - "Routing rationale explaining which advisors were selected and why"

@@ -4,12 +4,16 @@
   "private": true,
   "type": "module",
   "description": "Centralizador de skills multi-agente (Codex, Claude, Gemini)",
+  "bin": {
+    "skills-hub": "./cli/skills-hub.mjs"
+  },
   "scripts": {
     "validate": "node cli/skills-hub.mjs validate",
     "build": "node cli/skills-hub.mjs build",
     "build:codex": "node cli/skills-hub.mjs build --target codex",
     "build:claude": "node cli/skills-hub.mjs build --target claude",
     "build:gemini": "node cli/skills-hub.mjs build --target gemini",
+    "context": "node cli/skills-hub.mjs context",
     "audit": "node cli/skills-hub.mjs audit",
     "test": "node tests/smoke.mjs"
   },

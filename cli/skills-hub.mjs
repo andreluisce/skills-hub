@@ -6,6 +6,8 @@ import { spawnSync } from 'node:child_process';
 import { toCodex } from '../adapters/codex/adapter.mjs';
 import { toClaude } from '../adapters/claude/adapter.mjs';
 import { toGemini } from '../adapters/gemini/adapter.mjs';
+import { generateContextFiles } from '../context/adapter.mjs';
+import { init } from './init.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -365,12 +367,14 @@ async function audit() {
 
 (async () => {
   try {
-    if (command === 'validate') await validate();
+    if (command === 'init') await init();
+    else if (command === 'validate') await validate();
     else if (command === 'build') await build();
+    else if (command === 'context') await generateContextFiles();
     else if (command === 'audit') await audit();
     else {
       console.log(
-        'Uso: skills-hub <validate|build|audit> [--target codex|claude|gemini] [--project <nome|caminho>] [--out <dir>] [--runner gemini|claude|warp|generic]'
+        'Uso: skills-hub <init|validate|build|context|audit> [--target codex|claude|gemini] [--project <nome|caminho>] [--out <dir>] [--runner gemini|claude|warp|generic]'
       );
       process.exit(1);
     }
