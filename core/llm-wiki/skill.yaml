@@ -1,0 +1,69 @@
+schemaVersion: 1.0.0
+name: llm-wiki
+displayName: LLM Wiki — Persistent Knowledge Base
+description: >
+  Build and maintain a persistent, compounding knowledge base backed by an
+  Obsidian vault. Customized for studying books with structure: books/[livro]/wiki/
+  containing concepts, sources, and overviews. Three layers: raw sources (immutable),
+  wiki (concepts, entities, source summaries, overviews), and schema (rules).
+  Operations: /ingest, /query, /consolidate, /lint. See CONVENÇÕES-PESSOAIS.md
+  for book-study specific setup. Works across any project, any agent.
+triggers:
+  - llm wiki
+  - knowledge base
+  - second brain
+  - obsidian wiki
+  - ingest
+  - wiki
+  - concept
+  - entity
+  - lint vault
+  - query wiki
+  - cite sources
+  - consolidate notes
+  - overview
+  - synthesis
+  - reasoning
+  - decision log
+  - thinking process
+  - session context
+  - remember
+  - previous session
+stack:
+  vault: $OBSIDIAN_VAULT_DIR (configurable per project)
+  mcp: obsidian-mcp (npx obsidian-mcp <vault-root>)
+  fallback: bash file operations (cat, echo, mkdir -p) for non-MCP agents
+  pattern: Karpathy LLM Wiki (raw → wiki → schema)
+  frameworks: 5W2H · 5 Whys · ADR · Pre-mortem · RICE
+workflow:
+  - step: 1
+    action: >
+      Resolve vault path from $OBSIDIAN_VAULT_DIR. Read _schema.md for rules,
+      active layers, and conventions. Initialize vault if needed.
+  - step: 2
+    action: >
+      Load context: index.md (content catalog) + log.md (last entries).
+      If sessions layer active: read session context (ticket README + daily log).
+  - step: 3
+    action: >
+      /ingest <url>: save raw source to raw/ (immutable) → create source
+      summary in wiki/sources/ → extract concepts and entities → create or
+      update wiki pages → update index.md + log.md.
+  - step: 4
+    action: >
+      /query: read index → consult wiki → answer with citations → offer to
+      file answer as new wiki page. /consolidate: merge duplicates, strengthen
+      backlinks, identify gaps.
+  - step: 5
+    action: >
+      /lint: check formatting against _schema.md rules, find orphan pages,
+      broken links, missing sources, stale claims, potential duplicates.
+      Session end: promote reusable knowledge to wiki concept/entity pages.
+outputContract:
+  - Persistent wiki with concept, entity, source summary, and overview pages.
+  - Raw source archive (immutable provenance).
+  - Content-oriented index.md for LLM navigation.
+  - Chronological log.md recording all operations.
+  - Lint reports identifying orphan pages, broken links, and stale claims.
+  - Optional session memory with structured reasoning (5W2H, 5 Whys, ADR, Pre-mortem, RICE).
+  - Knowledge promotion from session discoveries to reusable wiki pages.

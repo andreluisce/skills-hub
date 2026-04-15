@@ -1,4 +1,0 @@
-interface:
-  display_name: "LLM System Blueprint"
-  short_description: "Arquitetura React em stack moderna"
-  default_prompt: "Use $llm-system-blueprint para desenhar ou refatorar arquitetura frontend com Agentic LLM Platform, N/A e N/A."

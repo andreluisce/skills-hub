@@ -23,7 +23,6 @@ allowedSkills:
   - pragmatic-programmer
   - refactoring
   - essentialism-antifragile
-  - llm-system-blueprint
   - adr-decision-log
 allowedTools:
   - mcp.filesystem
